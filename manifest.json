@@ -1,0 +1,1449 @@
+{
+  "modpack_name": "Limbo Cobblemon",
+  "minecraft_version": "1.21.1",
+  "neoforge_version": "21.1.262",
+  "server_ip": "practically-currently.tun.ply.gg",
+  "discord_invite": "https://discord.gg/",
+  "skins_url": "https://laby.net/pt/skins?order=trending",
+  "default_resourcepacks": [
+    "file/E19%20Cobblemon%20Minimap%20Icons.zip",
+    "file/CobblemonShinyEnhanced.zip",
+    "file/Cobblemon%20Interface%20v1.6.0.zip"
+  ],
+  "files": [
+    {
+      "path": "config/MouseTweaks.cfg",
+      "sha1": "651b3e4db2d430dc1da3566b2984b264061a6794",
+      "size": 135,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/MouseTweaks.cfg"
+    },
+    {
+      "path": "config/accessories.json5",
+      "sha1": "dd0b30eec8a3de68c1b9141ec062a6b1c4bc767c",
+      "size": 919,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/accessories.json5"
+    },
+    {
+      "path": "config/ae2-client.toml",
+      "sha1": "9c2168a2c1a524f42c9f2fa19938ec86a9c491a1",
+      "size": 2343,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ae2-client.toml"
+    },
+    {
+      "path": "config/ae2-common.toml",
+      "sha1": "85b76d3017827b417a69770dab87b201976b23f7",
+      "size": 6089,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ae2-common.toml"
+    },
+    {
+      "path": "config/appleskin-client.toml",
+      "sha1": "8f167f14bbd81163f78c5e3459dcffdb50225117",
+      "size": 1376,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/appleskin-client.toml"
+    },
+    {
+      "path": "config/botanypots.json",
+      "sha1": "aacea5e606eef59f47c8e4b3fce1b594f0c9c2bb",
+      "size": 3624,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/botanypots.json"
+    },
+    {
+      "path": "config/cobbled_counter.json",
+      "sha1": "8099e15512e20ef0ed4942aecb5219d20603830f",
+      "size": 132,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobbled_counter.json"
+    },
+    {
+      "path": "config/cobbledex/rewards.json",
+      "sha1": "aeec82ecd4be1a9649d5a09004b70c8a525e8bd4",
+      "size": 5106,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobbledex/rewards.json"
+    },
+    {
+      "path": "config/cobbledex/settings.json",
+      "sha1": "50e02b0991ab6a0e9ca25b5e135c09c48048d047",
+      "size": 531,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobbledex/settings.json"
+    },
+    {
+      "path": "config/cobbledollars/client.json",
+      "sha1": "f1ae9b9250f13418904776fb02fd9c2def8712c2",
+      "size": 39,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobbledollars/client.json"
+    },
+    {
+      "path": "config/cobblemon-legendary-birds/spawns/cobblemon/0144_articuno.json",
+      "sha1": "aefee5cae89cd135f7fc070ff759c5562a4dbd22",
+      "size": 718,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-legendary-birds/spawns/cobblemon/0144_articuno.json"
+    },
+    {
+      "path": "config/cobblemon-legendary-birds/spawns/cobblemon/0145_zapdos.json",
+      "sha1": "41e9ea2a364acede9ca1aa4b632e217ba5ab969f",
+      "size": 718,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-legendary-birds/spawns/cobblemon/0145_zapdos.json"
+    },
+    {
+      "path": "config/cobblemon-legendary-birds/spawns/cobblemon/0146_moltres.json",
+      "sha1": "8d7c5b00f7d5e428caff67b7bd42019926508cf6",
+      "size": 842,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-legendary-birds/spawns/cobblemon/0146_moltres.json"
+    },
+    {
+      "path": "config/cobblemon-legendary-dogs/spawns/cobblemon/0243_raikou.json",
+      "sha1": "7bc50996b000554dc81cd6e93cdc19b457551827",
+      "size": 758,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-legendary-dogs/spawns/cobblemon/0243_raikou.json"
+    },
+    {
+      "path": "config/cobblemon-legendary-dogs/spawns/cobblemon/0244_entei.json",
+      "sha1": "912114f3b88a7b439d4b0dd94a2bca0967a1b6eb",
+      "size": 757,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-legendary-dogs/spawns/cobblemon/0244_entei.json"
+    },
+    {
+      "path": "config/cobblemon-legendary-dogs/spawns/cobblemon/0245_suicune.json",
+      "sha1": "4d3211dab2330c304ae35446b412cc821acac60f",
+      "size": 801,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-legendary-dogs/spawns/cobblemon/0245_suicune.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0151_mew.json",
+      "sha1": "e6fde8c1eb8ace4d71f498291488cc68a6b24923",
+      "size": 707,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0151_mew.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0251_celebi.json",
+      "sha1": "8155f1ae96239c2e93962bc244487c02cdaaf404",
+      "size": 716,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0251_celebi.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0385_jirachi.json",
+      "sha1": "13b80389e96c463e278b909c75d80e8005b322c2",
+      "size": 544,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0385_jirachi.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0386_deoxys.json",
+      "sha1": "4b63d219fe0dc37d530c43c1423c65f571761a23",
+      "size": 542,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0386_deoxys.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0489_phione.json",
+      "sha1": "82e2521c898f6f6fa041124cf44eeb1541bdd15c",
+      "size": 843,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0489_phione.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0490_manaphy.json",
+      "sha1": "78e6450f2bdef362a1112e9cc89cddfd38df024c",
+      "size": 845,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0490_manaphy.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0491_darkrai.json",
+      "sha1": "442bac8b218992495099c4f43011119e1433529a",
+      "size": 807,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0491_darkrai.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0492_shaymin.json",
+      "sha1": "b2fb5aae0c03a9b07628119268431ee768903738",
+      "size": 759,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0492_shaymin.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0493_arceus.json",
+      "sha1": "0e5db3ba4993800c38c37bc3417b1ed2c1cc6242",
+      "size": 542,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0493_arceus.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0494_victini.json",
+      "sha1": "f950d3aa3b1c00ad11cc8f735133d2cfd0f4a4be",
+      "size": 760,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0494_victini.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0647_keldeo.json",
+      "sha1": "d07858269553bb2dedc04ee84b7ede0c5a9c5ba6",
+      "size": 844,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0647_keldeo.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0648_meloetta.json",
+      "sha1": "71b867ea66626781c1c97c638090f058077ca752",
+      "size": 761,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0648_meloetta.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0649_genesect.json",
+      "sha1": "d9558c77a8508366a75d3d374d0836835137b493",
+      "size": 763,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0649_genesect.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0719_diancie.json",
+      "sha1": "486e309e2908cadb5dfca44dd6f928111d64bc54",
+      "size": 804,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0719_diancie.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0720_hoopa.json",
+      "sha1": "544cc24c995f5655941377079fa1ac42b816bfec",
+      "size": 754,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0720_hoopa.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0721_volcanion.json",
+      "sha1": "ce2986fc8dc25a4bbc5ca5ec125fc81158a1a40e",
+      "size": 765,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0721_volcanion.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0801_magearna.json",
+      "sha1": "f071a377efb90ca3610022b03501545c50477024",
+      "size": 546,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0801_magearna.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0802_marshadow.json",
+      "sha1": "a6d4954180dee035dc1f88314e408abe44765d3d",
+      "size": 767,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0802_marshadow.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0807_zeraora.json",
+      "sha1": "7d337c7f55bbbb5268d79b5fa96a78e6cf83f64a",
+      "size": 804,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0807_zeraora.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0808_meltan.json",
+      "sha1": "a80154160144a24e14adb70b43205e352de8b749",
+      "size": 803,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0808_meltan.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/0893_zarude.json",
+      "sha1": "d209987ef5c5c768b426bed7dbb44c3f52860783",
+      "size": 757,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/0893_zarude.json"
+    },
+    {
+      "path": "config/cobblemon-mythical-collection/spawns/cobblemon/1025_pecharunt.json",
+      "sha1": "aa336a29291138773451a12bdf6606517b7c6020",
+      "size": 548,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-mythical-collection/spawns/cobblemon/1025_pecharunt.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0793_nihilego.json",
+      "sha1": "f3da120cbf1cf3aa37b27655ceb0a5aa28c9a9f2",
+      "size": 546,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0793_nihilego.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0794_buzzwole.json",
+      "sha1": "e70a5825d85b6853c75300af5c2d129116a1e499",
+      "size": 546,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0794_buzzwole.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0795_pheromosa.json",
+      "sha1": "da2d30e4f5c95fbcaf0ae5b43361d2c6ad66f16d",
+      "size": 548,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0795_pheromosa.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0796_xurkitree.json",
+      "sha1": "f283c109b50a7388794dce67bbc28d85a013a096",
+      "size": 548,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0796_xurkitree.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0797_celesteela.json",
+      "sha1": "0576e16ac85e8caf0dbbe2a1641d5774b4aabb7b",
+      "size": 550,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0797_celesteela.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0798_kartana.json",
+      "sha1": "488bd0c74afe62ee80ec29ddf43d844ecf7ad1b0",
+      "size": 544,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0798_kartana.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0799_guzzlord.json",
+      "sha1": "3ce0fef13405aea291cbc1548bf284486cf6c899",
+      "size": 546,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0799_guzzlord.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0803_poipole.json",
+      "sha1": "9e01a9b31452ad1c58ca8e04a166aa25024e2d8e",
+      "size": 544,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0803_poipole.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0805_stakataka.json",
+      "sha1": "76db69ad1e2e12268dc82fb253b67cd70455641f",
+      "size": 548,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0805_stakataka.json"
+    },
+    {
+      "path": "config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0806_blacephalon.json",
+      "sha1": "9eff1b5c373593b353475f87b527f2f3a15c9880",
+      "size": 552,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon-ultra-beasts-collection/spawns/cobblemon/0806_blacephalon.json"
+    },
+    {
+      "path": "config/cobblemon/main.json",
+      "sha1": "affe27e2dae9519b342675f82e50f242ae816f28",
+      "size": 4100,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon/main.json"
+    },
+    {
+      "path": "config/cobblemon_breeding_api.json",
+      "sha1": "0106bb814b720979105da3f394a5d31d54fdb708",
+      "size": 287,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon_breeding_api.json"
+    },
+    {
+      "path": "config/cobblemon_outbreaks.json",
+      "sha1": "c5b27471fd6bbb23336425a0c08d5e94a7d47906",
+      "size": 2434,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemon_outbreaks.json"
+    },
+    {
+      "path": "config/cobblemonextrastructures-common.toml",
+      "sha1": "a13652aa0a1ec419273ce34b77d1fa5027fdb846",
+      "size": 349,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonextrastructures-common.toml"
+    },
+    {
+      "path": "config/cobblemonoutbreaks/outbreaks_config.json",
+      "sha1": "ea2a716f96d7fe7e50a4f0386171ba180b42b23b",
+      "size": 1048,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonoutbreaks/outbreaks_config.json"
+    },
+    {
+      "path": "config/cobblemonraiddens/blacklist.json5",
+      "sha1": "4ff3689851751a49ac47986b88c16ff8fe858e45",
+      "size": 885,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/blacklist.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/client.json5",
+      "sha1": "772acbd6df97cf6803dffc33adaf0a9f45cfd00c",
+      "size": 978,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/client.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/common.json5",
+      "sha1": "5e9759334c83e6e518f524a5b2ac45954a6d8d67",
+      "size": 2369,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/common.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/conditions.json5",
+      "sha1": "9acd237644d7437c4abae514aaa5234363ebe003",
+      "size": 459,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/conditions.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_five.json5",
+      "sha1": "83d04de34a7fd591ddf8e26df61840419a073034",
+      "size": 2128,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_five.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_four.json5",
+      "sha1": "0ab7486722446d76237a75b51dc0e21088f23994",
+      "size": 2125,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_four.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_one.json5",
+      "sha1": "1adef190760bbff3c48e8236762d8dc8aa9a843e",
+      "size": 2121,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_one.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_seven.json5",
+      "sha1": "98e25363f8ca6f99864d67df0489e483fe527a7c",
+      "size": 2164,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_seven.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_six.json5",
+      "sha1": "7294d2c998ae3a292d921101f6908f9586dce23c",
+      "size": 2127,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_six.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_three.json5",
+      "sha1": "0d7e8b255cd3ceb1ede5998553224e2cc40cf2fb",
+      "size": 2121,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_three.json5"
+    },
+    {
+      "path": "config/cobblemonraiddens/tier_two.json5",
+      "sha1": "7399fa266fcdd38d5bea3907135b301f78069828",
+      "size": 2121,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cobblemonraiddens/tier_two.json5"
+    },
+    {
+      "path": "config/comforts-common.toml",
+      "sha1": "9f35d6dfdcbc8773d8a057bffbfac5c8d9ed1b0a",
+      "size": 189,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/comforts-common.toml"
+    },
+    {
+      "path": "config/comforts-server.toml",
+      "sha1": "28ab4c7c925eff47d552dc3ef7eb404ddfc6336f",
+      "size": 1852,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/comforts-server.toml"
+    },
+    {
+      "path": "config/cosmeticarmorreworked-client.toml",
+      "sha1": "0d2fd35804938ab0a411dbd371648ca5fda5d028",
+      "size": 1328,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cosmeticarmorreworked-client.toml"
+    },
+    {
+      "path": "config/cosmeticarmorreworked-common.toml",
+      "sha1": "eb5c1b40fa9a28e80957889d09edfcf813249bf9",
+      "size": 375,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cosmeticarmorreworked-common.toml"
+    },
+    {
+      "path": "config/entityculling.json",
+      "sha1": "71d872172923ba0b593d8654bfd596f9520ddc8b",
+      "size": 2248,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/entityculling.json"
+    },
+    {
+      "path": "config/explorerscompass-client.toml",
+      "sha1": "b2ccdb787003f339e668f98bca79e88dc41ee290",
+      "size": 515,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/explorerscompass-client.toml"
+    },
+    {
+      "path": "config/explorerscompass-common.toml",
+      "sha1": "326a57e5e3b496298d4d080b699e012c2ea506a6",
+      "size": 2138,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/explorerscompass-common.toml"
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "sha1": "117f758af35aac859c535d5d2da96c5747a87aea",
+      "size": 1603,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ferritecore-mixin.toml"
+    },
+    {
+      "path": "config/fightorflight.json5",
+      "sha1": "e526fbbf27d28cd1b60752592bef0a87f7d87f55",
+      "size": 20216,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/fightorflight.json5"
+    },
+    {
+      "path": "config/fightorflight_moves.json5",
+      "sha1": "4a20052737941bbe03341a0e9f00cf053867e1fc",
+      "size": 8558,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/fightorflight_moves.json5"
+    },
+    {
+      "path": "config/fightorflight_visual_effect.json5",
+      "sha1": "8a18bf2352b84d53122a7d27c761866bda754be2",
+      "size": 1868,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/fightorflight_visual_effect.json5"
+    },
+    {
+      "path": "config/fluxnetworks-client.toml",
+      "sha1": "406a53b659c89c6fc0330613bd5523fca7f738ae",
+      "size": 225,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/fluxnetworks-client.toml"
+    },
+    {
+      "path": "config/fluxnetworks-common.toml",
+      "sha1": "47322e53125972d288f8c03eef3d54ae7e6d36fc",
+      "size": 836,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/fluxnetworks-common.toml"
+    },
+    {
+      "path": "config/fml.toml",
+      "sha1": "65d48e5dee041247b47d639c5ca7299e9dbbeb96",
+      "size": 1550,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/fml.toml"
+    },
+    {
+      "path": "config/ftblibrary-client.snbt",
+      "sha1": "56dbd2f5aea048957afa49368633767de6124e8c",
+      "size": 1508,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftblibrary-client.snbt"
+    },
+    {
+      "path": "config/ftbultimine-client.snbt",
+      "sha1": "9e4f41c76c6f712c6ec69fe6f54a074d20d4ee08",
+      "size": 1824,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbultimine-client.snbt"
+    },
+    {
+      "path": "config/guideme.toml",
+      "sha1": "c0b1b4f3313f0ece50506999f92f2840348e202e",
+      "size": 559,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/guideme.toml"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "sha1": "a2756a7a71bd19b85ded991ce6efc96f55702df5",
+      "size": 1118,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/immediatelyfast.json"
+    },
+    {
+      "path": "config/ironfurnaces-common.toml",
+      "sha1": "d50305f964dfe49670cbf88c7f4c8fe080714b23",
+      "size": 7220,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ironfurnaces-common.toml"
+    },
+    {
+      "path": "config/jade/hide-blocks.json",
+      "sha1": "a503776a467ca75d97916f99bf665dbf64a521a9",
+      "size": 149,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/hide-blocks.json"
+    },
+    {
+      "path": "config/jade/hide-entities.json",
+      "sha1": "ef2152a130cc5ff42903c76e69c3e4279d94b9e7",
+      "size": 243,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/hide-entities.json"
+    },
+    {
+      "path": "config/jade/jade.json",
+      "sha1": "8ea73ab5be986b34ee05bf2dcef295f59dcde376",
+      "size": 1089,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/jade.json"
+    },
+    {
+      "path": "config/jade/plugins.json",
+      "sha1": "de182b958831cb5dcd9fe01a1937f03d3e621785",
+      "size": 2604,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/plugins.json"
+    },
+    {
+      "path": "config/jade/sort-order.json",
+      "sha1": "b5035bbfd2ee1ae4865be7146d3b53f9af7f9106",
+      "size": 2554,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/sort-order.json"
+    },
+    {
+      "path": "config/jamlib/known_suspicious_jars.txt",
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "size": 0,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jamlib/known_suspicious_jars.txt"
+    },
+    {
+      "path": "config/jei/blacklist.json",
+      "sha1": "a8a4458dce77bc89e82e71719ad2cc14b2739d39",
+      "size": 19,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/blacklist.json"
+    },
+    {
+      "path": "config/jei/client/default/jei-client.ini",
+      "sha1": "1b7814e565c4927d84d2f5cfa723c9dcb6b84180",
+      "size": 16752,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/default/jei-client.ini"
+    },
+    {
+      "path": "config/jei/client/default/jei-colors.ini",
+      "sha1": "1044f6310eb4e62253c9d9e1ba3a9313599b310e",
+      "size": 1655,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/default/jei-colors.ini"
+    },
+    {
+      "path": "config/jei/client/default/jei-debug.ini",
+      "sha1": "d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d",
+      "size": 1174,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/default/jei-debug.ini"
+    },
+    {
+      "path": "config/jei/client/default/jei-mod-id-format.ini",
+      "sha1": "6106cc9c99906ea9da4854730887379ec1e8b256",
+      "size": 863,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/default/jei-mod-id-format.ini"
+    },
+    {
+      "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+      "sha1": "7df8a74a5572c7241ea31a959f553e6bdf8a62f0",
+      "size": 641,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/ingredient-list-mod-sort-order.ini"
+    },
+    {
+      "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+      "sha1": "f3acc2683a8ca4625d7c914a2f6497f784cdd7f3",
+      "size": 103,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/ingredient-list-type-sort-order.ini"
+    },
+    {
+      "path": "config/jei/client/jei-client.ini",
+      "sha1": "30ec18c994a7c310478f3424abe4d38ce257550c",
+      "size": 16753,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/jei-client.ini"
+    },
+    {
+      "path": "config/jei/client/recipe-category-sort-order.ini",
+      "sha1": "fb78c5e40747f5cb89e44ddda748ace80cfdc75c",
+      "size": 1074,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/recipe-category-sort-order.ini"
+    },
+    {
+      "path": "config/lithium.properties",
+      "sha1": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb",
+      "size": 267,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/lithium.properties"
+    },
+    {
+      "path": "config/lootr-client.toml",
+      "sha1": "bdf2664a9c266bc275de77b91eb7fc3b7f7d37a3",
+      "size": 1301,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/lootr-client.toml"
+    },
+    {
+      "path": "config/lootr-common.toml",
+      "sha1": "7d397225e5497b0943d2eb74ede48ee884dd0988",
+      "size": 9040,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/lootr-common.toml"
+    },
+    {
+      "path": "config/mega_showdown/config.json",
+      "sha1": "d7937f6974e27f777ba823c27d946aa89a8aff11",
+      "size": 571,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/mega_showdown/config.json"
+    },
+    {
+      "path": "config/mezz_config/client/default/settings.ini",
+      "sha1": "37c6c10d605efbf78119e1fea0d6d0b06ba9ca77",
+      "size": 1452,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/mezz_config/client/default/settings.ini"
+    },
+    {
+      "path": "config/modernfix-common.toml",
+      "sha1": "84439141a9dbc2f96212967ea8437d420d8d9c8e",
+      "size": 105,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/modernfix-common.toml"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "sha1": "363b263796d22b72e97e89072413e529bcd692ee",
+      "size": 5491,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/modernfix-mixins.properties"
+    },
+    {
+      "path": "config/naturescompass-client.toml",
+      "sha1": "18a1ac2e9777023e5c050d94f15d9b173671b547",
+      "size": 444,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/naturescompass-client.toml"
+    },
+    {
+      "path": "config/naturescompass-common.toml",
+      "sha1": "42db63bed3bbc7f493f04476516f3ff10df1acdb",
+      "size": 2227,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/naturescompass-common.toml"
+    },
+    {
+      "path": "config/neoforge-client.toml",
+      "sha1": "b51515abb0c65a891514baffb4c78d2357ecd1ed",
+      "size": 578,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/neoforge-client.toml"
+    },
+    {
+      "path": "config/neoforge-common.toml",
+      "sha1": "2e904b9a9bf2c03e8dfe4d0b3b43dee9965c062b",
+      "size": 1050,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/neoforge-common.toml"
+    },
+    {
+      "path": "config/oritech-client.toml",
+      "sha1": "e39cbae3e3db7222f4c385eeaa33aa1c84c96042",
+      "size": 461,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/oritech-client.toml"
+    },
+    {
+      "path": "config/oritech-common.toml",
+      "sha1": "02b0ba495f3b12a1413b5064ed76f2932822adec",
+      "size": 15654,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/oritech-common.toml"
+    },
+    {
+      "path": "config/oritech-startup.toml",
+      "sha1": "75279763ebaf47003530308904f7ade11d4baf73",
+      "size": 4239,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/oritech-startup.toml"
+    },
+    {
+      "path": "config/quickskin-client.json",
+      "sha1": "4902f6a90289f53684008c2e75e4195d74b860b5",
+      "size": 1707,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/quickskin-client.json"
+    },
+    {
+      "path": "config/quickskin-server.json",
+      "sha1": "fa7fec7e4bfdf2f4e604697ac673dc882c2c7e35",
+      "size": 157,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/quickskin-server.json"
+    },
+    {
+      "path": "config/quickskin_preferences.json",
+      "sha1": "ee403f5594e455d7e6b405f9f0580a1a7e361101",
+      "size": 222,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/quickskin_preferences.json"
+    },
+    {
+      "path": "config/rctmod-client.toml",
+      "sha1": "7ece52c319dbf1329b7df00a926d05a4bd893661",
+      "size": 808,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/rctmod-client.toml"
+    },
+    {
+      "path": "config/rightclickharvest.json5",
+      "sha1": "803dc786a30a123759cd83d2e8f38d74f947c674",
+      "size": 609,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/rightclickharvest.json5"
+    },
+    {
+      "path": "config/roughlyenoughitems/collapsible.json5",
+      "sha1": "d3ddda466e4e5fb9048711c0424c8970d474fc7c",
+      "size": 46,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/roughlyenoughitems/collapsible.json5"
+    },
+    {
+      "path": "config/roughlyenoughitems/config.json5",
+      "sha1": "b56001f087f7cd2b6aa2c9640e4bd813b07e1a1a",
+      "size": 5612,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/roughlyenoughitems/config.json5"
+    },
+    {
+      "path": "config/roughlyenoughitems/favorites.json5",
+      "sha1": "413c0d78b009c2e235966e3a9437bd89258724f9",
+      "size": 61,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/roughlyenoughitems/favorites.json5"
+    },
+    {
+      "path": "config/roughlyenoughitems/hints.json",
+      "sha1": "1d10dd3d3b46ad08cf65d08fd03e7a399a8da3f3",
+      "size": 63,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/roughlyenoughitems/hints.json"
+    },
+    {
+      "path": "config/roughlyenoughitems/pinyin.properties",
+      "sha1": "e0fe04faffa6aae6c663966affc5b0d2217d63af",
+      "size": 48,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/roughlyenoughitems/pinyin.properties"
+    },
+    {
+      "path": "config/roughlyenoughitems/pinyin_double.properties",
+      "sha1": "ac336960fd46257b03a26806a13827404ecc092c",
+      "size": 73,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/roughlyenoughitems/pinyin_double.properties"
+    },
+    {
+      "path": "config/simpletms/main.json",
+      "sha1": "a862afd248d6a92a99f5e26a5acbd845dc21d059",
+      "size": 1224,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/simpletms/main.json"
+    },
+    {
+      "path": "config/simpletms/moves/default_tm_moves.json",
+      "sha1": "9b4ddaf6a596773193dcdcf80700b8c0059f8afb",
+      "size": 30177,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/simpletms/moves/default_tm_moves.json"
+    },
+    {
+      "path": "config/simpletms/moves/default_tr_moves.json",
+      "sha1": "9b4ddaf6a596773193dcdcf80700b8c0059f8afb",
+      "size": 30177,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/simpletms/moves/default_tr_moves.json"
+    },
+    {
+      "path": "config/simpletms/moves/excluded_moves_from_blank_learning.json",
+      "sha1": "97d170e1550eee4afc0af065b78cda302a97674c",
+      "size": 2,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/simpletms/moves/excluded_moves_from_blank_learning.json"
+    },
+    {
+      "path": "config/simpletms/moves/excluded_moves_from_pokemon_drops.json",
+      "sha1": "97d170e1550eee4afc0af065b78cda302a97674c",
+      "size": 2,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/simpletms/moves/excluded_moves_from_pokemon_drops.json"
+    },
+    {
+      "path": "config/simpletms/moves/excluded_moves_from_tmtr_learning.json",
+      "sha1": "97d170e1550eee4afc0af065b78cda302a97674c",
+      "size": 2,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/simpletms/moves/excluded_moves_from_tmtr_learning.json"
+    },
+    {
+      "path": "config/sodium-fingerprint.json",
+      "sha1": "a5c3c04d1fc850d8749309bf39ef251d1513f397",
+      "size": 427,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sodium-fingerprint.json"
+    },
+    {
+      "path": "config/sodium-mixins.properties",
+      "sha1": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
+      "size": 258,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sodium-mixins.properties"
+    },
+    {
+      "path": "config/sodium-options.json",
+      "sha1": "fd77c5496e1a77975ccf069363c724ce40527421",
+      "size": 758,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sodium-options.json"
+    },
+    {
+      "path": "config/sophisticatedbackpacks-common.toml",
+      "sha1": "faab0a1537b5377ed89cf1a2f6e660116a15891b",
+      "size": 118,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sophisticatedbackpacks-common.toml"
+    },
+    {
+      "path": "config/sophisticatedcore-client.toml",
+      "sha1": "27700782a7cd2e3f4a681fcee62fbe28057bca12",
+      "size": 478,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sophisticatedcore-client.toml"
+    },
+    {
+      "path": "config/sophisticatedcore-common.toml",
+      "sha1": "d5e70d5f121019f97c33b68ccc16146ae9c8a8e5",
+      "size": 108,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sophisticatedcore-common.toml"
+    },
+    {
+      "path": "config/sophisticatedstorage-client.toml",
+      "sha1": "69a37a8669fec525f67cfdd71b9dbd6f9f9c4b8e",
+      "size": 447,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sophisticatedstorage-client.toml"
+    },
+    {
+      "path": "config/sophisticatedstorage-common.toml",
+      "sha1": "d578e18d501ad877880d4e8505fdfde1dfb1367a",
+      "size": 186,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sophisticatedstorage-common.toml"
+    },
+    {
+      "path": "config/storagedrawers-client.toml",
+      "sha1": "47beeac3580ff36449c95da47ce5d148adb9296e",
+      "size": 937,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/storagedrawers-client.toml"
+    },
+    {
+      "path": "config/storagedrawers-common.v2.toml",
+      "sha1": "bc9b51de8496750da2d3cba203e3a49473f0907c",
+      "size": 14393,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/storagedrawers-common.v2.toml"
+    },
+    {
+      "path": "config/tim_core.json",
+      "sha1": "2d7cc8c3fa204ab6d621cc7111e6437c5176c637",
+      "size": 799,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/tim_core.json"
+    },
+    {
+      "path": "config/transition.json",
+      "sha1": "8b50cd4b9956dc3443acd38e47f80e23ff7712f5",
+      "size": 97,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/transition.json"
+    },
+    {
+      "path": "config/trender.json",
+      "sha1": "1ecd2edb27bfbc69f24e0cd52d3a22f98bdce8f0",
+      "size": 47,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/trender.json"
+    },
+    {
+      "path": "config/waystones-common.toml",
+      "sha1": "1489e84fc7a7ca45ee1e5ea2aa37cc6f73077e99",
+      "size": 6646,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/waystones-common.toml"
+    },
+    {
+      "path": "config/xaero/lib/client.cfg",
+      "sha1": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf",
+      "size": 26,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/lib/client.cfg"
+    },
+    {
+      "path": "config/xaero/lib/common.cfg",
+      "sha1": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b",
+      "size": 236,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/lib/common.cfg"
+    },
+    {
+      "path": "config/xaero/lib/profiles/default.cfg",
+      "sha1": "253bac0f5181c8db8e488832c46a8d40018650cf",
+      "size": 121,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/lib/profiles/default.cfg"
+    },
+    {
+      "path": "config/xaero/lib/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/lib/server_profiles/default.cfg"
+    },
+    {
+      "path": "config/xaero/minimap/client.cfg",
+      "sha1": "a18a4a75d6f033c35ecde56c14306760715a3a19",
+      "size": 235,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/client.cfg"
+    },
+    {
+      "path": "config/xaero/minimap/common.cfg",
+      "sha1": "de09f45b29b264432b80d34bb0c336bd552fb9ee",
+      "size": 147,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/common.cfg"
+    },
+    {
+      "path": "config/xaero/minimap/default_radar_categories_client.json",
+      "sha1": "3523d6db6b0543a9de55286e914bc748f7fc68d9",
+      "size": 5531,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/default_radar_categories_client.json"
+    },
+    {
+      "path": "config/xaero/minimap/default_radar_categories_server.json",
+      "sha1": "c247867b018103357eb4015059fe209cc562de51",
+      "size": 4597,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/default_radar_categories_server.json"
+    },
+    {
+      "path": "config/xaero/minimap/profiles/default.cfg",
+      "sha1": "f2f6ac1fbc53ce3a08e002735fefd93bed2db8ab",
+      "size": 3825,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/profiles/default.cfg"
+    },
+    {
+      "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+      "sha1": "2b8d12369471b57bfa6426254b2170bc8e6b3b88",
+      "size": 684,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+    },
+    {
+      "path": "config/xaero/minimap/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/minimap/server_profiles/default.cfg"
+    },
+    {
+      "path": "config/xaero/world-map/client.cfg",
+      "sha1": "27b70648a1bccd0561ae94c0a1a978f283893dea",
+      "size": 521,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/world-map/client.cfg"
+    },
+    {
+      "path": "config/xaero/world-map/common.cfg",
+      "sha1": "c3c64f24c8d33940264147473e4a1c8ba5c219ff",
+      "size": 141,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/world-map/common.cfg"
+    },
+    {
+      "path": "config/xaero/world-map/profiles/default.cfg",
+      "sha1": "2f1680b1a14bf8cc756c5911c9b9f90e119a365e",
+      "size": 1619,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/world-map/profiles/default.cfg"
+    },
+    {
+      "path": "config/xaero/world-map/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaero/world-map/server_profiles/default.cfg"
+    },
+    {
+      "path": "config/xaerohud.txt",
+      "sha1": "90b4351d9af81ef723df93fdf17dc404aff257aa",
+      "size": 123,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaerohud.txt"
+    },
+    {
+      "path": "config/xaeropatreon.txt",
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "size": 0,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/xaeropatreon.txt"
+    },
+    {
+      "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "sha1": "fa2576297c7bd12b28aa7070e8141792bd66da4c",
+      "size": 18382,
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar"
+    },
+    {
+      "path": "mods/CobbleDollars-neoforge-2.0.0%2BBeta-6.1%2B1.21.1.jar",
+      "sha1": "3d4559f77fc47d10ccac7079dbaefd1c414636c3",
+      "size": 504569,
+      "url": "https://cdn.modrinth.com/data/s7N7AsqL/versions/Iqiqjfsi/CobbleDollars-neoforge-2.0.0%2BBeta-6.1%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/Cobblemon-Legendary-Birds-2.0-1.21.1-NeoForge.jar",
+      "sha1": "e8d399a1f0acf94a1cc68ac0e213baf85ffed739",
+      "size": 123692,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/Cobblemon-Legendary-Birds-2.0-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/Cobblemon-Legendary-Dogs-2.0-1.21.1-NeoForge.jar",
+      "sha1": "526dd126f3bafcb67302e0aec511a47de1b145a6",
+      "size": 121382,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/Cobblemon-Legendary-Dogs-2.0-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/Cobblemon-Mythical-Collection-2.0-1.21.1-NeoForge.jar",
+      "sha1": "aeb4a837f7cf52dc4affc4a5522520a37690d318",
+      "size": 196821,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/Cobblemon-Mythical-Collection-2.0-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/Cobblemon-Ultra-Beasts-Collection-2.0-1.21.1-NeoForge.jar",
+      "sha1": "5c91b2d066983ca2d9396891505a31d424f5dfd7",
+      "size": 167933,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/Cobblemon-Ultra-Beasts-Collection-2.0-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/Cobblemon-neoforge-1.8.2%2B1.21.1.jar",
+      "sha1": "ca2a05e60f89fb04e85d1aee8835938bd8d382e0",
+      "size": 140986469,
+      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/9IXh9584/Cobblemon-neoforge-1.8.2%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/Controlling-neoforge-1.21.1-19.0.5.jar",
+      "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+      "size": 77555,
+      "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar"
+    },
+    {
+      "path": "mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+      "sha1": "9f62af344988a6e2d855b113e61cf0e1611c7e0f",
+      "size": 174668,
+      "url": "https://cdn.modrinth.com/data/RV1qfVQ8/versions/hIJ2Ev1Q/ExplorersCompass-1.21.1-3.4.0-neoforge.jar"
+    },
+    {
+      "path": "mods/FluxNetworks-1.21.1-8.0.0.jar",
+      "sha1": "183342f454428084748f2784c8efd748664a9f9c",
+      "size": 535938,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/FluxNetworks-1.21.1-8.0.0.jar"
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "sha1": "14f2dd9f43254b8c06af04b6f0c8ae5192f658b5",
+      "size": 104654,
+      "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/tWlsPKJI/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar",
+      "sha1": "f991166f7c82b493481c876e3c83c9fac4159671",
+      "size": 368896,
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha1": "88ee316e68900080b017f60c12162e2731924cf8",
+      "size": 726853,
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar"
+    },
+    {
+      "path": "mods/KryptonFoxified-0.1.0+mc1.21.jar",
+      "sha1": "b6912442dfb47b2cbcadb4085608636fced68af9",
+      "size": 189002,
+      "url": "https://cdn.modrinth.com/data/rmFH8I1v/versions/TFGMCLED/KryptonFoxified-0.1.0%2Bmc1.21.jar"
+    },
+    {
+      "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+      "size": 73938,
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+    },
+    {
+      "path": "mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "sha1": "e19721873bebc4dbc1674bb101af39d0ea406b95",
+      "size": 224657,
+      "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/nFniEtJV/NaturesCompass-1.21.1-3.4.0-neoforge.jar"
+    },
+    {
+      "path": "mods/Quick-Skin-NeoForge-1.21.1-3.1.1.jar",
+      "sha1": "79ab37e415f8f0530079ccb87357b564552de325",
+      "size": 5547419,
+      "url": "https://cdn.modrinth.com/data/zAIE84Ch/versions/N3dd8b7j/Quick%20Skin%20-%20NeoForge%20-%201.21.1-3.1.1.jar"
+    },
+    {
+      "path": "mods/Searchables-neoforge-1.21.1-1.0.2.jar",
+      "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+      "size": 77326,
+      "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar"
+    },
+    {
+      "path": "mods/SimpleTMs-neoforge-2.3.3.jar",
+      "sha1": "f30723c57a72ff9c9f4b54fe1652430273355607",
+      "size": 825317,
+      "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/uaKfPMYS/SimpleTMs-neoforge-2.3.3.jar"
+    },
+    {
+      "path": "mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar",
+      "sha1": "5347db4d1150b132841bd124d1608f812bf8076f",
+      "size": 1131419,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar"
+    },
+    {
+      "path": "mods/accessories-neoforge-1.1.0-beta.54+1.21.1.jar",
+      "sha1": "0d0b07fa319a9f93c82873f9851ad35e100031f6",
+      "size": 1086553,
+      "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/dy9BbDEy/accessories-neoforge-1.1.0-beta.54%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/ae2jeiintegration-1.2.1.jar",
+      "sha1": "e99898b3e9c32bf6ac757e7ad50247746622cdfc",
+      "size": 91710,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/ae2jeiintegration-1.2.1.jar"
+    },
+    {
+      "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+      "size": 75804,
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar"
+    },
+    {
+      "path": "mods/appliedenergistics2-19.2.18.jar",
+      "sha1": "bcd04bc7f181b2ffa314625f284c8eca6fee7fe4",
+      "size": 8236552,
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/KDnFUmMm/appliedenergistics2-19.2.18.jar"
+    },
+    {
+      "path": "mods/architectury-13.0.11-neoforge.jar",
+      "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+      "size": 584734,
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar"
+    },
+    {
+      "path": "mods/athena-neoforge-1.21.1-4.0.6.jar",
+      "sha1": "4bcbdf388bd5e387beca7c627224aac33584b55b",
+      "size": 99944,
+      "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/dJgL278E/athena-neoforge-1.21.1-4.0.6.jar"
+    },
+    {
+      "path": "mods/balm-neoforge-1.21.1-21.0.66.jar",
+      "sha1": "dd3606a349f4a3c8fb5bd0ab22905675c02b0d74",
+      "size": 783793,
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/CquiaiDj/balm-neoforge-1.21.1-21.0.66.jar"
+    },
+    {
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "sha1": "efc4cda6da4dd879f24d057ed0a6413764c9ba40",
+      "size": 328813,
+      "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/1sdJl7J1/bookshelf-neoforge-1.21.1-21.1.81.jar"
+    },
+    {
+      "path": "mods/botanypots-neoforge-1.21.1-21.1.44.jar",
+      "sha1": "fcb58dfa5f52819c85da40025fa50d0ddccbbb47",
+      "size": 1068816,
+      "url": "https://cdn.modrinth.com/data/U6BUTZ7K/versions/RjHfHgSn/botanypots-neoforge-1.21.1-21.1.44.jar"
+    },
+    {
+      "path": "mods/cloth-config-15.0.140-neoforge.jar",
+      "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
+      "size": 1163890,
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar"
+    },
+    {
+      "path": "mods/cobbledex-1.21.1-neoforge-1.3.0.jar",
+      "sha1": "7bae2a706c4cdcf35c4f24d61f59bca3986f82b1",
+      "size": 451839,
+      "url": "https://cdn.modrinth.com/data/fKNwbN70/versions/sBnQjU0X/cobbledex-1.21.1-neoforge-1.3.0.jar"
+    },
+    {
+      "path": "mods/cobblemon-breeding-api-neoforge-0.1.0-SNAPSHOT.jar",
+      "sha1": "993499d0b01cbc0e843162e53bf20617cdf00f14",
+      "size": 101762,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/cobblemon-breeding-api-neoforge-0.1.0-SNAPSHOT.jar"
+    },
+    {
+      "path": "mods/cobblemon-breeding-extras-neoforge-0.1.0-SNAPSHOT.jar",
+      "sha1": "c5c55de8df7f755c771102544475d786387b7bcf",
+      "size": 33251,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/cobblemon-breeding-extras-neoforge-0.1.0-SNAPSHOT.jar"
+    },
+    {
+      "path": "mods/cobblemon_pots-neoforge-1.0.1.jar",
+      "sha1": "a1232a4b7aec332c69645c9be62ac66d62fd5ad8",
+      "size": 44936,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/cobblemon_pots-neoforge-1.0.1.jar"
+    },
+    {
+      "path": "mods/cobblemon_simple_center-neoforge-1.2.1.jar",
+      "sha1": "2b8853d2021ec7a6a3d796010afc2d3612470779",
+      "size": 1059668,
+      "url": "https://cdn.modrinth.com/data/9U50uRY3/versions/hiayoIKk/cobblemon_simple_center-neoforge-1.2.1.jar"
+    },
+    {
+      "path": "mods/cobblemonextrastructures-1.21.1-1.3.0-neoforge.jar",
+      "sha1": "c32f83f5405d11482a453aba7210f6a58e64526c",
+      "size": 1297184,
+      "url": "https://cdn.modrinth.com/data/IkJ2gbjT/versions/WRVQHxL5/cobblemonextrastructures-1.21.1-1.3.0-neoforge.jar"
+    },
+    {
+      "path": "mods/cobblemonraiddens-neoforge-0.13.2%2B1.21.1.jar",
+      "sha1": "67e0e35f8b6d83d6670f731325c293135ca97ce1",
+      "size": 2810307,
+      "url": "https://cdn.modrinth.com/data/GebWh45l/versions/fsS4FhP4/cobblemonraiddens-neoforge-0.13.2%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/cobblemonstonestatues-neoforge-1.1.jar",
+      "sha1": "5236c2e318f99ab1b0b38897ac848aae7f55627b",
+      "size": 170977,
+      "url": "https://cdn.modrinth.com/data/MTdmpNqd/versions/fjmqrivb/cobblemonstonestatues-neoforge-1.1.jar"
+    },
+    {
+      "path": "mods/cobblemore_lib-neoforge-1.2.10.jar",
+      "sha1": "56ba13ef84c288670cc8de11bc8e63b48901fca7",
+      "size": 699489,
+      "url": "https://cdn.modrinth.com/data/VYP2vmDS/versions/Ypz0g6qz/cobblemore_lib-neoforge-1.2.10.jar"
+    },
+    {
+      "path": "mods/comforts-neoforge-9.0.5%2B1.21.1.jar",
+      "sha1": "21d6bee3821d62fe3356c51fb1d697871a3087ff",
+      "size": 422658,
+      "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/3kpPjcTc/comforts-neoforge-9.0.5%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+      "sha1": "5f1e699cd0888b857ec63f01adaeb3571848bfea",
+      "size": 92722,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+    },
+    {
+      "path": "mods/counter-neoforge-1.8.2-1.9.1.jar",
+      "sha1": "ce12e56923afe4028f108bf04554236fdb50b12e",
+      "size": 165898,
+      "url": "https://cdn.modrinth.com/data/rj8uLYP4/versions/18PsxppN/counter-neoforge-1.8.2-1.9.1.jar"
+    },
+    {
+      "path": "mods/entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "sha1": "f122f84f329793675b2625d51b77f990d7de3579",
+      "size": 1510075,
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/eieYbWYb/entityculling-neoforge-1.11.3-mc1.21.1.jar"
+    },
+    {
+      "path": "mods/fastleafdecay-35.jar",
+      "sha1": "589f05dcd58d3708cee9046b23fe11fb81a25d2e",
+      "size": 9511,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/fastleafdecay-35.jar"
+    },
+    {
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+      "size": 121559,
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar"
+    },
+    {
+      "path": "mods/fightorflight-neoforge-0.11.1.jar",
+      "sha1": "73f72b4da7d2004c693e682a7eed30a8d587170c",
+      "size": 1464538,
+      "url": "https://cdn.modrinth.com/data/cTdIg5HZ/versions/OD7X9rYz/fightorflight-neoforge-0.11.1.jar"
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.37.jar",
+      "sha1": "b6e503587afcd678ec257e4abdc6362ff18c2fef",
+      "size": 1439881,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/ftb-library-neoforge-2101.1.37.jar"
+    },
+    {
+      "path": "mods/ftb-ultimine-neoforge-2101.1.15.jar",
+      "sha1": "c96a7cc0b52bf919660ea61c1536cebd9d5773b3",
+      "size": 177109,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/ftb-ultimine-neoforge-2101.1.15.jar"
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+      "size": 634531,
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar"
+    },
+    {
+      "path": "mods/guideme-21.1.19.jar",
+      "sha1": "e85cd4c266f974dd360c46e8dad7ecf4c7ee96c6",
+      "size": 9311992,
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/hFpGwC6q/guideme-21.1.19.jar"
+    },
+    {
+      "path": "mods/ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+      "sha1": "9a40f949ec9794cdef79bdabb61a12a918613194",
+      "size": 576866,
+      "url": "https://cdn.modrinth.com/data/yPlaLxD1/versions/WZ25JeYB/ironfurnaces-neoforge-1.21.1-4.3.2.jar"
+    },
+    {
+      "path": "mods/jamlib-neoforge-1.3.6%2B1.21.1.jar",
+      "sha1": "0e422dd29b3f82eaf2a450a0370ace82b8d00f82",
+      "size": 188553,
+      "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/n6UM6TcS/jamlib-neoforge-1.3.6%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/jei-1.21.1-neoforge-19.64.0.455.jar",
+      "sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a",
+      "size": 2375741,
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iv3KiVkE/jei-1.21.1-neoforge-19.64.0.455.jar"
+    },
+    {
+      "path": "mods/kotlinforforge-5.12.0-all.jar",
+      "sha1": "a2032c921e93a0ccb0db5d742167e3139c2de01b",
+      "size": 7279276,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/kotlinforforge-5.12.0-all.jar"
+    },
+    {
+      "path": "mods/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
+      "size": 774220,
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar"
+    },
+    {
+      "path": "mods/lootr-neoforge-1.21.1-1.11.38.127.jar",
+      "sha1": "7a305b581abd90e1a8b7c1bb5eb4511d2653aa58",
+      "size": 1075929,
+      "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/SPOrIzX8/lootr-neoforge-1.21.1-1.11.38.127.jar"
+    },
+    {
+      "path": "mods/lootrmon-neoforge-1.21.1-0.0.0.3.jar",
+      "sha1": "6aaea2de5eedb7cb1a3aab39136fed78265b8c6b",
+      "size": 43426,
+      "url": "https://cdn.modrinth.com/data/ywwXJDli/versions/mWCP4NVW/lootrmon-neoforge-1.21.1-0.0.0.3.jar"
+    },
+    {
+      "path": "mods/mega_showdown-neoforge-1.3.0%2B1.8.2%2B1.21.1-hotfix.jar",
+      "sha1": "ebb00d662762c493b617a78d152d1c51dfe72f0d",
+      "size": 20090685,
+      "url": "https://cdn.modrinth.com/data/SszvX85I/versions/C0yyAEcs/mega_showdown-neoforge-1.3.0%2B1.8.2%2B1.21.1-hotfix.jar"
+    },
+    {
+      "path": "mods/modernfix-neoforge-5.27.26%2Bmc1.21.1.jar",
+      "sha1": "69d468b70e53f6a014c778a81116a41a38fbab33",
+      "size": 611043,
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/7Jy58lnT/modernfix-neoforge-5.27.26%2Bmc1.21.1.jar"
+    },
+    {
+      "path": "mods/oritech-neoforge-1.21.1-1.2.13.jar",
+      "sha1": "12515c78b29976bd25077deb7427852f63879ddc",
+      "size": 11000860,
+      "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/BR0KKypH/oritech-neoforge-1.21.1-1.2.13.jar"
+    },
+    {
+      "path": "mods/owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar",
+      "sha1": "3a7f843ce3a4d24f8765a74bc5dde914b316b992",
+      "size": 1223197,
+      "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/wbdHEItB/owo-lib-neoforge-0.12.15.6-beta.1%2B1.21.jar"
+    },
+    {
+      "path": "mods/pastas_cobblemon_badges-1.0.3-neoforge-1.21.1.jar",
+      "sha1": "973fa632ed5c58a91b1eb765a3eea3393a5328c8",
+      "size": 158322,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/pastas_cobblemon_badges-1.0.3-neoforge-1.21.1.jar"
+    },
+    {
+      "path": "mods/polymorph-neoforge-1.2.0%2B1.21.1.jar",
+      "sha1": "fa6c5fa8a21229c85d564b47c73df7160b3bd4df",
+      "size": 172671,
+      "url": "https://cdn.modrinth.com/data/tagwiZkJ/versions/9yWvrF5o/polymorph-neoforge-1.2.0%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36",
+      "size": 84812,
+      "url": "https://cdn.modrinth.com/data/aaRl8GiW/versions/EE1FHDyD/prickle-neoforge-1.21.1-21.1.11.jar"
+    },
+    {
+      "path": "mods/rctapi-neoforge-1.21.1-0.16.2-beta.jar",
+      "sha1": "9199f6eb63a0907fe75f63d6d25834896dc2a0f1",
+      "size": 268819,
+      "url": "https://cdn.modrinth.com/data/CBfM2yw7/versions/mYGAO3MT/rctapi-neoforge-1.21.1-0.16.2-beta.jar"
+    },
+    {
+      "path": "mods/rctmod-neoforge-1.21.1-0.19.2-beta.jar",
+      "sha1": "c290fbfc910a86740f8134bb94a73aa3bc56e055",
+      "size": 7587320,
+      "url": "https://cdn.modrinth.com/data/lRwTUnD7/versions/ITPewVPq/rctmod-neoforge-1.21.1-0.19.2-beta.jar"
+    },
+    {
+      "path": "mods/rightclickharvest-neoforge-4.6.1+1.21.1.jar",
+      "sha1": "473b960c0cae751b7752a43df4756010e30988fa",
+      "size": 287634,
+      "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/djt0zS53/rightclickharvest-neoforge-4.6.1%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693",
+      "size": 1292934,
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar"
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.21.1-3.26.12.2208.jar",
+      "sha1": "ef59863d328e4e949bdaf75f65412d1048b3f9e1",
+      "size": 1247031,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/sophisticatedbackpacks-1.21.1-3.26.12.2208.jar"
+    },
+    {
+      "path": "mods/sophisticatedcore-1.21.1-1.5.12.2400.jar",
+      "sha1": "49bd3e09b3407155d91c079f3b35479cef6a9a0f",
+      "size": 1818115,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/sophisticatedcore-1.21.1-1.5.12.2400.jar"
+    },
+    {
+      "path": "mods/sophisticatedstorage-1.21.1-1.6.5.2176.jar",
+      "sha1": "6c7b56e22803e06dddb572c64444e5baea664b4f",
+      "size": 1929974,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/sophisticatedstorage-1.21.1-1.6.5.2176.jar"
+    },
+    {
+      "path": "mods/timcore-neoforge-1.8.2-1.34.0.jar",
+      "sha1": "6354a06a1bf87bc14b9edc1837a2a16a7d241941",
+      "size": 307889,
+      "url": "https://cdn.modrinth.com/data/lVP9aUaY/versions/biwtrmIj/timcore-neoforge-1.8.2-1.34.0.jar"
+    },
+    {
+      "path": "mods/waystones-neoforge-1.21.1-21.1.46.jar",
+      "sha1": "75718161662d9ec957ba22e10e497788ec1687ba",
+      "size": 1223229,
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/6Z6MQ6os/waystones-neoforge-1.21.1-21.1.46.jar"
+    },
+    {
+      "path": "mods/xaerominimap-neoforge-1.21.1-26.6.0.jar",
+      "sha1": "551e8e2aa3498b506cc949a74606cdc0380e5e00",
+      "size": 2186351,
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/irjR7dHk/xaerominimap-neoforge-1.21.1-26.6.0.jar"
+    },
+    {
+      "path": "mods/xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+      "sha1": "2936c9cb9dfbdab145fe6f1e8ae2c68915246a5f",
+      "size": 1427078,
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/SnQ4SoDe/xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
+    },
+    {
+      "path": "resourcepacks/Cobblemon%20Interface%20v1.6.0.zip",
+      "sha1": "b49b9b7692032e49d1815a0562c1f9dc4016aa6f",
+      "size": 14102236,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/resourcepacks/Cobblemon_20Interface_20v1.6.0.zip"
+    },
+    {
+      "path": "resourcepacks/CobblemonShinyEnhanced.zip",
+      "sha1": "af85aaa61400f5b0af0c74bcceeb7b58cf64bdd8",
+      "size": 82915,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/resourcepacks/CobblemonShinyEnhanced.zip"
+    },
+    {
+      "path": "resourcepacks/E19%20Cobblemon%20Minimap%20Icons.zip",
+      "sha1": "108bd61a75dc90f0a6f82f77b9b68fba10894cd3",
+      "size": 23189839,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/resourcepacks/E19_20Cobblemon_20Minimap_20Icons.zip"
+    },
+    {
+      "path": "servers.dat",
+      "sha1": "56bab8692c55d9e76b12e1ace9f3071e753b25bb",
+      "size": 84,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/servers.dat"
+    }
+  ]
+}

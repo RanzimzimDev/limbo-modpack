@@ -1,0 +1,52 @@
+{
+  "showSkinPreviewOverlay": false,
+  "overlayPosition": "BOTTOM_RIGHT",
+  "previewScale": 30,
+  "guiScale": 1,
+  "enablePlayerPreviewCustomization": false,
+  "showTitleScreenPreview": true,
+  "showPauseMenuPreview": true,
+  "compactChangeSkinButton": false,
+  "hudOverlayRotation": 20.0,
+  "sizeModelPreviewPercentageTitleScreen": 0,
+  "sizeModelPreviewPercentageSkinMenu": 0,
+  "sizeModelPreviewPercentageCapeMenu": 0,
+  "sizeModelPreviewPercentagePauseMenu": 0,
+  "sizeModelPreviewPercentageHudOverlay": 30,
+  "positionOffsetXTitleScreen": 0,
+  "positionOffsetYTitleScreen": 0,
+  "positionOffsetXSkinMenu": 0,
+  "positionOffsetYSkinMenu": 0,
+  "positionOffsetXCapeMenu": 0,
+  "positionOffsetYCapeMenu": 0,
+  "positionOffsetXPauseMenu": 0,
+  "positionOffsetYPauseMenu": 0,
+  "positionOffsetXHudOverlay": 0,
+  "positionOffsetYHudOverlay": 0,
+  "animationSpeed": 1.0,
+  "enableSmoothRotation": true,
+  "capeAnimationSpeeds": {
+    "known:rickroll": 0.5724969
+  },
+  "maxCachedTextures": 100,
+  "networkTimeout": 5000,
+  "disableSkinTransparency": false,
+  "enableStyledButtons": false,
+  "hideBuiltInCapes": false,
+  "skinSortMode": "LATEST_LAST",
+  "menuBackgroundStyle": "opaque_stars",
+  "enablePlayerOwnSkinSystem": true,
+  "activeSkinHash": "sha256-a0befe36ad786c7ac8dea3a83097e333e06047f916fc8d86ee643276f1b9654a",
+  "activeCpmModelHash": "",
+  "pendingCpmSkinModeReset": true,
+  "activeModelType": "auto",
+  "activeCapeHash": "known:rickroll",
+  "playerOwnSkinHash": "",
+  "playerOwnSkinAccount": "",
+  "accountSkins": {
+    "skins": {
+      "500ab559-4fac-4034-8efb-b80ee61a26b5:ranzimzim": "sha256-a0befe36ad786c7ac8dea3a83097e333e06047f916fc8d86ee643276f1b9654a"
+    },
+    "migrated": true
+  }
+}

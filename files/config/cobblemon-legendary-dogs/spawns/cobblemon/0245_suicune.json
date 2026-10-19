@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "suicune-1",
+            "pokemon": "suicune",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "isRaining": true
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_river"
+                ]
+            }
+        }
+    ]
+}

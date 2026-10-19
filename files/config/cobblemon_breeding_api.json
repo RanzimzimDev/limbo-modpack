@@ -1,0 +1,12 @@
+{
+  "basketSize": 10,
+  "minBreedCycleTimeInSeconds": 60.0,
+  "maxBreedCycleTimeInSeconds": 120.0,
+  "basketRangeInBlocks": 5,
+  "breedWithWildPokemon": false,
+  "hideEggDetails": true,
+  "eggChoosingRule": 0,
+  "eggsPerCycleMax": 5,
+  "timePerEggCycle": 200,
+  "stepsPerEggCycle": 256
+}

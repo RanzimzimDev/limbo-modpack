@@ -1,0 +1,105 @@
+{
+  "pokemon_boosts": {
+    "enable_egg_moves": true,
+    "egg_move_chance": 0.5,
+    "max_egg_moves": 2,
+    "enable_hidden_ability": true,
+    "hidden_ability_chance": 0.15,
+    "enable_wave_based_guaranteed_ivs": true,
+    "guaranteed_perfect_ivs_per_wave": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "min_iv_value": 0,
+    "enable_iv_boost": true,
+    "guaranteed_perfect_ivs": 3
+  },
+  "display": {
+    "show_outbreak_glow": true,
+    "play_ambient_sounds": true,
+    "ambient_sound_interval_ticks": 200,
+    "bossbar_visible_radius": 128,
+    "show_bossbar": true,
+    "bossbar_style": "progress",
+    "show_coordinates_in_bossbar": true,
+    "show_shiny_rate_in_bossbar": true
+  },
+  "advanced": {
+    "cleanup_on_timeout": true,
+    "show_particles": true,
+    "end_outbreak_on_server_restart": false,
+    "require_chunk_loaded": true,
+    "protect_during_battle": true,
+    "max_despawn_distance": 256
+  },
+  "biome_filters": {
+    "mode": "all",
+    "biome_tags": [],
+    "biome_ids": [],
+    "blacklist_tags": []
+  },
+  "messages": {
+    "clickable_coordinates": true,
+    "allow_teleport": false,
+    "announce_xaero_waypoints": true,
+    "announce_journeymap_waypoints": true,
+    "announce_spawn": true,
+    "announce_coordinates": true,
+    "announce_completion": true,
+    "announce_to_all": true
+  },
+  "rewards": {
+    "enabled": true,
+    "exp_orbs": 500,
+    "items": []
+  },
+  "location": {
+    "fixed_y": 64,
+    "min_y": -64,
+    "max_y": 320,
+    "fixed_x": 0,
+    "fixed_z": 0,
+    "selection_mode": "near_random_player",
+    "min_distance": 64,
+    "max_distance": 128,
+    "height_search_mode": "surface"
+  },
+  "species": {
+    "recent_species_weight_multiplier": 0.25,
+    "level_mode": "area_scaled",
+    "fixed_level": 50,
+    "level_variance": 5,
+    "selection_mode": "biome_spawns",
+    "use_spawn_rarity_weights": true,
+    "deprioritize_recent_species": true,
+    "recent_species_window": 5
+  },
+  "shiny": {
+    "base_rate": 4096,
+    "enable_progression": true,
+    "thresholds": [
+      {
+        "defeats": 30,
+        "bonus_rolls": 1
+      },
+      {
+        "defeats": 60,
+        "bonus_rolls": 2
+      }
+    ]
+  },
+  "timer": {
+    "interval_ticks": 24000,
+    "duration_ticks": 24000
+  },
+  "spawning": {
+    "spawn_radius": 32,
+    "respawn_on_defeat": true,
+    "max_active_outbreak_pokemon": 10,
+    "waves": 4,
+    "pokemon_per_wave_min": 10,
+    "pokemon_per_wave_max": 20
+  }
+}
