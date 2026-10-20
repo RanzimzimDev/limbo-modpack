@@ -1445,5 +1445,8 @@
       "size": 84,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/servers.dat"
     }
-  ]
+  ],
+  "launcher_version": "1.2.0",
+  "launcher_sha1": "86bdad3a45411a3958c65d3094e37a689ce82909",
+  "launcher_url": "https://github.com/RanzimzimDev/limbo-modpack/releases/latest/download/LimboLauncher.exe"
 }
