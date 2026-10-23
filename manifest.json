@@ -1235,6 +1235,12 @@
       "url": "https://cdn.modrinth.com/data/rj8uLYP4/versions/18PsxppN/counter-neoforge-1.8.2-1.9.1.jar"
     },
     {
+      "path": "mods/cupboard-1.21.1-4.2.jar",
+      "sha1": "6c2d786a161f49470dad92b2edaefdac38a1e79b",
+      "size": 30517,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/cupboard-1.21.1-4.2.jar"
+    },
+    {
       "path": "mods/entityculling-neoforge-1.11.3-mc1.21.1.jar",
       "sha1": "f122f84f329793675b2625d51b77f990d7de3579",
       "size": 1510075,
