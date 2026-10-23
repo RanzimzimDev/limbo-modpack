@@ -1449,6 +1449,6 @@
   "launcher_version": "1.2.1",
   "launcher_sha1": "ec0010101d61d9c1bd2eef9cfcb241416592fda1",
   "launcher_url": "https://github.com/RanzimzimDev/limbo-modpack/releases/latest/download/LimboLauncher.exe",
-  "launcher_script_sha1": "2ec1e560b854de0a251db45a3ae65cee4f39501a",
+  "launcher_script_sha1": "ba43b27f37f0f8eb1cb6088e92295ea84ba843a1",
   "launcher_script_url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/launcher_core.py"
 }

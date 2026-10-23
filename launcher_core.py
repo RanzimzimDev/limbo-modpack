@@ -35,8 +35,8 @@ _orig_replace_arguments = mll.command.replace_arguments
 def _patched_replace_arguments(argstr, versionData, path, options, classpath):
     res = _orig_replace_arguments(argstr, versionData, path, options, classpath)
     res = res.replace("${clientid}", "0").replace("${auth_xuid}", "0")
-    if res == "-Djava.net.preferIPv6Addresses=system":
-        res = "-Djava.net.preferIPv4Stack=true"
+    if res == "-Djava.net.preferIPv4Stack=true":
+        res = "-Djava.net.preferIPv6Addresses=system"
     return res
 
 
@@ -57,13 +57,14 @@ mll.command.get_arguments = _patched_get_arguments
 # CONFIGURAÇÕES GLOBAIS E CONSTANTES DO LIMBO LAUNCHER
 # ==============================================================================
 APP_NAME = "LIMBO LAUNCHER"
-APP_VERSION = "1.2.1"
+APP_VERSION = "1.2.2"
 MC_VERSION = "1.21.1"
 NEOFORGE_VERSION = "21.1.262"
 MODPACK_FOLDER_NAME = "cobble"
 JVM_RUNTIME = "java-runtime-delta"  # Java 21 Oficial Mojang/TLauncher
 MANIFEST_URL = "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/manifest.json"
 CORE_SCRIPT_URL = "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/launcher_core.py"
+DEFAULT_SERVER_IPV6 = "2804:1468:8816:4e00:dfab:e4cc:6779:9622"
 DEFAULT_SERVER_IP = "practically-currently.tun.ply.gg"
 SKINS_GALLERY_URL = "https://laby.net/pt/skins?order=trending"
 
@@ -180,9 +181,13 @@ def resolve_minecraft_srv(host: str) -> tuple[str, int, str]:
     """
     Resolve o registro SRV (_minecraft._tcp.<host>) tentando primeiro o DNS padrão do Windows,
     e caso o roteador da operadora bloqueie/falhe, usa automaticamente Google DNS (8.8.8.8)
-    e Cloudflare DNS (1.1.1.1).
+    e Cloudflare DNS (1.1.1.1). Suporta IPv6 direto e localhost.
     Retorna: (target_host, port, dns_used)
     """
+    clean_host = host.strip("[]")
+    if ":" in clean_host or clean_host in ("127.0.0.1", "localhost"):
+        return clean_host, 25565, "Conexão Direta"
+
     dns_candidates = [
         ("DNS Padrão", None),
         ("Google DNS (8.8.8.8)", ["8.8.8.8", "8.8.4.4"]),
@@ -195,19 +200,19 @@ def resolve_minecraft_srv(host: str) -> tuple[str, int, str]:
             resolver.lifetime = 2.5
             if nameservers:
                 resolver.nameservers = nameservers
-            srv_records = resolver.resolve(f"_minecraft._tcp.{host}", "SRV")
+            srv_records = resolver.resolve(f"_minecraft._tcp.{clean_host}", "SRV")
             for r in srv_records:
                 target = str(r.target).rstrip(".")
                 port = int(r.port)
                 return target, port, label
         except Exception:
             continue
-    return host, 25565, "Fallback Direto"
+    return clean_host, 25565, "Fallback Direto"
 
 
 def ping_minecraft_server(host: str) -> tuple[bool, int, int, int]:
     """
-    Realiza Server List Ping real (com resolução SRV multi-DNS para túneis playit.gg)
+    Realiza Server List Ping real (compatível com IPv4, IPv6 e túneis playit.gg)
     Retorna: (online: bool, ping_ms: int, players_online: int, players_max: int)
     """
     target, port, _ = resolve_minecraft_srv(host)
@@ -227,9 +232,8 @@ def ping_minecraft_server(host: str) -> tuple[bool, int, int, int]:
 
     try:
         t0 = time.time()
-        connect_ip = socket.gethostbyname(target)
-        with socket.create_connection((connect_ip, port), timeout=3.5) as s:
-            s.settimeout(3.5)
+        with socket.create_connection((target, port), timeout=3.0) as s:
+            s.settimeout(3.0)
             host_b = host.encode("utf-8")
             handshake = (
                 pack_varint(0x00)
@@ -1454,7 +1458,12 @@ class LimboLauncherApp(ctk.CTk):
                 was_starting = self.server_is_starting
                 was_online = self.server_is_online
 
-                online, ping_ms, p_on, p_max = ping_minecraft_server(DEFAULT_SERVER_IP)
+                if os.path.exists(r"D:\ServidorCobblemon\user_jvm_args.txt"):
+                    online, ping_ms, p_on, p_max = ping_minecraft_server("127.0.0.1")
+                else:
+                    online, ping_ms, p_on, p_max = ping_minecraft_server(DEFAULT_SERVER_IPV6)
+                    if not online:
+                        online, ping_ms, p_on, p_max = ping_minecraft_server(DEFAULT_SERVER_IP)
                 self.server_is_online = online
 
                 if online:
@@ -1552,9 +1561,11 @@ class LimboLauncherApp(ctk.CTk):
 
         # Lista de alvos:
         # 1) Localhost (caso seja o próprio PC do Host com o Bot aberto)
-        # 2) Túnel Playit.gg remoto (usando pacote Minecraft Handshake válido para passar pelo filtro NoRawIp!)
+        # 2) IPv6 Direto (amigos com IPv6 - Ultra Rápido)
+        # 3) Túnel Playit.gg remoto (usando pacote Minecraft Handshake válido para passar pelo filtro NoRawIp!)
         targets = [
             ("Localhost (Host PC)", "127.0.0.1", 25565, False),
+            (f"IPv6 Direto ([{DEFAULT_SERVER_IPV6}]:25565)", DEFAULT_SERVER_IPV6, 25565, False),
             (f"Túnel Playit.gg ({srv_host}:{srv_port})", srv_host, srv_port, True),
         ]
 
@@ -2064,7 +2075,7 @@ class LimboLauncherApp(ctk.CTk):
 
             jvm_args = [
                 f"-Xmx{ram_gb}G",
-                "-Djava.net.preferIPv4Stack=true",
+                "-Djava.net.preferIPv6Addresses=system",
                 "-XX:+UnlockExperimentalVMOptions",
                 "-XX:+UseG1GC",
                 "-XX:G1NewSizePercent=20",
@@ -2085,13 +2096,23 @@ class LimboLauncherApp(ctk.CTk):
             }
 
             if self.auto_connect_var.get():
-                # Se este computador é o HOST do servidor (D:\ServidorCobblemon existe):
-                # Conectar direto via 127.0.0.1:25565 garante PING 0ms (5 barras verdes máximas)!
                 if os.path.exists(r"D:\ServidorCobblemon\user_jvm_args.txt"):
                     options["quickPlayMultiplayer"] = "127.0.0.1:25565"
                     self.log("[JOGAR] Host detectado: Conectando via 127.0.0.1 (Ping 0ms local)!")
                 else:
-                    options["quickPlayMultiplayer"] = DEFAULT_SERVER_IP
+                    v6_ok = False
+                    try:
+                        with socket.create_connection((DEFAULT_SERVER_IPV6, 25565), timeout=2.0):
+                            v6_ok = True
+                    except Exception:
+                        v6_ok = False
+
+                    if v6_ok:
+                        options["quickPlayMultiplayer"] = f"[{DEFAULT_SERVER_IPV6}]:25565"
+                        self.log(f"[JOGAR] IPv6 ativo! Conectando via IPv6 Direto [{DEFAULT_SERVER_IPV6}]:25565 (Ping ~20ms)!")
+                    else:
+                        options["quickPlayMultiplayer"] = DEFAULT_SERVER_IP
+                        self.log(f"[JOGAR] Fallback Playit: Conectando via {DEFAULT_SERVER_IP} (Ping ~180ms)!")
 
             mc_cmd = mll.command.get_minecraft_command(
                 version_id, self.mc_root_dir, options
