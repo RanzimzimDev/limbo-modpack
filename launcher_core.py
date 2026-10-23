@@ -2085,7 +2085,13 @@ class LimboLauncherApp(ctk.CTk):
             }
 
             if self.auto_connect_var.get():
-                options["quickPlayMultiplayer"] = DEFAULT_SERVER_IP
+                # Se este computador é o HOST do servidor (D:\ServidorCobblemon existe):
+                # Conectar direto via 127.0.0.1:25565 garante PING 0ms (5 barras verdes máximas)!
+                if os.path.exists(r"D:\ServidorCobblemon\user_jvm_args.txt"):
+                    options["quickPlayMultiplayer"] = "127.0.0.1:25565"
+                    self.log("[JOGAR] Host detectado: Conectando via 127.0.0.1 (Ping 0ms local)!")
+                else:
+                    options["quickPlayMultiplayer"] = DEFAULT_SERVER_IP
 
             mc_cmd = mll.command.get_minecraft_command(
                 version_id, self.mc_root_dir, options
