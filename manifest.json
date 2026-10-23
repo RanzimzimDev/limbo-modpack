@@ -30,8 +30,8 @@
     },
     {
       "path": "config/ae2-client.toml",
-      "sha1": "9ecf16206012512231aecdabe1f260ef09babeb0",
-      "size": 2341,
+      "sha1": "77efd984e79b869e78ca02f7c8da11215b6cb4ed",
+      "size": 2342,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ae2-client.toml"
     },
     {
@@ -413,6 +413,12 @@
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/comforts-server.toml"
     },
     {
+      "path": "config/connectivity.json",
+      "sha1": "3320ae1aa9f9295d26ce8705195948e99d277111",
+      "size": 1818,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/connectivity.json"
+    },
+    {
       "path": "config/cosmeticarmorreworked-client.toml",
       "sha1": "0d2fd35804938ab0a411dbd371648ca5fda5d028",
       "size": 1328,
@@ -423,6 +429,12 @@
       "sha1": "eb5c1b40fa9a28e80957889d09edfcf813249bf9",
       "size": 375,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cosmeticarmorreworked-common.toml"
+    },
+    {
+      "path": "config/cupboard.json",
+      "sha1": "eb126f493318b72b9af3676234bae75a0e782671",
+      "size": 1364,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cupboard.json"
     },
     {
       "path": "config/entityculling.json",
@@ -804,7 +816,7 @@
     },
     {
       "path": "config/sodium-options.json",
-      "sha1": "237dc8736e6fba56537ee77c0ba31bcf952e0546",
+      "sha1": "cec18c752d28cfdbb63ddd45ec8eba591ef60e3d",
       "size": 757,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sodium-options.json"
     },
@@ -1458,8 +1470,8 @@
     },
     {
       "path": "servers.dat",
-      "sha1": "56bab8692c55d9e76b12e1ace9f3071e753b25bb",
-      "size": 84,
+      "sha1": "08f8e8979a40ec9eb1c3185bae97d09f24baa791",
+      "size": 147,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/servers.dat"
     }
   ]
