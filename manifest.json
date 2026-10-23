@@ -1,5 +1,10 @@
 {
   "modpack_name": "Limbo Cobblemon",
+  "launcher_version": "1.2.1",
+  "launcher_sha1": "ec0010101d61d9c1bd2eef9cfcb241416592fda1",
+  "launcher_script_sha1": "ba43b27f37f0f8eb1cb6088e92295ea84ba843a1",
+  "launcher_script_url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/launcher_core.py",
+  "launcher_url": "https://github.com/RanzimzimDev/limbo-modpack/releases/latest/download/LimboLauncher.exe",
   "minecraft_version": "1.21.1",
   "neoforge_version": "21.1.262",
   "server_ip": "practically-currently.tun.ply.gg",
@@ -25,8 +30,8 @@
     },
     {
       "path": "config/ae2-client.toml",
-      "sha1": "9c2168a2c1a524f42c9f2fa19938ec86a9c491a1",
-      "size": 2343,
+      "sha1": "9ecf16206012512231aecdabe1f260ef09babeb0",
+      "size": 2341,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ae2-client.toml"
     },
     {
@@ -595,8 +600,8 @@
     },
     {
       "path": "config/jei/client/recipe-category-sort-order.ini",
-      "sha1": "fb78c5e40747f5cb89e44ddda748ace80cfdc75c",
-      "size": 1074,
+      "sha1": "3c1a4831295b621c468684308187776ed9f8d2d7",
+      "size": 1194,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/recipe-category-sort-order.ini"
     },
     {
@@ -685,8 +690,8 @@
     },
     {
       "path": "config/quickskin-client.json",
-      "sha1": "4902f6a90289f53684008c2e75e4195d74b860b5",
-      "size": 1707,
+      "sha1": "508d053b0a540a28e2c2dd0f26bcc45d44794c6e",
+      "size": 1636,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/quickskin-client.json"
     },
     {
@@ -799,8 +804,8 @@
     },
     {
       "path": "config/sodium-options.json",
-      "sha1": "fd77c5496e1a77975ccf069363c724ce40527421",
-      "size": 758,
+      "sha1": "237dc8736e6fba56537ee77c0ba31bcf952e0546",
+      "size": 757,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/sodium-options.json"
     },
     {
@@ -1212,6 +1217,12 @@
       "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/3kpPjcTc/comforts-neoforge-9.0.5%2B1.21.1.jar"
     },
     {
+      "path": "mods/connectivity-1.21.1-7.7.jar",
+      "sha1": "b4900c9a46123e2c7d6bfd653abbced92aab560b",
+      "size": 115891,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/mods/connectivity-1.21.1-7.7.jar"
+    },
+    {
       "path": "mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
       "sha1": "5f1e699cd0888b857ec63f01adaeb3571848bfea",
       "size": 92722,
@@ -1445,10 +1456,5 @@
       "size": 84,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/servers.dat"
     }
-  ],
-  "launcher_version": "1.2.1",
-  "launcher_sha1": "ec0010101d61d9c1bd2eef9cfcb241416592fda1",
-  "launcher_url": "https://github.com/RanzimzimDev/limbo-modpack/releases/latest/download/LimboLauncher.exe",
-  "launcher_script_sha1": "ba43b27f37f0f8eb1cb6088e92295ea84ba843a1",
-  "launcher_script_url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/launcher_core.py"
+  ]
 }

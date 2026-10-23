@@ -36,7 +36,7 @@
   "skinSortMode": "LATEST_LAST",
   "menuBackgroundStyle": "opaque_stars",
   "enablePlayerOwnSkinSystem": true,
-  "activeSkinHash": "sha256-a0befe36ad786c7ac8dea3a83097e333e06047f916fc8d86ee643276f1b9654a",
+  "activeSkinHash": "",
   "activeCpmModelHash": "",
   "pendingCpmSkinModeReset": true,
   "activeModelType": "auto",
