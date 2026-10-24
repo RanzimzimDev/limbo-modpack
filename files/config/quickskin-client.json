@@ -36,16 +36,17 @@
   "skinSortMode": "LATEST_LAST",
   "menuBackgroundStyle": "opaque_stars",
   "enablePlayerOwnSkinSystem": true,
-  "activeSkinHash": "",
+  "activeSkinHash": "sha256-9b2c9aeb185bafc19b108eae91ade6f6d7e37152a3bb9d18c8ecdce48e540d30",
   "activeCpmModelHash": "",
   "pendingCpmSkinModeReset": true,
   "activeModelType": "auto",
-  "activeCapeHash": "known:rickroll",
+  "activeCapeHash": "",
   "playerOwnSkinHash": "",
   "playerOwnSkinAccount": "",
   "accountSkins": {
     "skins": {
-      "500ab559-4fac-4034-8efb-b80ee61a26b5:ranzimzim": "sha256-a0befe36ad786c7ac8dea3a83097e333e06047f916fc8d86ee643276f1b9654a"
+      "500ab559-4fac-4034-8efb-b80ee61a26b5:ranzimzim": "sha256-a0befe36ad786c7ac8dea3a83097e333e06047f916fc8d86ee643276f1b9654a",
+      "b616d4c9-7249-36b3-95c7-fac6dd6dbcc2:ranzimzim": "sha256-9b2c9aeb185bafc19b108eae91ade6f6d7e37152a3bb9d18c8ecdce48e540d30"
     },
     "migrated": true
   }
