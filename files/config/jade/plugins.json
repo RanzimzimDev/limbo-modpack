@@ -65,6 +65,11 @@
   "oritech": {
     "machine_core_controller": true
   },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,

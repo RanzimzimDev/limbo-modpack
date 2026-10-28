@@ -1,88 +1,252 @@
-# Sol's AuthLogin System Configuration - Servidor Limbo Cobblemon
+#Sol's AuthLogin System Configuration
 [general]
 
+	#Timeout Settings
 	[general.timeout]
-		# Segundos antes de desconectar quem nao fizer login (0 = desativado)
+		#Seconds before player is kicked for not logging in (0 = disabled)
+		# Default: 180
+		# Range: 0 ~ 600
 		loginTimeoutSeconds = 90
-		# Segundos de espera pos-login
+		#Seconds to wait before teleporting player back after successful login
+		# Default: 5
+		# Range: 1 ~ 60
 		gracePeriodSeconds = 1
-		# Cache por IP desativado (0) para evitar compartilhamento de IP em tuneis/proxies
+		#Minutes to keep session cached for auto-login if same IP reconnects (0 = disabled)
+		# Default: 30
+		# Range: 0 ~ 1440
 		sessionCacheMinutes = 0
 
+	#Security Settings
 	[general.security]
+		#Maximum failed login attempts before temporary lockout
+		# Default: 5
+		# Range: 1 ~ 20
 		maxLoginAttempts = 5
+		#Seconds to lock player out after max failed attempts
+		# Default: 300
+		# Range: 30 ~ 3600
 		lockoutTimeSeconds = 120
+		#Minimum password length
+		# Default: 6
+		# Range: 4 ~ 32
 		minPasswordLength = 4
+		#Maximum password length
+		# Default: 32
+		# Range: 8 ~ 128
 		maxPasswordLength = 32
+		#Require at least one special character in password
 		requireSpecialChar = false
+		#Require at least one number in password
 		requireNumber = false
-		# IMPORTANTE: Falso para exigir token criptografico individual por PC ou senha, nunca apenas IP
+		#Enable automatic re-login if player reconnects from same IP within session timeout
 		enableSessionCache = false
+		#Kick player after too many failed login attempts
 		kickOnLockout = true
+		#Prevent multiple players from logging into the same account simultaneously
 		preventMultipleLogins = true
+		#Require players to have Sol's AuthLogin mod installed on client (recommended for token auto-login)
 		requireClientMod = true
+		#Require the local owner to authenticate in integrated single-player worlds
 		enableInSingleplayer = false
 
+	#Spawn and Teleport Settings
 	[general.spawn]
+		#Move unauthenticated players to the auth staging spawn while spectator-locked
 		teleportToSpawn = false
+		#Return players to their saved pre-auth position after login (requires teleportToSpawn)
 		teleportBackAfterLogin = false
+		#When teleportToSpawn is true, use world spawn for auth staging
 		useWorldSpawn = true
+		#Auth staging X coordinate when teleportToSpawn=true and useWorldSpawn=false
+		# Default: 0
+		# Range: -30000000 ~ 30000000
 		customSpawnX = 0
+		#Auth staging Y coordinate when teleportToSpawn=true and useWorldSpawn=false
+		# Default: 100
+		# Range: -64 ~ 320
 		customSpawnY = 100
+		#Auth staging Z coordinate when teleportToSpawn=true and useWorldSpawn=false
+		# Default: 0
+		# Range: -30000000 ~ 30000000
 		customSpawnZ = 0
 
+	#Notification Settings
 	[general.notifications]
+		#Seconds between login reminder messages
+		# Default: 10
+		# Range: 5 ~ 60
 		reminderIntervalSeconds = 10
+		#Show title screen reminders
 		showTitleReminders = true
+		#Show action bar reminders
 		showActionBarReminders = true
 
+	#Message Settings
 	[general.messages]
+		#Core Player Prompts
+		#Message shown to new players who need to register
 		registerPromptMessage = "§6Bem-vindo ao §d§lLimbo Cobblemon§6! Crie sua senha com §e/register <senha> <senha>"
+		#Message shown to returning players who need to login
 		loginPromptMessage = "§6Bem-vindo de volta! Autentique-se com §e/login <senha>"
+		#Message shown on successful login
 		loginSuccessMessage = "§aLogin confirmado! Liberando em %d segundos..."
+		#Message shown on successful registration
 		registerSuccessMessage = "§aConta registrada com sucesso! Liberando em %d segundos..."
+		#Message shown when unauthenticated player tries to do something
 		actionBlockedMessage = "§cAutentique-se primeiro! Use §e/login <senha> §cou §e/register <senha> <senha>"
+		#Kick message for login timeout
 		timeoutKickMessage = "§cTempo esgotado para login! Reconecte e digite sua senha."
+		#Kick message for too many wrong password attempts
 		kickWrongPasswordMessage = "§cMuitas tentativas incorretas! Aguarde antes de reconectar."
+		#Join and Authentication Gate
+		#Message shown when a username is already authenticated from another session
 		duplicateLoginMessage = "§cJá existe um treinador conectado e autenticado com este Nick!"
+		#Kick message shown when client mod is required but missing
 		requireClientModMessage = "§cEste servidor requer o modpack oficial do Limbo Launcher."
+		#Title shown to registered players on join
 		loginPromptTitleMessage = "§d§lLIMBO COBBLEMON"
+		#Subtitle shown to registered players on join
 		loginPromptSubtitleMessage = "§fAutenticando pelo §dLimbo Launcher §7(/login <senha>)"
+		#Title shown to unregistered players on join
 		registerPromptTitleMessage = "§b§lCRIANDO CONTA..."
+		#Subtitle shown to unregistered players on join
 		registerPromptSubtitleMessage = "§fAutenticando pelo §dLimbo Launcher §7(/register <senha> <senha>)"
+		#Message shown when unauthenticated player tries to chat
 		authChatBlockedMessage = "§cVocê precisa fazer login antes de usar o chat!"
+		#Action bar reminder for registered players, supports %d for seconds remaining
 		authReminderLoginActionBarMessage = "§eLogin necessário! §f%ds restantes §7• /login <senha>"
+		#Action bar reminder for unregistered players, supports %d for seconds remaining
 		authReminderRegisterActionBarMessage = "§bRegistro necessário! §f%ds restantes §7• /register <senha> <senha>"
+		#Command Flow Messages
+		#Message shown when a console/non-player source runs player-only command
 		notPlayerCommandMessage = "Este comando só pode ser usado por jogadores!"
+		#Message shown when already-authenticated player runs login/register
 		alreadyLoggedInMessage = "§eVocê já está autenticado!"
+		#Message shown when register password and confirmation do not match
 		passwordMismatchMessage = "§cAs senhas não coincidem! Digite a mesma senha duas vezes."
+		#Title shown when registration fails validation
 		registrationFailedTitle = "§cFalha no Registro"
+		#Subtitle shown when registration fails validation
 		registrationFailedSubtitle = "§eVerifique os requisitos no chat"
+		#Message shown when unauthenticated player runs change_password
 		changePasswordRequireLoginMessage = "§cFaça login antes de alterar sua senha!"
+		#Message shown when new password confirmation does not match
 		newPasswordMismatchMessage = "§cAs novas senhas não coincidem!"
+		#Kick message used after too many failed login attempts
 		loginKickTooManyAttemptsMessage = "§cExcesso de tentativas incorretas de senha."
+		#Post-Auth and Teleport Flow
+		#Message shown on successful registration when no teleport-back countdown is used
 		registerSuccessNoTeleportMessage = "§aConta registrada e protegida com sucesso! Bom jogo!"
+		#Message shown on successful login when no teleport-back countdown is used
 		loginSuccessNoTeleportMessage = "§aAutenticado com sucesso! Bom jogo!"
+		#Post-auth title for newly registered players
 		postAuthRegisterTitleMessage = "§a§lCONTA PROTEGIDA!"
+		#Post-auth title for returning players
 		postAuthLoginTitleMessage = "§a§lBEM-VINDO!"
+		#Post-auth subtitle while waiting teleport-back, supports %d for grace seconds
 		postAuthTeleportSubtitleMessage = "§eLiberando em %ds..."
+		#Post-auth subtitle when player is immediately ready to play
 		postAuthReadySubtitleMessage = "§fBoa jornada Pokémon!"
+		#Teleport-back countdown action bar, supports %d for remaining seconds
 		teleportBackCountdownActionBarMessage = "§eRetornando à sua posição em §f%ds§e..."
+		#Message shown after teleporting player back to original location
 		teleportBackSuccessMessage = "§aPosição restaurada!"
+		#Title shown after teleport-back completes
 		teleportBackTitleMessage = ""
+		#Subtitle shown after teleport-back completes
 		teleportBackSubtitleMessage = "§aPronto!"
+		#Message shown when token auto-login succeeds, supports %d for grace seconds
 		autoLoginSuccessMessage = "§a§lAuto-Login: §fToken verificado com segurança! Bom jogo!"
+		#Title shown on successful auto-login
 		autoLoginTitleMessage = "§a§lAUTO-LOGIN ATIVO"
+		#Subtitle shown on successful auto-login, supports %d for grace seconds
 		autoLoginSubtitleMessage = "§fSessão verificada pelo Limbo Launcher"
+		#Credential Validation Messages
+		#Credential manager error when user is already registered
 		credentialAlreadyRegisteredMessage = "§cEste nick já está registrado! Use §e/login <senha>"
+		#Credential manager error when user is not registered
 		credentialNotRegisteredMessage = "§cConta ainda não registrada! Use §e/register <senha> <senha>"
+		#Credential manager lockout wait message, supports %d for remaining seconds
 		credentialTooManyFailedWaitMessage = "§cMuitas tentativas falhas! Aguarde %d segundos."
+		#Credential manager wrong-password lock message, supports %d for lockout seconds
 		credentialWrongPasswordLockedMessage = "§cSenha incorreta! Conta bloqueada temporariamente por %d segundos."
+		#Credential manager wrong-password attempts remaining message, supports %d for attempts
 		credentialWrongPasswordRemainingMessage = "§cSenha incorreta! Restam %d tentativas."
+		#Credential manager error when changing password on unregistered account
 		credentialChangePasswordNotRegisteredMessage = "§cVocê ainda não possui registro!"
+		#Credential manager error when current password does not match
 		credentialCurrentPasswordIncorrectMessage = "§cA senha atual informada está incorreta!"
+		#Credential manager success message after password change
 		credentialPasswordChangedMessage = "§aSua senha foi alterada com sucesso!"
+		#Credential manager minimum length validation message, supports %d for minimum length
 		credentialPasswordMinLengthMessage = "§cA senha deve ter pelo menos %d caracteres!"
+		#Credential manager maximum length validation message, supports %d for maximum length
 		credentialPasswordMaxLengthMessage = "§cA senha não pode ultrapassar %d caracteres!"
+		#Credential manager validation message for required number
 		credentialPasswordRequireNumberMessage = "§cA senha deve conter pelo menos um número!"
+		#Credential manager validation message for required special character
 		credentialPasswordRequireSpecialCharMessage = "§cA senha deve conter pelo menos um caractere especial!"
+		#Admin Command Messages
+		#Admin message after auth_admin reload
+		adminReloadSuccessMessage = "§aAuthentication system reloaded!"
+		#Admin message after resetpassword, supports %s for target player
+		adminResetPasswordSuccessMessage = "§aPassword reset for %s!"
+		#Player notification when admin resets their password
+		adminResetPasswordNotifyMessage = "§eYour password has been reset by an administrator."
+		#Admin error when target is not registered, supports %s for target player
+		adminPlayerNotRegisteredMessage = "§cPlayer %s is not registered!"
+		#Admin message after unregister, supports %s for target player
+		adminUnregisterSuccessMessage = "§aPlayer %s has been unregistered!"
+		#Kick message sent to online player after admin unregister
+		adminUnregisterKickMessage = "§cYour account has been unregistered."
+		#Admin error when target is not online, supports %s for target player
+		adminPlayerNotOnlineMessage = "§cPlayer %s is not online!"
+		#Admin error when target is already logged in, supports %s for target player
+		adminPlayerAlreadyLoggedInMessage = "§cPlayer %s is already logged in!"
+		#Player notification when admin force-logs them in
+		adminForceLoginNotifyMessage = "§aYou have been logged in by an administrator."
+		#Title shown to player on admin force login
+		adminForceLoginTitle = "§a§lForce Login"
+		#Subtitle shown to player on admin force login
+		adminForceLoginSubtitle = "§eAdmin logged you in"
+		#Admin confirmation after force login, supports %s for target player
+		adminForceLoginSuccessMessage = "§aForce logged in %s!"
+		#Admin error when target is not logged in, supports %s for target player
+		adminPlayerNotLoggedInMessage = "§cPlayer %s is not logged in!"
+		#Player notification when admin force-logs them out
+		adminForceLogoutNotifyMessage = "§cYou have been logged out by an administrator."
+		#Title shown to player on admin force logout
+		adminForceLogoutTitle = "§c§lLogged Out"
+		#Subtitle shown to registered player on admin force logout
+		adminForceLogoutSubtitleLogin = "§eUse /login <password>"
+		#Subtitle shown to unregistered player on admin force logout
+		adminForceLogoutSubtitleRegister = "§eUse /register <password> <password>"
+		#Admin confirmation after force logout, supports %s for target player
+		adminForceLogoutSuccessMessage = "§aForce logged out %s!"
+		#Template for auth_admin info output with placeholders: player, registered, online, authenticated, lastIp, lastLogin
+		adminInfoTemplateMessage = "§e--- Player Info: %s ---\\n§7Registered: %s\\n§7Online: %s\\n§7Authenticated: %s\\n§7Last IP: §f%s\\n§7Last Login: §f%s"
+		#Status label used for YES in admin info
+		adminInfoYesText = "§aYes"
+		#Status label used for NO in admin info
+		adminInfoNoText = "§cNo"
+		#Fallback text used when admin info value is unknown
+		adminInfoUnknownText = "Unknown"
+		#Header shown in auth_admin list output
+		adminListHeaderMessage = "§e--- Online Players Authentication Status ---"
+		#Status text for logged in players in auth_admin list
+		adminListStatusLoggedIn = "§aLogged In"
+		#Status text for registered but not logged in players in auth_admin list
+		adminListStatusNotLoggedIn = "§eNot Logged In"
+		#Status text for unregistered players in auth_admin list
+		adminListStatusNotRegistered = "§cNot Registered"
+		#Relative Time Labels
+		#Relative-time text for no login history
+		timeNeverMessage = "Never"
+		#Relative-time text for immediate events
+		timeJustNowMessage = "Just now"
+		#Relative-time text for days, supports %d
+		timeDaysAgoMessage = "%d days ago"
+		#Relative-time text for hours, supports %d
+		timeHoursAgoMessage = "%d hours ago"
+		#Relative-time text for minutes, supports %d
+		timeMinutesAgoMessage = "%d minutes ago"

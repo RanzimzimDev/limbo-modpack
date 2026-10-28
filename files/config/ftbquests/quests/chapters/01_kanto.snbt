@@ -36,6 +36,11 @@
 					item: { count: 1, id: "cobblemon:pokedex_red" }
 					type: "item"
 				}
+				{
+					id: "1101200000000005"
+					item: { count: 1, id: "rctmod:trainer_card" }
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.45d
@@ -55,23 +60,23 @@
 			optional: true
 			rewards: [
 				{
-					id: "1101200000000005"
+					id: "1101200000000006"
 					item: { count: 1, id: "rctmod:trainer_spawner" }
 					type: "item"
 				}
 				{
-					id: "1101200000000006"
+					id: "1101200000000007"
 					item: { count: 1, id: "ironfurnaces:copper_furnace" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "1101200000000007"
+					id: "1101200000000008"
 					item: { count: 4, id: "cobblemon:potion" }
 					type: "item"
 				}
 				{
-					id: "1101200000000008"
+					id: "1101200000000009"
 					item: { count: 1, id: "cobblemon:revive" }
 					type: "item"
 				}
@@ -79,7 +84,7 @@
 					command: "/cobbledollars give {p} 250"
 					feedback_message: "CobbleDollars adicionados (+$250)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000009"
+					id: "110120000000000A"
 					permission_level: 2
 					silent: true
 					title: "+$250 CobbleDollars"
@@ -112,13 +117,13 @@
 			rewards: [
 				{
 					count: 5
-					id: "110120000000000A"
+					id: "110120000000000B"
 					item: { count: 5, id: "cobblemon:poke_ball" }
 					type: "item"
 				}
 				{
 					count: 16
-					id: "110120000000000B"
+					id: "110120000000000C"
 					item: { count: 16, id: "minecraft:bread" }
 					type: "item"
 				}
@@ -126,7 +131,7 @@
 					command: "/cobbledollars give {p} 200"
 					feedback_message: "CobbleDollars adicionados (+$200)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "110120000000000C"
+					id: "110120000000000D"
 					permission_level: 2
 					silent: true
 					title: "+$200 CobbleDollars"
@@ -153,13 +158,13 @@
 			rewards: [
 				{
 					count: 3
-					id: "110120000000000D"
+					id: "110120000000000E"
 					item: { count: 3, id: "cobblemon:poke_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "110120000000000E"
+					id: "110120000000000F"
 					item: { count: 3, id: "cobblemon:exp_candy_xs" }
 					type: "item"
 				}
@@ -167,7 +172,7 @@
 					command: "/cobbledollars give {p} 150"
 					feedback_message: "CobbleDollars adicionados (+$150)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "110120000000000F"
+					id: "1101200000000010"
 					permission_level: 2
 					silent: true
 					title: "+$150 CobbleDollars"
@@ -178,10 +183,8 @@
 			size: 1.1d
 			tasks: [
 				{
-					advancement: "rctmod:trainers/defeat_any"
-					criterion: ""
 					id: "1101100000000005"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
 			x: -6.0d
@@ -193,25 +196,25 @@
 			id: "1101000000000005"
 			rewards: [
 				{
-					id: "1101200000000010"
+					id: "1101200000000011"
 					item: { count: 1, id: "pastas_cobblemon_badges:rock_badge" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "1101200000000011"
+					id: "1101200000000012"
 					item: { count: 4, id: "cobblemon:great_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000012"
+					id: "1101200000000013"
 					item: { count: 3, id: "cobblemon:exp_candy_s" }
 					type: "item"
 				}
 				{
 					count: 8
-					id: "1101200000000013"
+					id: "1101200000000014"
 					item: { count: 8, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
@@ -219,7 +222,7 @@
 					command: "/cobbledollars give {p} 500"
 					feedback_message: "CobbleDollars adicionados (+$500)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000014"
+					id: "1101200000000015"
 					permission_level: 2
 					silent: true
 					title: "+$500 CobbleDollars"
@@ -246,19 +249,19 @@
 			rewards: [
 				{
 					count: 2
-					id: "1101200000000015"
+					id: "1101200000000016"
 					item: { count: 2, id: "cobblemon:super_potion" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000016"
+					id: "1101200000000017"
 					item: { count: 2, id: "cobblemon:full_heal" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000017"
+					id: "1101200000000018"
 					item: { count: 3, id: "cobblemon:exp_candy_s" }
 					type: "item"
 				}
@@ -266,7 +269,7 @@
 					command: "/cobbledollars give {p} 300"
 					feedback_message: "CobbleDollars adicionados (+$300)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000018"
+					id: "1101200000000019"
 					permission_level: 2
 					silent: true
 					title: "+$300 CobbleDollars"
@@ -293,19 +296,19 @@
 			rewards: [
 				{
 					count: 3
-					id: "1101200000000019"
+					id: "110120000000001A"
 					item: { count: 3, id: "cobblemon:great_ball" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "110120000000001A"
+					id: "110120000000001B"
 					item: { count: 2, id: "cobblemon:exp_candy_s" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "110120000000001B"
+					id: "110120000000001C"
 					item: { count: 4, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
@@ -313,7 +316,7 @@
 					command: "/cobbledollars give {p} 400"
 					feedback_message: "CobbleDollars adicionados (+$400)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "110120000000001C"
+					id: "110120000000001D"
 					permission_level: 2
 					silent: true
 					title: "+$400 CobbleDollars"
@@ -339,24 +342,24 @@
 			id: "1101000000000008"
 			rewards: [
 				{
-					id: "110120000000001D"
+					id: "110120000000001E"
 					item: { count: 1, id: "pastas_cobblemon_badges:water_badge" }
 					type: "item"
 				}
 				{
-					id: "110120000000001E"
+					id: "110120000000001F"
 					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "110120000000001F"
+					id: "1101200000000020"
 					item: { count: 4, id: "cobblemon:great_ball" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000020"
+					id: "1101200000000021"
 					item: { count: 2, id: "cobblemon:exp_candy_m" }
 					type: "item"
 				}
@@ -364,7 +367,7 @@
 					command: "/cobbledollars give {p} 700"
 					feedback_message: "CobbleDollars adicionados (+$700)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000021"
+					id: "1101200000000022"
 					permission_level: 2
 					silent: true
 					title: "+$700 CobbleDollars"
@@ -391,13 +394,13 @@
 			rewards: [
 				{
 					count: 3
-					id: "1101200000000022"
+					id: "1101200000000023"
 					item: { count: 3, id: "cobblemon:great_ball" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000023"
+					id: "1101200000000024"
 					item: { count: 2, id: "cobblemon:exp_candy_m" }
 					type: "item"
 				}
@@ -405,7 +408,7 @@
 					command: "/cobbledollars give {p} 400"
 					feedback_message: "CobbleDollars adicionados (+$400)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000024"
+					id: "1101200000000025"
 					permission_level: 2
 					silent: true
 					title: "+$400 CobbleDollars"
@@ -431,24 +434,24 @@
 			id: "110100000000000A"
 			rewards: [
 				{
-					id: "1101200000000025"
+					id: "1101200000000026"
 					item: { count: 1, id: "pastas_cobblemon_badges:electric_badge" }
 					type: "item"
 				}
 				{
-					id: "1101200000000026"
+					id: "1101200000000027"
 					item: { count: 1, id: "ironfurnaces:iron_furnace" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "1101200000000027"
+					id: "1101200000000028"
 					item: { count: 4, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000028"
+					id: "1101200000000029"
 					item: { count: 3, id: "cobblemon:exp_candy_m" }
 					type: "item"
 				}
@@ -456,7 +459,7 @@
 					command: "/cobbledollars give {p} 800"
 					feedback_message: "CobbleDollars adicionados (+$800)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000029"
+					id: "110120000000002A"
 					permission_level: 2
 					silent: true
 					title: "+$800 CobbleDollars"
@@ -482,25 +485,25 @@
 			id: "110100000000000B"
 			rewards: [
 				{
-					id: "110120000000002A"
+					id: "110120000000002B"
 					item: { count: 1, id: "pastas_cobblemon_badges:grass_badge" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "110120000000002B"
+					id: "110120000000002C"
 					item: { count: 4, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "110120000000002C"
+					id: "110120000000002D"
 					item: { count: 3, id: "cobblemon:exp_candy_m" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "110120000000002D"
+					id: "110120000000002E"
 					item: { count: 2, id: "cobblemon:hyper_potion" }
 					type: "item"
 				}
@@ -508,7 +511,7 @@
 					command: "/cobbledollars give {p} 1000"
 					feedback_message: "CobbleDollars adicionados (+$1.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "110120000000002E"
+					id: "110120000000002F"
 					permission_level: 2
 					silent: true
 					title: "+$1.000 CobbleDollars"
@@ -535,18 +538,18 @@
 			rewards: [
 				{
 					count: 3
-					id: "110120000000002F"
+					id: "1101200000000030"
 					item: { count: 3, id: "cobblemon:hyper_potion" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000030"
+					id: "1101200000000031"
 					item: { count: 2, id: "cobblemon:revive" }
 					type: "item"
 				}
 				{
-					id: "1101200000000031"
+					id: "1101200000000032"
 					item: { count: 1, id: "cobblemon:rare_candy" }
 					type: "item"
 				}
@@ -554,7 +557,7 @@
 					command: "/cobbledollars give {p} 1200"
 					feedback_message: "CobbleDollars adicionados (+$1.200)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000032"
+					id: "1101200000000033"
 					permission_level: 2
 					silent: true
 					title: "+$1.200 CobbleDollars"
@@ -581,13 +584,13 @@
 			rewards: [
 				{
 					count: 3
-					id: "1101200000000033"
+					id: "1101200000000034"
 					item: { count: 3, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000034"
+					id: "1101200000000035"
 					item: { count: 3, id: "cobblemon:exp_candy_l" }
 					type: "item"
 				}
@@ -595,7 +598,7 @@
 					command: "/cobbledollars give {p} 800"
 					feedback_message: "CobbleDollars adicionados (+$800)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000035"
+					id: "1101200000000036"
 					permission_level: 2
 					silent: true
 					title: "+$800 CobbleDollars"
@@ -621,13 +624,13 @@
 			id: "110100000000000E"
 			rewards: [
 				{
-					id: "1101200000000036"
+					id: "1101200000000037"
 					item: { count: 1, id: "cobblemon:max_revive" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000037"
+					id: "1101200000000038"
 					item: { count: 3, id: "cobblemon:exp_candy_l" }
 					type: "item"
 				}
@@ -635,7 +638,7 @@
 					command: "/cobbledollars give {p} 1000"
 					feedback_message: "CobbleDollars adicionados (+$1.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000038"
+					id: "1101200000000039"
 					permission_level: 2
 					silent: true
 					title: "+$1.000 CobbleDollars"
@@ -661,17 +664,17 @@
 			id: "110100000000000F"
 			rewards: [
 				{
-					id: "1101200000000039"
+					id: "110120000000003A"
 					item: { count: 1, id: "mega_showdown:mega_ring" }
 					type: "item"
 				}
 				{
-					id: "110120000000003A"
+					id: "110120000000003B"
 					item: { count: 1, id: "cobblemon:exp_share" }
 					type: "item"
 				}
 				{
-					id: "110120000000003B"
+					id: "110120000000003C"
 					item: { count: 1, id: "cobblemon:rare_candy" }
 					type: "item"
 				}
@@ -679,7 +682,7 @@
 					command: "/cobbledollars give {p} 1500"
 					feedback_message: "CobbleDollars adicionados (+$1.500)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "110120000000003C"
+					id: "110120000000003D"
 					permission_level: 2
 					silent: true
 					title: "+$1.500 CobbleDollars"
@@ -705,25 +708,25 @@
 			id: "1101000000000010"
 			rewards: [
 				{
-					id: "110120000000003D"
+					id: "110120000000003E"
 					item: { count: 1, id: "pastas_cobblemon_badges:psychic_badge" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "110120000000003E"
+					id: "110120000000003F"
 					item: { count: 4, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "110120000000003F"
+					id: "1101200000000040"
 					item: { count: 3, id: "cobblemon:exp_candy_l" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000040"
+					id: "1101200000000041"
 					item: { count: 2, id: "minecraft:diamond" }
 					type: "item"
 				}
@@ -731,7 +734,7 @@
 					command: "/cobbledollars give {p} 1500"
 					feedback_message: "CobbleDollars adicionados (+$1.500)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000041"
+					id: "1101200000000042"
 					permission_level: 2
 					silent: true
 					title: "+$1.500 CobbleDollars"
@@ -758,13 +761,13 @@
 			rewards: [
 				{
 					count: 3
-					id: "1101200000000042"
+					id: "1101200000000043"
 					item: { count: 3, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000043"
+					id: "1101200000000044"
 					item: { count: 3, id: "cobblemon:exp_candy_l" }
 					type: "item"
 				}
@@ -772,7 +775,7 @@
 					command: "/cobbledollars give {p} 800"
 					feedback_message: "CobbleDollars adicionados (+$800)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000044"
+					id: "1101200000000045"
 					permission_level: 2
 					silent: true
 					title: "+$800 CobbleDollars"
@@ -798,25 +801,25 @@
 			id: "1101000000000012"
 			rewards: [
 				{
-					id: "1101200000000045"
+					id: "1101200000000046"
 					item: { count: 1, id: "pastas_cobblemon_badges:poison_badge" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "1101200000000046"
+					id: "1101200000000047"
 					item: { count: 4, id: "cobblemon:dusk_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000047"
+					id: "1101200000000048"
 					item: { count: 3, id: "cobblemon:exp_candy_l" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000048"
+					id: "1101200000000049"
 					item: { count: 2, id: "cobblemon:full_heal" }
 					type: "item"
 				}
@@ -824,7 +827,7 @@
 					command: "/cobbledollars give {p} 1800"
 					feedback_message: "CobbleDollars adicionados (+$1.800)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000049"
+					id: "110120000000004A"
 					permission_level: 2
 					silent: true
 					title: "+$1.800 CobbleDollars"
@@ -851,13 +854,13 @@
 			rewards: [
 				{
 					count: 3
-					id: "110120000000004A"
+					id: "110120000000004B"
 					item: { count: 3, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "110120000000004B"
+					id: "110120000000004C"
 					item: { count: 3, id: "cobblemon:exp_candy_l" }
 					type: "item"
 				}
@@ -865,7 +868,7 @@
 					command: "/cobbledollars give {p} 1000"
 					feedback_message: "CobbleDollars adicionados (+$1.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "110120000000004C"
+					id: "110120000000004D"
 					permission_level: 2
 					silent: true
 					title: "+$1.000 CobbleDollars"
@@ -891,24 +894,24 @@
 			id: "1101000000000014"
 			rewards: [
 				{
-					id: "110120000000004D"
+					id: "110120000000004E"
 					item: { count: 1, id: "pastas_cobblemon_badges:fire_badge" }
 					type: "item"
 				}
 				{
 					count: 5
-					id: "110120000000004E"
+					id: "110120000000004F"
 					item: { count: 5, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "110120000000004F"
+					id: "1101200000000050"
 					item: { count: 2, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
 				{
-					id: "1101200000000050"
+					id: "1101200000000051"
 					item: { count: 1, id: "cobblemon:rare_candy" }
 					type: "item"
 				}
@@ -916,7 +919,7 @@
 					command: "/cobbledollars give {p} 2000"
 					feedback_message: "CobbleDollars adicionados (+$2.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000051"
+					id: "1101200000000052"
 					permission_level: 2
 					silent: true
 					title: "+$2.000 CobbleDollars"
@@ -944,19 +947,19 @@
 			rewards: [
 				{
 					count: 3
-					id: "1101200000000052"
+					id: "1101200000000053"
 					item: { count: 3, id: "cobblemon:full_restore" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000053"
+					id: "1101200000000054"
 					item: { count: 2, id: "cobblemon:max_revive" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000054"
+					id: "1101200000000055"
 					item: { count: 2, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
@@ -964,7 +967,7 @@
 					command: "/cobbledollars give {p} 1800"
 					feedback_message: "CobbleDollars adicionados (+$1.800)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000055"
+					id: "1101200000000056"
 					permission_level: 2
 					silent: true
 					title: "+$1.800 CobbleDollars"
@@ -996,18 +999,18 @@
 			id: "1101000000000016"
 			rewards: [
 				{
-					id: "1101200000000056"
+					id: "1101200000000057"
 					item: { count: 1, id: "mega_showdown:mewtwonite_y" }
 					type: "item"
 				}
 				{
-					id: "1101200000000057"
+					id: "1101200000000058"
 					item: { count: 1, id: "cobblemon:leftovers" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "1101200000000058"
+					id: "1101200000000059"
 					item: { count: 2, id: "cobblemon:rare_candy" }
 					type: "item"
 				}
@@ -1015,7 +1018,7 @@
 					command: "/cobbledollars give {p} 2500"
 					feedback_message: "CobbleDollars adicionados (+$2.500)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "1101200000000059"
+					id: "110120000000005A"
 					permission_level: 2
 					silent: true
 					title: "+$2.500 CobbleDollars"
@@ -1041,25 +1044,25 @@
 			id: "1101000000000017"
 			rewards: [
 				{
-					id: "110120000000005A"
+					id: "110120000000005B"
 					item: { count: 1, id: "pastas_cobblemon_badges:dragon_badge" }
 					type: "item"
 				}
 				{
 					count: 6
-					id: "110120000000005B"
+					id: "110120000000005C"
 					item: { count: 6, id: "cobblemon:ultra_ball" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "110120000000005C"
+					id: "110120000000005D"
 					item: { count: 3, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
 				{
 					count: 2
-					id: "110120000000005D"
+					id: "110120000000005E"
 					item: { count: 2, id: "cobblemon:rare_candy" }
 					type: "item"
 				}
@@ -1067,7 +1070,7 @@
 					command: "/cobbledollars give {p} 3000"
 					feedback_message: "CobbleDollars adicionados (+$3.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "110120000000005E"
+					id: "110120000000005F"
 					permission_level: 2
 					silent: true
 					title: "+$3.000 CobbleDollars"
@@ -1093,13 +1096,13 @@
 			id: "1101000000000018"
 			rewards: [
 				{
-					id: "110120000000005F"
+					id: "1101200000000060"
 					item: { count: 1, id: "cobblemon:lucky_egg" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000060"
+					id: "1101200000000061"
 					item: { count: 3, id: "cobblemon:max_potion" }
 					type: "item"
 				}
@@ -1107,7 +1110,7 @@
 					command: "/cobbledollars give {p} 2000"
 					feedback_message: "CobbleDollars adicionados (+$2.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin" }
-					id: "1101200000000061"
+					id: "1101200000000062"
 					permission_level: 2
 					silent: true
 					title: "+$2.000 CobbleDollars"
@@ -1134,19 +1137,19 @@
 			rewards: [
 				{
 					count: 2
-					id: "1101200000000062"
+					id: "1101200000000063"
 					item: { count: 2, id: "cobblemon:max_revive" }
 					type: "item"
 				}
 				{
 					count: 4
-					id: "1101200000000063"
+					id: "1101200000000064"
 					item: { count: 4, id: "cobblemon:full_restore" }
 					type: "item"
 				}
 				{
 					count: 3
-					id: "1101200000000064"
+					id: "1101200000000065"
 					item: { count: 3, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
@@ -1154,7 +1157,7 @@
 					command: "/cobbledollars give {p} 2500"
 					feedback_message: "CobbleDollars adicionados (+$2.500)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "1101200000000065"
+					id: "1101200000000066"
 					permission_level: 2
 					silent: true
 					title: "+$2.500 CobbleDollars"
@@ -1181,7 +1184,7 @@
 			rewards: [
 				{
 					count: 5
-					id: "1101200000000066"
+					id: "1101200000000067"
 					item: { count: 5, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
@@ -1189,7 +1192,7 @@
 					command: "/cobbledollars give {p} 5000"
 					feedback_message: "CobbleDollars adicionados (+$5.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "1101200000000067"
+					id: "1101200000000068"
 					permission_level: 2
 					silent: true
 					title: "+$5.000 CobbleDollars"
@@ -1216,7 +1219,7 @@
 			rewards: [
 				{
 					count: 5
-					id: "1101200000000068"
+					id: "1101200000000069"
 					item: { count: 5, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
@@ -1224,7 +1227,7 @@
 					command: "/cobbledollars give {p} 5000"
 					feedback_message: "CobbleDollars adicionados (+$5.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "1101200000000069"
+					id: "110120000000006A"
 					permission_level: 2
 					silent: true
 					title: "+$5.000 CobbleDollars"
@@ -1251,7 +1254,7 @@
 			rewards: [
 				{
 					count: 5
-					id: "110120000000006A"
+					id: "110120000000006B"
 					item: { count: 5, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
@@ -1259,7 +1262,7 @@
 					command: "/cobbledollars give {p} 5000"
 					feedback_message: "CobbleDollars adicionados (+$5.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "110120000000006B"
+					id: "110120000000006C"
 					permission_level: 2
 					silent: true
 					title: "+$5.000 CobbleDollars"
@@ -1286,7 +1289,7 @@
 			rewards: [
 				{
 					count: 5
-					id: "110120000000006C"
+					id: "110120000000006D"
 					item: { count: 5, id: "cobblemon:exp_candy_xl" }
 					type: "item"
 				}
@@ -1294,7 +1297,7 @@
 					command: "/cobbledollars give {p} 5000"
 					feedback_message: "CobbleDollars adicionados (+$5.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
-					id: "110120000000006D"
+					id: "110120000000006E"
 					permission_level: 2
 					silent: true
 					title: "+$5.000 CobbleDollars"
@@ -1325,18 +1328,18 @@
 			id: "110100000000001E"
 			rewards: [
 				{
-					id: "110120000000006E"
+					id: "110120000000006F"
 					item: { count: 1, id: "cobblemon:master_ball" }
 					type: "item"
 				}
 				{
-					id: "110120000000006F"
+					id: "1101200000000070"
 					item: { count: 1, id: "cobblemon:ability_patch" }
 					type: "item"
 				}
 				{
 					count: 10
-					id: "1101200000000070"
+					id: "1101200000000071"
 					item: { count: 10, id: "cobblemon:rare_candy" }
 					type: "item"
 				}
@@ -1344,14 +1347,14 @@
 					command: "/cobbledollars give {p} 25000"
 					feedback_message: "CobbleDollars adicionados (+$25.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_sack" }
-					id: "1101200000000071"
+					id: "1101200000000072"
 					permission_level: 2
 					silent: true
 					title: "+$25.000 CobbleDollars"
 					type: "command"
 				}
 				{
-					id: "1101200000000072"
+					id: "1101200000000073"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -1376,27 +1379,27 @@
 			optional: true
 			rewards: [
 				{
-					id: "1101200000000073"
+					id: "1101200000000074"
 					item: { count: 1, id: "mega_showdown:ash_cap" }
 					type: "item"
 				}
 				{
-					id: "1101200000000074"
+					id: "1101200000000075"
 					item: { count: 1, id: "cobblemon:master_ball" }
 					type: "item"
 				}
 				{
-					id: "1101200000000075"
+					id: "1101200000000076"
 					item: { count: 1, id: "cobblemon:life_orb" }
 					type: "item"
 				}
 				{
-					id: "1101200000000076"
+					id: "1101200000000077"
 					item: { count: 1, id: "cobblemon:choice_band" }
 					type: "item"
 				}
 				{
-					id: "1101200000000077"
+					id: "1101200000000078"
 					item: { count: 1, id: "cobblemon:choice_specs" }
 					type: "item"
 				}
@@ -1404,14 +1407,14 @@
 					command: "/cobbledollars give {p} 50000"
 					feedback_message: "CobbleDollars adicionados (+$50.000)!"
 					icon: { count: 1, id: "cobblemon:relic_coin_sack" }
-					id: "1101200000000078"
+					id: "1101200000000079"
 					permission_level: 2
 					silent: true
 					title: "+$50.000 CobbleDollars"
 					type: "command"
 				}
 				{
-					id: "1101200000000079"
+					id: "110120000000007A"
 					type: "xp_levels"
 					xp_levels: 15
 				}

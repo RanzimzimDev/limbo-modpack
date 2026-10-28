@@ -449,6 +449,12 @@
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/cupboard.json"
     },
     {
+      "path": "config/easy_villagers-client.toml",
+      "sha1": "7e9a611c1a42b86789aaec8dd103f95eee1f34a8",
+      "size": 715,
+      "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/easy_villagers-client.toml"
+    },
+    {
       "path": "config/entityculling.json",
       "sha1": "71d872172923ba0b593d8654bfd596f9520ddc8b",
       "size": 2248,
@@ -540,49 +546,49 @@
     },
     {
       "path": "config/ftbquests/quests/chapters/01_kanto.snbt",
-      "sha1": "e741256984c550cce60d63ce92dc2ce910f4e309",
-      "size": 31901,
+      "sha1": "07a46fd2b4304fafbe88d94989af7a82bcd7af80",
+      "size": 31942,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/01_kanto.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/02_hoenn.snbt",
-      "sha1": "c23ea41ec150bfc8619785588148f620c485000c",
+      "sha1": "fd5948eb629541c035c36952b0b5941f16848fe9",
       "size": 15399,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/02_hoenn.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/03_sinnoh.snbt",
-      "sha1": "41aebd51607eb82654dbf0c5b144f4ea6a743094",
+      "sha1": "5844a31c263a9cacc9b2f2df5f9ec274c6504728",
       "size": 10767,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/03_sinnoh.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/04_unova.snbt",
-      "sha1": "ca975180fc89bbc5624d8ca6b021b9d933049935",
+      "sha1": "68539ec9d3b6f39afa212c2eac1316f6c2aca6b2",
       "size": 15482,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/04_unova.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/05_kalos.snbt",
-      "sha1": "930aca34264f50b915947a7a4356abd2901015b0",
+      "sha1": "376a90bf568f15362dc5bf44a1161c8ac1d0673b",
       "size": 12840,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/05_kalos.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/06_paldea.snbt",
-      "sha1": "457da79fb38a00a7bce8a6d8b25eeb0c25bcbb42",
+      "sha1": "cede0d927452895edda37012ceb465fa89a0818a",
       "size": 15664,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/06_paldea.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/07_viloes.snbt",
-      "sha1": "bbe045c95087126cf293f70d6a6400f886b734e2",
+      "sha1": "7f52827da8beaf1f53dec0e942725717247984b5",
       "size": 11369,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/07_viloes.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/08_manga.snbt",
-      "sha1": "562fa736947e55d801f7dc1770c9f6bc28017324",
+      "sha1": "a850c010630cbed171858faa2e4a0497b939483d",
       "size": 11600,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/chapters/08_manga.snbt"
     },
@@ -594,14 +600,14 @@
     },
     {
       "path": "config/ftbquests/quests/lang/en_us.snbt",
-      "sha1": "26bc15c373fcc65b96dc0ef498ea372350ea2e38",
-      "size": 58149,
+      "sha1": "72f6ec99a186517d91d9a3544e8919dd37da67de",
+      "size": 58291,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/lang/en_us.snbt"
     },
     {
       "path": "config/ftbquests/quests/lang/pt_br.snbt",
-      "sha1": "26bc15c373fcc65b96dc0ef498ea372350ea2e38",
-      "size": 58149,
+      "sha1": "72f6ec99a186517d91d9a3544e8919dd37da67de",
+      "size": 58291,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/ftbquests/quests/lang/pt_br.snbt"
     },
     {
@@ -654,8 +660,8 @@
     },
     {
       "path": "config/jade/plugins.json",
-      "sha1": "de182b958831cb5dcd9fe01a1937f03d3e621785",
-      "size": 2604,
+      "sha1": "e16e47ee066028e0ba4ec49ee7bcdb9feda3ec86",
+      "size": 2696,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/plugins.json"
     },
     {
@@ -666,8 +672,8 @@
     },
     {
       "path": "config/jade/sort-order.json",
-      "sha1": "b5035bbfd2ee1ae4865be7146d3b53f9af7f9106",
-      "size": 2554,
+      "sha1": "1f884eebba3552a698db1f3d82ac4c1b502ee02d",
+      "size": 2659,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jade/sort-order.json"
     },
     {
@@ -714,8 +720,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "sha1": "a77e8ab4ffabb728299fdb8957366fcaba7036cf",
-      "size": 858,
+      "sha1": "492c5be4f8912d2c44f625469093cd271b58cc0f",
+      "size": 878,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/ingredient-list-mod-sort-order.ini"
     },
     {
@@ -738,8 +744,8 @@
     },
     {
       "path": "config/jei/client/recipe-category-sort-order.ini",
-      "sha1": "a2392641bfe1404313494fdc7289cf994f4d1b04",
-      "size": 1287,
+      "sha1": "bd9219e96c7d77bff98ca2a5a93ae3a90b1da74e",
+      "size": 1372,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/jei/client/recipe-category-sort-order.ini"
     },
     {
@@ -864,7 +870,7 @@
     },
     {
       "path": "config/rctmod-server.toml",
-      "sha1": "9061149b7307b7a92d984de6bf544cc3c5d60485",
+      "sha1": "a592faf7f56d18c78ec820c73f75e6c51b97964c",
       "size": 8995,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/rctmod-server.toml"
     },
@@ -930,8 +936,8 @@
     },
     {
       "path": "config/solsauthlogin-common.toml",
-      "sha1": "bec6d43c90cd7897e8da28139c892592af5204a8",
-      "size": 5065,
+      "sha1": "77da855c2a0b076ce9e1d107920fa37f527af49c",
+      "size": 13976,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/config/solsauthlogin-common.toml"
     },
     {
@@ -1710,8 +1716,8 @@
     },
     {
       "path": "servers.dat",
-      "sha1": "1d17433e136e65552baa717006a85c4849eb3137",
-      "size": 93,
+      "sha1": "dcf361b84008c61851286a7d1f5d9d0324c92bbe",
+      "size": 156,
       "url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/files/servers.dat"
     }
   ]
