@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "marshadow-1",
+            "pokemon": "marshadow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "isRaining": false
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        }
+    ]
+}

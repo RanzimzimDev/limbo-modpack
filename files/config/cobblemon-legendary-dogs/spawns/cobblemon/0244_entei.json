@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "entei-1",
+            "pokemon": "entei",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "isThundering": false
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy",
+                    "#cobblemon:is_hills"
+                ]
+            }
+        }
+    ]
+}

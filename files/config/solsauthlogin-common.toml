@@ -1,0 +1,88 @@
+# Sol's AuthLogin System Configuration - Servidor Limbo Cobblemon
+[general]
+
+	[general.timeout]
+		# Segundos antes de desconectar quem nao fizer login (0 = desativado)
+		loginTimeoutSeconds = 90
+		# Segundos de espera pos-login
+		gracePeriodSeconds = 1
+		# Cache por IP desativado (0) para evitar compartilhamento de IP em tuneis/proxies
+		sessionCacheMinutes = 0
+
+	[general.security]
+		maxLoginAttempts = 5
+		lockoutTimeSeconds = 120
+		minPasswordLength = 4
+		maxPasswordLength = 32
+		requireSpecialChar = false
+		requireNumber = false
+		# IMPORTANTE: Falso para exigir token criptografico individual por PC ou senha, nunca apenas IP
+		enableSessionCache = false
+		kickOnLockout = true
+		preventMultipleLogins = true
+		requireClientMod = true
+		enableInSingleplayer = false
+
+	[general.spawn]
+		teleportToSpawn = false
+		teleportBackAfterLogin = false
+		useWorldSpawn = true
+		customSpawnX = 0
+		customSpawnY = 100
+		customSpawnZ = 0
+
+	[general.notifications]
+		reminderIntervalSeconds = 10
+		showTitleReminders = true
+		showActionBarReminders = true
+
+	[general.messages]
+		registerPromptMessage = "§6Bem-vindo ao §d§lLimbo Cobblemon§6! Crie sua senha com §e/register <senha> <senha>"
+		loginPromptMessage = "§6Bem-vindo de volta! Autentique-se com §e/login <senha>"
+		loginSuccessMessage = "§aLogin confirmado! Liberando em %d segundos..."
+		registerSuccessMessage = "§aConta registrada com sucesso! Liberando em %d segundos..."
+		actionBlockedMessage = "§cAutentique-se primeiro! Use §e/login <senha> §cou §e/register <senha> <senha>"
+		timeoutKickMessage = "§cTempo esgotado para login! Reconecte e digite sua senha."
+		kickWrongPasswordMessage = "§cMuitas tentativas incorretas! Aguarde antes de reconectar."
+		duplicateLoginMessage = "§cJá existe um treinador conectado e autenticado com este Nick!"
+		requireClientModMessage = "§cEste servidor requer o modpack oficial do Limbo Launcher."
+		loginPromptTitleMessage = "§d§lLIMBO COBBLEMON"
+		loginPromptSubtitleMessage = "§fAutenticando pelo §dLimbo Launcher §7(/login <senha>)"
+		registerPromptTitleMessage = "§b§lCRIANDO CONTA..."
+		registerPromptSubtitleMessage = "§fAutenticando pelo §dLimbo Launcher §7(/register <senha> <senha>)"
+		authChatBlockedMessage = "§cVocê precisa fazer login antes de usar o chat!"
+		authReminderLoginActionBarMessage = "§eLogin necessário! §f%ds restantes §7• /login <senha>"
+		authReminderRegisterActionBarMessage = "§bRegistro necessário! §f%ds restantes §7• /register <senha> <senha>"
+		notPlayerCommandMessage = "Este comando só pode ser usado por jogadores!"
+		alreadyLoggedInMessage = "§eVocê já está autenticado!"
+		passwordMismatchMessage = "§cAs senhas não coincidem! Digite a mesma senha duas vezes."
+		registrationFailedTitle = "§cFalha no Registro"
+		registrationFailedSubtitle = "§eVerifique os requisitos no chat"
+		changePasswordRequireLoginMessage = "§cFaça login antes de alterar sua senha!"
+		newPasswordMismatchMessage = "§cAs novas senhas não coincidem!"
+		loginKickTooManyAttemptsMessage = "§cExcesso de tentativas incorretas de senha."
+		registerSuccessNoTeleportMessage = "§aConta registrada e protegida com sucesso! Bom jogo!"
+		loginSuccessNoTeleportMessage = "§aAutenticado com sucesso! Bom jogo!"
+		postAuthRegisterTitleMessage = "§a§lCONTA PROTEGIDA!"
+		postAuthLoginTitleMessage = "§a§lBEM-VINDO!"
+		postAuthTeleportSubtitleMessage = "§eLiberando em %ds..."
+		postAuthReadySubtitleMessage = "§fBoa jornada Pokémon!"
+		teleportBackCountdownActionBarMessage = "§eRetornando à sua posição em §f%ds§e..."
+		teleportBackSuccessMessage = "§aPosição restaurada!"
+		teleportBackTitleMessage = ""
+		teleportBackSubtitleMessage = "§aPronto!"
+		autoLoginSuccessMessage = "§a§lAuto-Login: §fToken verificado com segurança! Bom jogo!"
+		autoLoginTitleMessage = "§a§lAUTO-LOGIN ATIVO"
+		autoLoginSubtitleMessage = "§fSessão verificada pelo Limbo Launcher"
+		credentialAlreadyRegisteredMessage = "§cEste nick já está registrado! Use §e/login <senha>"
+		credentialNotRegisteredMessage = "§cConta ainda não registrada! Use §e/register <senha> <senha>"
+		credentialTooManyFailedWaitMessage = "§cMuitas tentativas falhas! Aguarde %d segundos."
+		credentialWrongPasswordLockedMessage = "§cSenha incorreta! Conta bloqueada temporariamente por %d segundos."
+		credentialWrongPasswordRemainingMessage = "§cSenha incorreta! Restam %d tentativas."
+		credentialChangePasswordNotRegisteredMessage = "§cVocê ainda não possui registro!"
+		credentialCurrentPasswordIncorrectMessage = "§cA senha atual informada está incorreta!"
+		credentialPasswordChangedMessage = "§aSua senha foi alterada com sucesso!"
+		credentialPasswordMinLengthMessage = "§cA senha deve ter pelo menos %d caracteres!"
+		credentialPasswordMaxLengthMessage = "§cA senha não pode ultrapassar %d caracteres!"
+		credentialPasswordRequireNumberMessage = "§cA senha deve conter pelo menos um número!"
+		credentialPasswordRequireSpecialCharMessage = "§cA senha deve conter pelo menos um caractere especial!"

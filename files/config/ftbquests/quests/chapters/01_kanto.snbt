@@ -1,0 +1,1433 @@
+{
+	autofocus_id: "1101000000000001"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "01_kanto"
+	group: "1000000000000001"
+	icon: { count: 1, id: "pastas_cobblemon_badges:rock_badge" }
+	id: "1101000000000000"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "cobblemon:pokedex_red" }
+			id: "1101000000000001"
+			rewards: [
+				{
+					id: "1101200000000001"
+					item: { count: 1, id: "ftbquests:book" }
+					type: "item"
+				}
+				{
+					id: "1101200000000002"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+				{
+					id: "1101200000000003"
+					item: { count: 1, id: "pastas_cobblemon_badges:badge_case" }
+					type: "item"
+				}
+				{
+					id: "1101200000000004"
+					item: { count: 1, id: "cobblemon:pokedex_red" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.45d
+			tasks: [
+				{
+					id: "1101100000000001"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1101000000000001"]
+			icon: { count: 1, id: "cobblemon:healing_machine" }
+			id: "1101000000000003"
+			optional: true
+			rewards: [
+				{
+					id: "1101200000000005"
+					item: { count: 1, id: "rctmod:trainer_spawner" }
+					type: "item"
+				}
+				{
+					id: "1101200000000006"
+					item: { count: 1, id: "ironfurnaces:copper_furnace" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1101200000000007"
+					item: { count: 4, id: "cobblemon:potion" }
+					type: "item"
+				}
+				{
+					id: "1101200000000008"
+					item: { count: 1, id: "cobblemon:revive" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 250"
+					feedback_message: "CobbleDollars adicionados (+$250)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000009"
+					permission_level: 2
+					silent: true
+					title: "+$250 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.1d
+			tasks: [
+				{
+					consume_items: false
+					id: "1101100000000002"
+					item: { count: 1, id: "cobblemon:healing_machine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1101100000000003"
+					item: { count: 1, id: "cobblemon:pc" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1101000000000001"]
+			icon: { count: 1, id: "rctmod:trainer_card" }
+			id: "1101000000000002"
+			rewards: [
+				{
+					count: 5
+					id: "110120000000000A"
+					item: { count: 5, id: "cobblemon:poke_ball" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "110120000000000B"
+					item: { count: 16, id: "minecraft:bread" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 200"
+					feedback_message: "CobbleDollars adicionados (+$200)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "110120000000000C"
+					permission_level: 2
+					silent: true
+					title: "+$200 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.15d
+			tasks: [
+				{
+					consume_items: false
+					id: "1101100000000004"
+					item: { count: 1, id: "rctmod:trainer_card" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1101000000000002"]
+			icon: { count: 1, id: "cobblemon:poke_ball" }
+			id: "1101000000000004"
+			rewards: [
+				{
+					count: 3
+					id: "110120000000000D"
+					item: { count: 3, id: "cobblemon:poke_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "110120000000000E"
+					item: { count: 3, id: "cobblemon:exp_candy_xs" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 150"
+					feedback_message: "CobbleDollars adicionados (+$150)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "110120000000000F"
+					permission_level: 2
+					silent: true
+					title: "+$150 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_any"
+					criterion: ""
+					id: "1101100000000005"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1101000000000004"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:rock_badge" }
+			id: "1101000000000005"
+			rewards: [
+				{
+					id: "1101200000000010"
+					item: { count: 1, id: "pastas_cobblemon_badges:rock_badge" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1101200000000011"
+					item: { count: 4, id: "cobblemon:great_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000012"
+					item: { count: 3, id: "cobblemon:exp_candy_s" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1101200000000013"
+					item: { count: 8, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 500"
+					feedback_message: "CobbleDollars adicionados (+$500)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000014"
+					permission_level: 2
+					silent: true
+					title: "+$500 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_brock"
+					criterion: ""
+					id: "1101100000000006"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1101000000000005"]
+			icon: { count: 1, id: "cobblemon:black_tumblestone" }
+			id: "1101000000000006"
+			rewards: [
+				{
+					count: 2
+					id: "1101200000000015"
+					item: { count: 2, id: "cobblemon:super_potion" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000016"
+					item: { count: 2, id: "cobblemon:full_heal" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000017"
+					item: { count: 3, id: "cobblemon:exp_candy_s" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 300"
+					feedback_message: "CobbleDollars adicionados (+$300)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000018"
+					permission_level: 2
+					silent: true
+					title: "+$300 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_rocket_admin_archer_1"
+					criterion: ""
+					id: "1101100000000007"
+					type: "advancement"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1101000000000006"]
+			icon: { count: 1, id: "minecraft:gold_nugget" }
+			id: "1101000000000007"
+			rewards: [
+				{
+					count: 3
+					id: "1101200000000019"
+					item: { count: 3, id: "cobblemon:great_ball" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110120000000001A"
+					item: { count: 2, id: "cobblemon:exp_candy_s" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "110120000000001B"
+					item: { count: 4, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 400"
+					feedback_message: "CobbleDollars adicionados (+$400)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "110120000000001C"
+					permission_level: 2
+					silent: true
+					title: "+$400 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_rival_terry_1"
+					criterion: ""
+					id: "1101100000000008"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1101000000000007"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:water_badge" }
+			id: "1101000000000008"
+			rewards: [
+				{
+					id: "110120000000001D"
+					item: { count: 1, id: "pastas_cobblemon_badges:water_badge" }
+					type: "item"
+				}
+				{
+					id: "110120000000001E"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "110120000000001F"
+					item: { count: 4, id: "cobblemon:great_ball" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000020"
+					item: { count: 2, id: "cobblemon:exp_candy_m" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 700"
+					feedback_message: "CobbleDollars adicionados (+$700)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000021"
+					permission_level: 2
+					silent: true
+					title: "+$700 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_misty"
+					criterion: ""
+					id: "1101100000000009"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1101000000000008"]
+			icon: { count: 1, id: "cobblemon:silk_scarf" }
+			id: "1101000000000009"
+			rewards: [
+				{
+					count: 3
+					id: "1101200000000022"
+					item: { count: 3, id: "cobblemon:great_ball" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000023"
+					item: { count: 2, id: "cobblemon:exp_candy_m" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 400"
+					feedback_message: "CobbleDollars adicionados (+$400)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000024"
+					permission_level: 2
+					silent: true
+					title: "+$400 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_trainer_brendan_1"
+					criterion: ""
+					id: "110110000000000A"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1101000000000009"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:electric_badge" }
+			id: "110100000000000A"
+			rewards: [
+				{
+					id: "1101200000000025"
+					item: { count: 1, id: "pastas_cobblemon_badges:electric_badge" }
+					type: "item"
+				}
+				{
+					id: "1101200000000026"
+					item: { count: 1, id: "ironfurnaces:iron_furnace" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1101200000000027"
+					item: { count: 4, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000028"
+					item: { count: 3, id: "cobblemon:exp_candy_m" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 800"
+					feedback_message: "CobbleDollars adicionados (+$800)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000029"
+					permission_level: 2
+					silent: true
+					title: "+$800 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_lt_surge"
+					criterion: ""
+					id: "110110000000000B"
+					type: "advancement"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["110100000000000A"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:grass_badge" }
+			id: "110100000000000B"
+			rewards: [
+				{
+					id: "110120000000002A"
+					item: { count: 1, id: "pastas_cobblemon_badges:grass_badge" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "110120000000002B"
+					item: { count: 4, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "110120000000002C"
+					item: { count: 3, id: "cobblemon:exp_candy_m" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110120000000002D"
+					item: { count: 2, id: "cobblemon:hyper_potion" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1000"
+					feedback_message: "CobbleDollars adicionados (+$1.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "110120000000002E"
+					permission_level: 2
+					silent: true
+					title: "+$1.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_erika"
+					criterion: ""
+					id: "110110000000000C"
+					type: "advancement"
+				}
+			]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["110100000000000B"]
+			icon: { count: 1, id: "cobblemon:upgrade" }
+			id: "110100000000000C"
+			rewards: [
+				{
+					count: 3
+					id: "110120000000002F"
+					item: { count: 3, id: "cobblemon:hyper_potion" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000030"
+					item: { count: 2, id: "cobblemon:revive" }
+					type: "item"
+				}
+				{
+					id: "1101200000000031"
+					item: { count: 1, id: "cobblemon:rare_candy" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1200"
+					feedback_message: "CobbleDollars adicionados (+$1.200)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000032"
+					permission_level: 2
+					silent: true
+					title: "+$1.200 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_boss_giovanni_1"
+					criterion: ""
+					id: "110110000000000D"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["110100000000000C"]
+			icon: { count: 1, id: "cobblemon:soothe_bell" }
+			id: "110100000000000D"
+			rewards: [
+				{
+					count: 3
+					id: "1101200000000033"
+					item: { count: 3, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000034"
+					item: { count: 3, id: "cobblemon:exp_candy_l" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 800"
+					feedback_message: "CobbleDollars adicionados (+$800)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000035"
+					permission_level: 2
+					silent: true
+					title: "+$800 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_rival_terry_2"
+					criterion: ""
+					id: "110110000000000E"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["110100000000000D"]
+			icon: { count: 1, id: "cobblemon:black_sludge" }
+			id: "110100000000000E"
+			rewards: [
+				{
+					id: "1101200000000036"
+					item: { count: 1, id: "cobblemon:max_revive" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000037"
+					item: { count: 3, id: "cobblemon:exp_candy_l" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1000"
+					feedback_message: "CobbleDollars adicionados (+$1.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000038"
+					permission_level: 2
+					silent: true
+					title: "+$1.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_rocket_admin_archer_and_ariana"
+					criterion: ""
+					id: "110110000000000F"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["110100000000000E"]
+			icon: { count: 1, id: "mega_showdown:mega_ring" }
+			id: "110100000000000F"
+			rewards: [
+				{
+					id: "1101200000000039"
+					item: { count: 1, id: "mega_showdown:mega_ring" }
+					type: "item"
+				}
+				{
+					id: "110120000000003A"
+					item: { count: 1, id: "cobblemon:exp_share" }
+					type: "item"
+				}
+				{
+					id: "110120000000003B"
+					item: { count: 1, id: "cobblemon:rare_candy" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1500"
+					feedback_message: "CobbleDollars adicionados (+$1.500)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "110120000000003C"
+					permission_level: 2
+					silent: true
+					title: "+$1.500 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_boss_giovanni_2"
+					criterion: ""
+					id: "1101100000000010"
+					type: "advancement"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["110100000000000F"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:psychic_badge" }
+			id: "1101000000000010"
+			rewards: [
+				{
+					id: "110120000000003D"
+					item: { count: 1, id: "pastas_cobblemon_badges:psychic_badge" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "110120000000003E"
+					item: { count: 4, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "110120000000003F"
+					item: { count: 3, id: "cobblemon:exp_candy_l" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000040"
+					item: { count: 2, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1500"
+					feedback_message: "CobbleDollars adicionados (+$1.500)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000041"
+					permission_level: 2
+					silent: true
+					title: "+$1.500 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_sabrina"
+					criterion: ""
+					id: "1101100000000011"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1101000000000010"]
+			icon: { count: 1, id: "cobblemon:expert_belt" }
+			id: "1101000000000011"
+			rewards: [
+				{
+					count: 3
+					id: "1101200000000042"
+					item: { count: 3, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000043"
+					item: { count: 3, id: "cobblemon:exp_candy_l" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 800"
+					feedback_message: "CobbleDollars adicionados (+$800)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000044"
+					permission_level: 2
+					silent: true
+					title: "+$800 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_trainer_brendan_2"
+					criterion: ""
+					id: "1101100000000012"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000011"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:poison_badge" }
+			id: "1101000000000012"
+			rewards: [
+				{
+					id: "1101200000000045"
+					item: { count: 1, id: "pastas_cobblemon_badges:poison_badge" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1101200000000046"
+					item: { count: 4, id: "cobblemon:dusk_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000047"
+					item: { count: 3, id: "cobblemon:exp_candy_l" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000048"
+					item: { count: 2, id: "cobblemon:full_heal" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1800"
+					feedback_message: "CobbleDollars adicionados (+$1.800)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000049"
+					permission_level: 2
+					silent: true
+					title: "+$1.800 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_koga"
+					criterion: ""
+					id: "1101100000000013"
+					type: "advancement"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000012"]
+			icon: { count: 1, id: "cobblemon:vivichoke" }
+			id: "1101000000000013"
+			rewards: [
+				{
+					count: 3
+					id: "110120000000004A"
+					item: { count: 3, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "110120000000004B"
+					item: { count: 3, id: "cobblemon:exp_candy_l" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1000"
+					feedback_message: "CobbleDollars adicionados (+$1.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "110120000000004C"
+					permission_level: 2
+					silent: true
+					title: "+$1.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_trainer_may"
+					criterion: ""
+					id: "1101100000000014"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000013"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:fire_badge" }
+			id: "1101000000000014"
+			rewards: [
+				{
+					id: "110120000000004D"
+					item: { count: 1, id: "pastas_cobblemon_badges:fire_badge" }
+					type: "item"
+				}
+				{
+					count: 5
+					id: "110120000000004E"
+					item: { count: 5, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110120000000004F"
+					item: { count: 2, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					id: "1101200000000050"
+					item: { count: 1, id: "cobblemon:rare_candy" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 2000"
+					feedback_message: "CobbleDollars adicionados (+$2.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000051"
+					permission_level: 2
+					silent: true
+					title: "+$2.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_blaine"
+					criterion: ""
+					id: "1101100000000015"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000014"]
+			icon: { count: 1, id: "cobblemon:covert_cloak" }
+			id: "1101000000000015"
+			require_sequential_tasks: true
+			rewards: [
+				{
+					count: 3
+					id: "1101200000000052"
+					item: { count: 3, id: "cobblemon:full_restore" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000053"
+					item: { count: 2, id: "cobblemon:max_revive" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000054"
+					item: { count: 2, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 1800"
+					feedback_message: "CobbleDollars adicionados (+$1.800)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000055"
+					permission_level: 2
+					silent: true
+					title: "+$1.800 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_rocket_admin_archer_3"
+					criterion: ""
+					id: "1101100000000016"
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_rocket_admin_ariana_2"
+					criterion: ""
+					id: "1101100000000017"
+					type: "advancement"
+				}
+			]
+			x: 2.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000015"]
+			icon: { count: 1, id: "mega_showdown:mewtwonite_y" }
+			id: "1101000000000016"
+			rewards: [
+				{
+					id: "1101200000000056"
+					item: { count: 1, id: "mega_showdown:mewtwonite_y" }
+					type: "item"
+				}
+				{
+					id: "1101200000000057"
+					item: { count: 1, id: "cobblemon:leftovers" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1101200000000058"
+					item: { count: 2, id: "cobblemon:rare_candy" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 2500"
+					feedback_message: "CobbleDollars adicionados (+$2.500)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "1101200000000059"
+					permission_level: 2
+					silent: true
+					title: "+$2.500 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_boss_giovanni_3"
+					criterion: ""
+					id: "1101100000000018"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000016"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:dragon_badge" }
+			id: "1101000000000017"
+			rewards: [
+				{
+					id: "110120000000005A"
+					item: { count: 1, id: "pastas_cobblemon_badges:dragon_badge" }
+					type: "item"
+				}
+				{
+					count: 6
+					id: "110120000000005B"
+					item: { count: 6, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "110120000000005C"
+					item: { count: 3, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110120000000005D"
+					item: { count: 2, id: "cobblemon:rare_candy" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 3000"
+					feedback_message: "CobbleDollars adicionados (+$3.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "110120000000005E"
+					permission_level: 2
+					silent: true
+					title: "+$3.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.35d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_clair"
+					criterion: ""
+					id: "1101100000000019"
+					type: "advancement"
+				}
+			]
+			x: 6.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1101000000000017"]
+			icon: { count: 1, id: "cobblemon:lucky_egg" }
+			id: "1101000000000018"
+			rewards: [
+				{
+					id: "110120000000005F"
+					item: { count: 1, id: "cobblemon:lucky_egg" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000060"
+					item: { count: 3, id: "cobblemon:max_potion" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 2000"
+					feedback_message: "CobbleDollars adicionados (+$2.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin" }
+					id: "1101200000000061"
+					permission_level: 2
+					silent: true
+					title: "+$2.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.15d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_rival_terry_4"
+					criterion: ""
+					id: "110110000000001A"
+					type: "advancement"
+				}
+			]
+			x: 6.75d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1101000000000018"]
+			icon: { count: 1, id: "cobblemon:choice_scarf" }
+			id: "1101000000000019"
+			rewards: [
+				{
+					count: 2
+					id: "1101200000000062"
+					item: { count: 2, id: "cobblemon:max_revive" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1101200000000063"
+					item: { count: 4, id: "cobblemon:full_restore" }
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1101200000000064"
+					item: { count: 3, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 2500"
+					feedback_message: "CobbleDollars adicionados (+$2.500)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "1101200000000065"
+					permission_level: 2
+					silent: true
+					title: "+$2.500 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_trainer_brendan_3"
+					criterion: ""
+					id: "110110000000001B"
+					type: "advancement"
+				}
+			]
+			x: 4.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1101000000000019"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:ice_badge" }
+			id: "110100000000001A"
+			rewards: [
+				{
+					count: 5
+					id: "1101200000000066"
+					item: { count: 5, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 5000"
+					feedback_message: "CobbleDollars adicionados (+$5.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "1101200000000067"
+					permission_level: 2
+					silent: true
+					title: "+$5.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_lorelei"
+					criterion: ""
+					id: "110110000000001C"
+					type: "advancement"
+				}
+			]
+			x: 1.25d
+			y: 4.4d
+		}
+		{
+			dependencies: ["1101000000000019"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:fighting_badge" }
+			id: "110100000000001B"
+			rewards: [
+				{
+					count: 5
+					id: "1101200000000068"
+					item: { count: 5, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 5000"
+					feedback_message: "CobbleDollars adicionados (+$5.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "1101200000000069"
+					permission_level: 2
+					silent: true
+					title: "+$5.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_bruno"
+					criterion: ""
+					id: "110110000000001D"
+					type: "advancement"
+				}
+			]
+			x: 1.25d
+			y: 5.8d
+		}
+		{
+			dependencies: ["1101000000000019"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:ghost_badge" }
+			id: "110100000000001C"
+			rewards: [
+				{
+					count: 5
+					id: "110120000000006A"
+					item: { count: 5, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 5000"
+					feedback_message: "CobbleDollars adicionados (+$5.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "110120000000006B"
+					permission_level: 2
+					silent: true
+					title: "+$5.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_agatha"
+					criterion: ""
+					id: "110110000000001E"
+					type: "advancement"
+				}
+			]
+			x: 1.25d
+			y: 7.2d
+		}
+		{
+			dependencies: ["1101000000000019"]
+			icon: { count: 1, id: "pastas_cobblemon_badges:flying_badge" }
+			id: "110100000000001D"
+			rewards: [
+				{
+					count: 5
+					id: "110120000000006C"
+					item: { count: 5, id: "cobblemon:exp_candy_xl" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 5000"
+					feedback_message: "CobbleDollars adicionados (+$5.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					id: "110120000000006D"
+					permission_level: 2
+					silent: true
+					title: "+$5.000 CobbleDollars"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_elite_four_lance"
+					criterion: ""
+					id: "110110000000001F"
+					type: "advancement"
+				}
+			]
+			x: 1.25d
+			y: 8.6d
+		}
+		{
+			dependencies: [
+				"110100000000001A"
+				"110100000000001B"
+				"110100000000001C"
+				"110100000000001D"
+			]
+			icon: { count: 1, id: "cobblemon:master_ball" }
+			id: "110100000000001E"
+			rewards: [
+				{
+					id: "110120000000006E"
+					item: { count: 1, id: "cobblemon:master_ball" }
+					type: "item"
+				}
+				{
+					id: "110120000000006F"
+					item: { count: 1, id: "cobblemon:ability_patch" }
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1101200000000070"
+					item: { count: 10, id: "cobblemon:rare_candy" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 25000"
+					feedback_message: "CobbleDollars adicionados (+$25.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_sack" }
+					id: "1101200000000071"
+					permission_level: 2
+					silent: true
+					title: "+$25.000 CobbleDollars"
+					type: "command"
+				}
+				{
+					id: "1101200000000072"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_champion_terry"
+					criterion: ""
+					id: "1101100000000020"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["110100000000001E"]
+			icon: { count: 1, id: "mega_showdown:ash_cap" }
+			id: "110100000000001F"
+			optional: true
+			rewards: [
+				{
+					id: "1101200000000073"
+					item: { count: 1, id: "mega_showdown:ash_cap" }
+					type: "item"
+				}
+				{
+					id: "1101200000000074"
+					item: { count: 1, id: "cobblemon:master_ball" }
+					type: "item"
+				}
+				{
+					id: "1101200000000075"
+					item: { count: 1, id: "cobblemon:life_orb" }
+					type: "item"
+				}
+				{
+					id: "1101200000000076"
+					item: { count: 1, id: "cobblemon:choice_band" }
+					type: "item"
+				}
+				{
+					id: "1101200000000077"
+					item: { count: 1, id: "cobblemon:choice_specs" }
+					type: "item"
+				}
+				{
+					command: "/cobbledollars give {p} 50000"
+					feedback_message: "CobbleDollars adicionados (+$50.000)!"
+					icon: { count: 1, id: "cobblemon:relic_coin_sack" }
+					id: "1101200000000078"
+					permission_level: 2
+					silent: true
+					title: "+$50.000 CobbleDollars"
+					type: "command"
+				}
+				{
+					id: "1101200000000079"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "heart"
+			size: 1.6d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_trainer_red"
+					criterion: ""
+					id: "1101100000000021"
+					type: "advancement"
+				}
+			]
+			x: -5.25d
+			y: 6.5d
+		}
+	]
+}

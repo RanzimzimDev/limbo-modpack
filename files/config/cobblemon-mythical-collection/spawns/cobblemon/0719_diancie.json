@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "diancie-1",
+            "pokemon": "diancie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isRaining": false,
+                    "isThundering": false
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cave",
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}

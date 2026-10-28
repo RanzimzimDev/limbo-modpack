@@ -1,0 +1,1007 @@
+{
+	"chapter.1101000000000000.chapter_subtitle": [
+		"&7Nível 1 ao 100 • Série Radical Red (Mundo Principal)"
+	]
+	"chapter.1101000000000000.title": "&c1. Jornada de Kanto"
+	"chapter.1102000000000000.chapter_subtitle": [
+		"&7Nível 101 ao 150 • Séries Hoenn Gym Challenge e Hoenn League"
+	]
+	"chapter.1102000000000000.title": "&a2. Jornada de Hoenn"
+	"chapter.1103000000000000.chapter_subtitle": [
+		"&7Nível 151 ao 195 • Série Sinnoh Gym Challenge"
+	]
+	"chapter.1103000000000000.title": "&b3. Jornada de Sinnoh"
+	"chapter.1104000000000000.chapter_subtitle": [
+		"&7Nível 201 ao 250 • Séries Unova Gym, Unova League e B2W2"
+	]
+	"chapter.1104000000000000.title": "&74. Jornada de Unova"
+	"chapter.1105000000000000.chapter_subtitle": [
+		"&7Nível 251 ao 293 • Séries Kalos Gym e Kalos League"
+	]
+	"chapter.1105000000000000.title": "&d5. Jornada de Kalos"
+	"chapter.1106000000000000.chapter_subtitle": [
+		"&7Nível 296 ao 345 • Séries Paldea Gym, Elite Four e Starfall Street"
+	]
+	"chapter.1106000000000000.title": "&66. Jornada de Paldea"
+	"chapter.1107000000000000.chapter_subtitle": [
+		"&7Nível 346 ao 400 • Facções Globais (Team Aqua, Magma e Plasma)"
+	]
+	"chapter.1107000000000000.title": "&47. Conflito das Trevas"
+	"chapter.1108000000000000.chapter_subtitle": [
+		"&7Nível 401 ao 450+ • Série Pokemon Adventures (Desafio Final)"
+	]
+	"chapter.1108000000000000.title": "&68. Lendas do Mangá PokéSpe"
+	"chapter_group.1000000000000001.title": "&eJornadas Regionais (Nv. 1 ao 345)"
+	"chapter_group.1000000000000002.title": "&cDesafios Mundiais (Nv. 346 ao 450+)"
+	"file.0000000000000001.title": "&6&lLiga Pokémon - Limbo Cobblemon"
+	"ftbquests.reward.ftbquests.command.success": "CobbleDollars creditados na conta!"
+	"quest.1101000000000001.quest_desc": [
+		"Bem-vindo ao mundo de &6Limbo Cobblemon&r! Sua jornada começa na região de &cKanto&r (no Overworld), com Centros Pokémon, Vilas e Ginásios naturais pelo mapa."
+		""
+		"&e&lComo funciona a Progressão de Nível (Level Cap):&r"
+		"• Você começa com &bLevel Cap Nv. 15&r (definido pela série &cRadical Red&r)."
+		"• Pokémon acima do seu limite atual não ganham XP até você derrotar o próximo &6Líder de Ginásio&r ou &cChefe&r obrigatório!"
+		"• Ao vencer a Liga de Kanto, novas séries e regiões se abrirão até o &d&lNível 500&r!"
+		""
+		"&b&lComo funciona o Porta-Insígnias (Badge Case):&r"
+		"• O &eBadge Case&r é um bloco expositor 3D! Coloque-o no chão da sua base."
+		"• Clique com a &bmão vazia&r no bloco para abrir seu mostrador de 18 insígnias e guardar suas conquistas!"
+		""
+		"&aClique no visto para receber sua Mochila, Pokédex e Porta-Insígnias!"
+	]
+	"quest.1101000000000001.quest_subtitle": "&eGuia Oficial • Comece sua jornada aqui"
+	"quest.1101000000000001.title": "&6&lBem-vindo à Liga Pokémon!"
+	"quest.1101000000000002.quest_desc": [
+		"O &bTrainer Card&r é o item mais importante da sua jornada!"
+		""
+		"• &eBotão Direito:&r Abre o painel da sua série atual (&cRadical Red&r), mostra seu &6Level Cap exato&r e lista o próximo chefe obrigatório."
+		"• &aBússola Integrada:&r Segurar o cartão mostra uma seta indicando onde o treinador alvo está por perto!"
+		""
+		"&7Obtenha ou crie seu Trainer Card (ele não será consumido)."
+	]
+	"quest.1101000000000002.quest_subtitle": "&eSeu Radar de Ginásios e Level Cap"
+	"quest.1101000000000002.title": "&bCartão de Treinador (Trainer Card)"
+	"quest.1101000000000003.quest_desc": [
+		"Pelo mundo você encontrará &bCentros Pokémon&r e vilas com Enfermeiras e curandeiras prontas."
+		""
+		"Mesmo assim, todo grande treinador precisa de uma base! Construa ou obtenha uma &aHealing Machine&r e um &bPC&r para curar e organizar sua equipe em qualquer lugar."
+		""
+		"&7(Nota: Os itens NÃO são consumidos pela missão — basta tê-los no inventário!)"
+		"&6Recompensa Especial:&r Uma &eFornalha de Cobre&r de aquecimento rápido e um &eTrainer Spawner&r para desafiar chefes quando desejar!"
+	]
+	"quest.1101000000000003.quest_subtitle": "&7Missão Opcional • Monte seu próprio Centro"
+	"quest.1101000000000003.title": "&aBase do Treinador: Cura e PC"
+	"quest.1101000000000004.quest_desc": [
+		"Treinadores Pokémon vagam pelas rotas, vilas e estradas do mundo."
+		""
+		"Vença &aqualquer treinador&r em batalha para validar seu registro na Liga Pokémon e liberar o desafio ao &61º Ginásio: Brock&r!"
+	]
+	"quest.1101000000000004.quest_subtitle": "&7Aquecimento rumo a Pewter"
+	"quest.1101000000000004.title": "&fPrimeira Vitória Oficial"
+	"quest.1101000000000005.quest_desc": [
+		"O sólido guardião de Pewter domina Pokémon do tipo &6Pedra&r e &eTerrestre&r."
+		""
+		"• &eTrainer Spawner:&r Use uma &fHard Stone&r (&7cobblemon:hard_stone&r)."
+		""
+		"&aAo vencer, seu Level Cap subirá para enfrentar o Mt. Moon e Cerulean!"
+	]
+	"quest.1101000000000005.quest_subtitle": "&6Insígnia da Rocha • Equipe Nv. 14"
+	"quest.1101000000000005.title": "&61º Ginásio: Líder Brock"
+	"quest.1101000000000006.quest_desc": [
+		"A &4Equipe Rocket&r está saqueando fósseis raros nas cavernas antes de Cerulean!"
+		""
+		"• &eTrainer Spawner:&r Use uma &fBlack Tumblestone&r (&7cobblemon:black_tumblestone&r)."
+	]
+	"quest.1101000000000006.quest_subtitle": "&cExecutivo Rocket • Equipe Nv. 21"
+	"quest.1101000000000006.title": "&cEmboscada no Mt. Moon: Archer I"
+	"quest.1101000000000007.quest_desc": [
+		"Seu rival &eTerry&r aparece em Cerulean convencido de que sua equipe é superior à sua!"
+		""
+		"• &eTrainer Spawner:&r Use uma &fPepita de Ouro&r (&7minecraft:gold_nugget&r)."
+	]
+	"quest.1101000000000007.quest_subtitle": "&eBatalha de Rival • Equipe Nv. 21"
+	"quest.1101000000000007.title": "&ePonte Pepita: Rival Terry I"
+	"quest.1101000000000008.quest_desc": [
+		"A sereia tomboy de Cerulean comanda velozes Pokémon do tipo &bÁgua&r!"
+		""
+		"• &eTrainer Spawner:&r Use uma &fMystic Water&r (&7cobblemon:mystic_water&r)."
+		""
+	]
+	"quest.1101000000000008.quest_subtitle": "&bInsígnia da Cascata • Equipe Nv. 27"
+	"quest.1101000000000008.title": "&b2º Ginásio: Líder Misty"
+	"quest.1101000000000009.quest_desc": [
+		"Vindo diretamente de Hoenn, o treinador &aBrendan&r desafia você antes do Ginásio de Vermilion!"
+		""
+		"• &eTrainer Spawner:&r Use um &fSilk Scarf&r (&7cobblemon:silk_scarf&r)."
+	]
+	"quest.1101000000000009.quest_subtitle": "&aVisitante de Hoenn • Equipe Nv. 29"
+	"quest.1101000000000009.title": "&aConvés do S.S. Anne: Brendan I"
+	"quest.110100000000000A.quest_desc": [
+		"O Relâmpago Americano de Vermilion eletriza o campo com alta velocidade e poder &eElétrico&r!"
+		""
+		"• &eTrainer Spawner:&r Use um &fMagnet&r (&7cobblemon:magnet&r)."
+		""
+	]
+	"quest.110100000000000A.quest_subtitle": "&eInsígnia do Trovão • Equipe Nv. 34"
+	"quest.110100000000000A.title": "&e3º Ginásio: Tenente Surge"
+	"quest.110100000000000B.quest_desc": [
+		"A elegante mestra botânica de Celadon luta com sinergias de clima e tipo &aPlanta&r!"
+		""
+		"• &eTrainer Spawner:&r Use uma &fMiracle Seed&r (&7cobblemon:miracle_seed&r)."
+	]
+	"quest.110100000000000B.quest_subtitle": "&aInsígnia do Arco-Íris • Equipe Nv. 44"
+	"quest.110100000000000B.title": "&a4º Ginásio: Líder Erika"
+	"quest.110100000000000C.quest_desc": [
+		"Nos subterrâneos do Cassino de Celadon, você fica frente a frente pela primeira vez com &4Giovanni&r, o líder supremo da Equipe Rocket!"
+		""
+		"• &eTrainer Spawner:&r Use um &fUp-Grade&r (&7cobblemon:upgrade&r)."
+	]
+	"quest.110100000000000C.quest_subtitle": "&4Chefe da Equipe Rocket • Equipe Nv. 46"
+	"quest.110100000000000C.title": "&4Esconderijo de Celadon: Giovanni I"
+	"quest.110100000000000D.quest_desc": [
+		"A Equipe Rocket tomou a sede da Silph Co. em Saffron, mas &eTerry&r intercepta você antes da sala do presidente!"
+		""
+		"• &eTrainer Spawner:&r Use um &fSoothe Bell&r (&7cobblemon:soothe_bell&r)."
+	]
+	"quest.110100000000000D.quest_subtitle": "&eBatalha de Rival • Equipe Nv. 55"
+	"quest.110100000000000D.title": "&eInvasão à Silph Co.: Rival Terry II"
+	"quest.110100000000000E.quest_desc": [
+		"Os dois comandantes de elite da Equipe Rocket — &cArcher e Ariana&r — atacam juntos para proteger Giovanni na Silph Co.!"
+		""
+		"• &eTrainer Spawner:&r Use um &fBlack Sludge&r (&7cobblemon:black_sludge&r)."
+	]
+	"quest.110100000000000E.quest_subtitle": "&cAdmins da Rocket • Equipe Nv. 55"
+	"quest.110100000000000E.title": "&cDupla Executiva: Archer e Ariana"
+	"quest.110100000000000F.quest_desc": [
+		"Impeça &4Giovanni&r de se apoderar da tecnologia da Silph Co.!"
+		""
+		"• &eTrainer Spawner:&r Use um &fDubious Disc&r (&7cobblemon:dubious_disc&r)."
+		""
+		"&d&lRecompensa Lendária Radical Red:&r Fiel à campanha original de Radical Red, libertar a Silph Co. concede a você o &d&lMega Ring&r para Mega Evoluir seus Pokémon em combate!"
+	]
+	"quest.110100000000000F.quest_subtitle": "&4Chefe Rocket • Equipe Nv. 56 • Desbloqueia Mega Ring!"
+	"quest.110100000000000F.title": "&4Libertação da Silph Co.: Giovanni II"
+	"quest.1101000000000010.quest_desc": [
+		"Com Saffron salva da Equipe Rocket, as portas do Ginásio Psíquico de &dSabrina&r estão abertas! Cuidado com estratégias de Trick Room e poder Psíquico devastador."
+		""
+		"• &eTrainer Spawner:&r Use uma &fTwisted Spoon&r (&7cobblemon:twisted_spoon&r)."
+	]
+	"quest.1101000000000010.quest_subtitle": "&dInsígnia do Pântano • Equipe Nv. 59"
+	"quest.1101000000000010.title": "&d5º Ginásio: Líder Sabrina"
+	"quest.1101000000000011.quest_desc": [
+		"&aBrendan&r retorna na entrada de Fuchsia com Mega Evolução e golpes super efetivos!"
+		""
+		"• &eTrainer Spawner:&r Use um &fExpert Belt&r (&7cobblemon:expert_belt&r)."
+	]
+	"quest.1101000000000011.quest_subtitle": "&aRival de Hoenn • Equipe Nv. 63"
+	"quest.1101000000000011.title": "&aRota de Fuchsia: Brendan II"
+	"quest.1101000000000012.quest_desc": [
+		"O mestre ninja &5Koga&r combina velocidade extrema, armadilhas tóxicas e Pokémon &5Venenosos&r letais!"
+		""
+		"• &eTrainer Spawner:&r Use um &fPoison Barb&r (&7cobblemon:poison_barb&r)."
+	]
+	"quest.1101000000000012.quest_subtitle": "&5Insígnia da Alma • Equipe Nv. 68"
+	"quest.1101000000000012.title": "&56º Ginásio: Líder Koga"
+	"quest.1101000000000013.quest_desc": [
+		"Antes de desafiar o calor escaldante de Cinnabar, a treinadora &bMay&r testa sua equipe em uma batalha intensa!"
+		""
+		"• &eTrainer Spawner:&r Use um &fVivichoke&r (&7cobblemon:vivichoke&r)."
+	]
+	"quest.1101000000000013.quest_subtitle": "&bVisitante de Hoenn • Equipe Nv. 73"
+	"quest.1101000000000013.title": "&bBrisa de Cinnabar: Treinadora May"
+	"quest.1101000000000014.quest_desc": [
+		"O veterano cientista do vulcão comanda o sol escaldante e o poder máximo do tipo &cFogo&r!"
+		""
+		"• &eTrainer Spawner:&r Use um &fCharcoal Stick&r (&7cobblemon:charcoal_stick&r)."
+	]
+	"quest.1101000000000014.quest_subtitle": "&cInsígnia do Vulcão • Equipe Nv. 76"
+	"quest.1101000000000014.title": "&c7º Ginásio: Líder Blaine"
+	"quest.1101000000000015.quest_desc": [
+		"Nas profundezas da Caverna de Cerulean, &cArcher&r e &cAriana&r fazem sua última linha de defesa consecutiva antes de Giovanni!"
+		""
+		"&e&lOrdem de Batalha (Trainer Spawner):&r"
+		"1. &cAdmin Archer III:&r Use uma &fCovert Cloak&r (&7cobblemon:covert_cloak&r)."
+		"2. &cAdmin Ariana II:&r Use uma &fUtility Umbrella&r (&7cobblemon:utility_umbrella&r)."
+	]
+	"quest.1101000000000015.quest_subtitle": "&cGuardiões Finais Rocket • Equipe Nv. 79"
+	"quest.1101000000000015.title": "&cCerulean Cave: Archer e Ariana Finais"
+	"quest.1101000000000016.quest_desc": [
+		"O duelo final contra &4Boss Giovanni&r na Caverna de Cerulean! Prepare-se para enfrentar o poder psíquico supremo da arma secreta da Rocket."
+		""
+		"• &eTrainer Spawner:&r Use um &fDestiny Knot&r (&7cobblemon:destiny_knot&r)."
+		""
+		"&d&lRecompensa Especial:&r &fLeftovers&r e a lendária &dMewtwonite Y&r!"
+	]
+	"quest.1101000000000016.quest_subtitle": "&4Confronto Definitivo • Equipe Nv. 80"
+	"quest.1101000000000016.title": "&4Queda da Equipe Rocket: Giovanni III"
+	"quest.1101000000000017.quest_desc": [
+		"Com o desaparecimento de Giovanni, a orgulhosa mestra de Dragões &9Clair&r assume o posto do 8º Ginásio na campanha Radical Red!"
+		""
+		"• &eTrainer Spawner:&r Use uma &fDragon Scale&r (&7cobblemon:dragon_scale&r)."
+		""
+		"&aConquistar a 8ª Insígnia abre os portões da Victory Road e da Liga Indigo!"
+	]
+	"quest.1101000000000017.quest_subtitle": "&9Insígnia Nascente • Equipe Nv. 81"
+	"quest.1101000000000017.title": "&98º Ginásio: Líder Clair"
+	"quest.1101000000000018.quest_desc": [
+		"Com as 8 insígnias em mãos, &eTerry&r aguarda você na Rota 22 para decidir quem entrará primeiro na Victory Road!"
+		""
+		"• &eTrainer Spawner:&r Use um &fLucky Egg&r (&7cobblemon:lucky_egg&r)."
+	]
+	"quest.1101000000000018.quest_subtitle": "&eRota 22 • Equipe Nv. 81"
+	"quest.1101000000000018.title": "&ePortões da Liga: Rival Terry IV"
+	"quest.1101000000000019.quest_desc": [
+		"Na saída da Victory Road, &aBrendan&r dá tudo de si em sua última disputa em Kanto!"
+		""
+		"• &eTrainer Spawner:&r Use um &fChoice Scarf&r (&7cobblemon:choice_scarf&r)."
+		""
+		"&6&lAtenção:&r Vencer Brendan eleva seu &bLevel Cap para Nv. 85&r e libera os 4 membros da &eElite Four de Kanto&r!"
+	]
+	"quest.1101000000000019.quest_subtitle": "&aÚltimo Teste antes da Liga • Equipe Nv. 82"
+	"quest.1101000000000019.title": "&aSaída da Victory Road: Brendan III"
+	"quest.110100000000001A.quest_desc": [
+		"1ª integrante da Elite Four de Kanto, especialista em clima glacial (&bGelo / Água&r)."
+		""
+		"• &eTrainer Spawner:&r Use um &fNever-Melt Ice&r (&7cobblemon:never_melt_ice&r)."
+	]
+	"quest.110100000000001A.quest_subtitle": "&bImperatriz do Gelo • Equipe Nv. 85"
+	"quest.110100000000001A.title": "&bElite Four: Lorelei"
+	"quest.110100000000001B.quest_desc": [
+		"2º integrante da Elite Four de Kanto, mestre do poder físico bruto (&cLutador&r)."
+		""
+		"• &eTrainer Spawner:&r Use uma &fFocus Band&r (&7cobblemon:focus_band&r)."
+	]
+	"quest.110100000000001B.quest_subtitle": "&cPunho Implacável • Equipe Nv. 85"
+	"quest.110100000000001B.title": "&cElite Four: Bruno"
+	"quest.110100000000001C.quest_desc": [
+		"3ª integrante da Elite Four de Kanto, especialista em maldições e ilusões (&5Fantasma&r)."
+		""
+		"• &eTrainer Spawner:&r Use uma &fCleanse Tag&r (&7cobblemon:cleanse_tag&r)."
+	]
+	"quest.110100000000001C.quest_subtitle": "&5Dama das Sombras • Equipe Nv. 85"
+	"quest.110100000000001C.title": "&5Elite Four: Agatha"
+	"quest.110100000000001D.quest_desc": [
+		"4º e último guardião da Elite Four de Kanto, comandante de lendários &9Dragões&r!"
+		""
+		"• &eTrainer Spawner:&r Use um &fDragon Fang&r (&7cobblemon:dragon_fang&r)."
+	]
+	"quest.110100000000001D.quest_subtitle": "&9Mestre dos Dragões • Equipe Nv. 85"
+	"quest.110100000000001D.title": "&9Elite Four: Lance"
+	"quest.110100000000001E.quest_desc": [
+		"Você superou toda a Elite Four, mas &6Terry&r chegou um passo antes e conquistou o trono de &e&lCampeão da Liga Indigo&r!"
+		""
+		"• &eTrainer Spawner:&r Use uma &fLife Orb&r (&7cobblemon:life_orb&r)."
+		""
+		"&6&lMarco Histórico:&r Derrotar o Campeão Terry coroa você no &eHall da Fama de Kanto&r! Procure um NPC da &bTrainer Association&r (próximo a vilas) e troque seu &bTrainer Card&r para iniciar a próxima série: &aHoenn Gym Challenge&r!"
+	]
+	"quest.110100000000001E.quest_subtitle": "&eHall da Fama • Equipe Nv. 85 • Desbloqueia Hoenn!"
+	"quest.110100000000001E.title": "&6&lCAMPEÃO DE KANTO: TERRY"
+	"quest.110100000000001F.quest_desc": [
+		"\"...\""
+		""
+		"Em algum lugar remoto do mundo, a maior lenda viva de Kanto aguarda em absoluto silêncio com uma equipe no &4&lNível 100&r!"
+		""
+		"&7(Desafio Opcional de Prestígio Máximo do Capítulo 1 — volte quando sua equipe alcançar o Nv. 100!)"
+	]
+	"quest.110100000000001F.quest_subtitle": "&cChefe Secreto Pós-Liga • Equipe Nv. 100"
+	"quest.110100000000001F.title": "&4&lLENDA VIVA: TREINADOR RED"
+	"quest.1102000000000001.quest_desc": [
+		"Após triunfar na Liga Indigo de Kanto, as terras e mares de &aHoenn&r aguardam seu desafio!"
+		""
+		"• &eSérie na Trainer Association:&r Selecione &aHoenn Gym Challenge&r trocando seu &bTrainer Card&r com o NPC da Associação."
+		"• Use a bússola do &bTrainer Card&r para localizar cada Líder de Ginásio em ordem!"
+	]
+	"quest.1102000000000001.quest_subtitle": "&7Rumo ao Nível 150"
+	"quest.1102000000000001.title": "&aO Chamado de Hoenn"
+	"quest.1102000000000002.quest_desc": [
+		"Roxanne é a erudita de Rustboro, especialista em Pokémon fósseis e do tipo &6Pedra&r."
+	]
+	"quest.1102000000000002.quest_subtitle": "&7Insígnia da Pedra • Equipe Nv. 107"
+	"quest.1102000000000002.title": "&61º Ginásio: Líder Roxanne"
+	"quest.1102000000000003.quest_desc": [
+		"O surfista de Dewford treina incansavelmente para dominar o estilo &cLutador&r."
+	]
+	"quest.1102000000000003.quest_subtitle": "&7Insígnia do Punho • Equipe Nv. 112"
+	"quest.1102000000000003.title": "&c2º Ginásio: Líder Brawly"
+	"quest.1102000000000004.quest_desc": [
+		"O veterano líder de Mauville comanda uma equipe &eElétrica&r de alta voltagem."
+	]
+	"quest.1102000000000004.quest_subtitle": "&7Insígnia do Dínamo • Equipe Nv. 117"
+	"quest.1102000000000004.title": "&e3º Ginásio: Líder Wattson"
+	"quest.1102000000000005.quest_desc": [
+		"A impetuosa líder de Lavaridge luta com a paixão das fontes termais e o poder do &cFogo&r."
+	]
+	"quest.1102000000000005.quest_subtitle": "&7Insígnia do Calor • Equipe Nv. 121"
+	"quest.1102000000000005.title": "&c4º Ginásio: Líder Flannery"
+	"quest.1102000000000006.quest_desc": [
+		"O respeitado mestre de Petalburg. Sua força bruta do tipo &fNormal&r impõe respeito absoluto."
+	]
+	"quest.1102000000000006.quest_subtitle": "&7Insígnia do Equilíbrio • Equipe Nv. 126"
+	"quest.1102000000000006.title": "&f5º Ginásio: Líder Norman"
+	"quest.1102000000000007.quest_desc": [
+		"A guardiã das copas das árvores de Fortree domina os céus com sua equipe &bVoadora&r."
+	]
+	"quest.1102000000000007.quest_subtitle": "&7Insígnia da Pluma • Equipe Nv. 131"
+	"quest.1102000000000007.title": "&b6º Ginásio: Líder Winona"
+	"quest.1102000000000008.quest_desc": [
+		"Os gêmeos místicos de Mossdeep possuem sincronia mental perfeita com Pokémon &dPsíquicos&r."
+	]
+	"quest.1102000000000008.quest_subtitle": "&7Insígnia da Mente • Equipe Nv. 135"
+	"quest.1102000000000008.title": "&d7º Ginásio: Líderes Liza e Tate"
+	"quest.1102000000000009.quest_desc": [
+		"O gracioso artista das águas de Sootopolis e último guardião dos ginásios de Hoenn."
+		""
+		"&aAo derrotá-lo, fale com a &bTrainer Association&a para iniciar a série &eHoenn League Challenge&a!"
+	]
+	"quest.1102000000000009.quest_subtitle": "&7Insígnia da Chuva • Equipe Nv. 140"
+	"quest.1102000000000009.title": "&98º Ginásio: Mestre Wallace"
+	"quest.110200000000000A.quest_desc": [
+		"O primeiro desafio da Liga de Ever Grande."
+		""
+		"• &eSérie na Trainer Association:&r &aHoenn League Challenge&r."
+	]
+	"quest.110200000000000A.quest_subtitle": "&7Mestre Sombrio • Equipe Nv. 144"
+	"quest.110200000000000A.title": "&8Elite Four: Sidney"
+	"quest.110200000000000B.quest_desc": [
+		"Phoebe comanda os espectros do Monte Pyre com maldições e ilusões fantasmagóricas."
+	]
+	"quest.110200000000000B.quest_subtitle": "&7Espíritos de Pyre • Equipe Nv. 146"
+	"quest.110200000000000B.title": "&5Elite Four: Phoebe"
+	"quest.110200000000000C.quest_desc": [
+		"Vinda de terras gélidas distantes para testar os aspirantes a campeão."
+	]
+	"quest.110200000000000C.quest_subtitle": "&7Frio Absoluto • Equipe Nv. 147"
+	"quest.110200000000000C.title": "&bElite Four: Glacia"
+	"quest.110200000000000D.quest_desc": [
+		"O lendário capitão do mar cuja alma queima junto à fúria de seus dragões ancestrais."
+	]
+	"quest.110200000000000D.quest_subtitle": "&7Fúria dos Dragões • Equipe Nv. 148"
+	"quest.110200000000000D.title": "&9Elite Four: Drake"
+	"quest.110200000000000E.quest_desc": [
+		"No salão principal da Liga de Ever Grande, &bSteven Stone&r aguarda com seu formidável time!"
+		""
+		"&6&lMarco Regional:&r Vencer Steven desbloqueia a série &bSinnoh Gym Challenge&r na &bTrainer Association&r!"
+	]
+	"quest.110200000000000E.quest_subtitle": "&eO Soberano de Aço de Hoenn • Equipe Nv. 150"
+	"quest.110200000000000E.title": "&b&lCampeão Supremo: Steven Stone"
+	"quest.1103000000000001.quest_desc": [
+		"Sob os mitos de &bSinnoh&r, oito líderes mestres aguardam para elevar seus limites rumo ao Nv. 200!"
+		""
+		"• &eSérie na Trainer Association:&r Selecione &bSinnoh Gym Challenge&r."
+	]
+	"quest.1103000000000001.quest_subtitle": "&7Rumo ao Nível 195"
+	"quest.1103000000000001.title": "&bOs Picos Sagrados de Sinnoh"
+	"quest.1103000000000002.quest_desc": [
+		"O supervisor das minas de Oreburgh abre a temporada de Sinnoh com fósseis implacáveis."
+	]
+	"quest.1103000000000002.quest_subtitle": "&7Insígnia do Carvão • Equipe Nv. 158"
+	"quest.1103000000000002.title": "&61º Ginásio: Líder Roark"
+	"quest.1103000000000003.quest_desc": [
+		"A guardiã botânica de Eterna City domina o campo com Pokémon do tipo &aPlanta&r."
+	]
+	"quest.1103000000000003.quest_subtitle": "&7Insígnia da Floresta • Equipe Nv. 164"
+	"quest.1103000000000003.title": "&a2º Ginásio: Líder Gardenia"
+	"quest.1103000000000004.quest_desc": [
+		"A jovem prodígio dos dojos de Veilstone City luta com ofensiva física total."
+	]
+	"quest.1103000000000004.quest_subtitle": "&7Insígnia do Pedregulho • Equipe Nv. 174"
+	"quest.1103000000000004.title": "&c3º Ginásio: Líder Maylene"
+	"quest.1103000000000005.quest_desc": [
+		"O carismático lutador mascarado das águas turbulentas de Pastoria City."
+	]
+	"quest.1103000000000005.quest_subtitle": "&7Insígnia do Pântano • Equipe Nv. 179"
+	"quest.1103000000000005.title": "&94º Ginásio: Líder Crasher Wake"
+	"quest.1103000000000006.quest_desc": [
+		"A graciosa dançarina de Hearthome City encanta a arena com seus espectros &5Fantasma&r."
+	]
+	"quest.1103000000000006.quest_subtitle": "&7Insígnia da Relíquia • Equipe Nv. 169"
+	"quest.1103000000000006.title": "&55º Ginásio: Líder Fantina"
+	"quest.1103000000000007.quest_desc": [
+		"O mestre da defesa blindada de Canalave City e pai de Roark."
+	]
+	"quest.1103000000000007.quest_subtitle": "&7Insígnia da Mina • Equipe Nv. 185"
+	"quest.1103000000000007.title": "&76º Ginásio: Líder Byron"
+	"quest.1103000000000008.quest_desc": [
+		"A determinada guardiã das neves eternas de Snowpoint City."
+	]
+	"quest.1103000000000008.quest_subtitle": "&7Insígnia da Geada • Equipe Nv. 190"
+	"quest.1103000000000008.title": "&b7º Ginásio: Líder Candice"
+	"quest.1103000000000009.quest_desc": [
+		"O brilhante engenheiro de Sunyshore City aguarda como o desafio supremo da série &bSinnoh Gym Challenge&r!"
+		""
+		"&6&lMarco Regional:&r Conquistar a 8ª Insígnia conclui Sinnoh e libera a série &7Unova Gym Challenge&r na &bTrainer Association&r!"
+	]
+	"quest.1103000000000009.quest_subtitle": "&eInsígnia do Farol • Desafio Final de Sinnoh • Nv. 195"
+	"quest.1103000000000009.title": "&e&l8º Ginásio: Mestre Volkner"
+	"quest.1104000000000001.quest_desc": [
+		"Unova traz pontes monumentais, grandes rivais e três séries consecutivas!"
+		""
+		"• &eSérie inicial na Trainer Association:&r &fUnova Gym Challenge&r."
+		"• &bImportante:&r Siga sempre o próximo alvo indicado no seu &bTrainer Card&r, pois os rivais &eBianca, Cheren, Hugh&r e &aN&r desafiam você entre os ginásios!"
+	]
+	"quest.1104000000000001.quest_subtitle": "&7Rumo ao Nível 250"
+	"quest.1104000000000001.title": "&7A Metrópole dos Ideais: Unova"
+	"quest.1104000000000002.quest_desc": [
+		"Vença primeiro o encontro inicial com &eBianca, Cheren e Hugh&r (Nv. 206–208) pelo &bTrainer Card&r para desafiar os irmãos de Striaton!"
+		"Derrote também &cChili&r e &9Cress&r e a revanche dos rivais rumo a Nacrene."
+	]
+	"quest.1104000000000002.quest_subtitle": "&7Cilan, Chili e Cress • Equipe Nv. 213"
+	"quest.1104000000000002.title": "&a1º Ginásio: Tríade de Striaton"
+	"quest.1104000000000003.quest_desc": [
+		"A diretora do Museu de Nacrene City comanda estratégias implacáveis do tipo &fNormal&r."
+	]
+	"quest.1104000000000003.quest_subtitle": "&7Insígnia Básica • Equipe Nv. 216"
+	"quest.1104000000000003.title": "&f2º Ginásio: Líder Lenora"
+	"quest.1104000000000004.quest_desc": [
+		"O artista excêntrico dos arranha-céus de Castelia City."
+	]
+	"quest.1104000000000004.quest_subtitle": "&7Insígnia do Inseto • Equipe Nv. 220"
+	"quest.1104000000000004.title": "&a3º Ginásio: Líder Burgh"
+	"quest.1104000000000005.quest_desc": [
+		"Superando &eBianca&r (Nv. 223) no caminho, desafie a estrela das passarelas de Nimbasa City!"
+	]
+	"quest.1104000000000005.quest_subtitle": "&7Insígnia do Raio • Equipe Nv. 227"
+	"quest.1104000000000005.title": "&e4º Ginásio: Líder Elesa"
+	"quest.1104000000000006.quest_desc": [
+		"Enfrente o enigmático &aTreinador N&r (Nv. 228) e desafie o magnata minerador de Driftveil City!"
+	]
+	"quest.1104000000000006.quest_subtitle": "&7Insígnia do Tremor • Equipe Nv. 230"
+	"quest.1104000000000006.title": "&65º Ginásio: Líder Clay"
+	"quest.1104000000000007.quest_desc": [
+		"Após vencer &cRival Hugh&r (Nv. 234), desafie a piloto destemida das pistas aéreas de Mistralton!"
+	]
+	"quest.1104000000000007.quest_subtitle": "&7Insígnia do Jato • Equipe Nv. 233"
+	"quest.1104000000000007.title": "&b6º Ginásio: Líder Skyla"
+	"quest.1104000000000008.quest_desc": [
+		"Supere &9Rival Cheren&r (Nv. 236) e enfrente o mestre de artes marciais de Icirrus City!"
+	]
+	"quest.1104000000000008.quest_subtitle": "&7Insígnia do Gelo • Equipe Nv. 237"
+	"quest.1104000000000008.title": "&b7º Ginásio: Líder Brycen"
+	"quest.1104000000000009.quest_desc": [
+		"Vença o duelo final contra &9Cheren&r (Nv. 238) e encare o patriarca dos dragões de Opelucid City!"
+		""
+		"&aAo vencer, inicie a série &eUnova League Challenge&a na &bTrainer Association&a!"
+	]
+	"quest.1104000000000009.quest_subtitle": "&7Insígnia da Lenda • Equipe Nv. 240"
+	"quest.1104000000000009.title": "&98º Ginásio: Prefeito Drayden"
+	"quest.110400000000000A.quest_desc": [
+		"Derrote os quatro mestres da Liga Pokémon de Unova para abrir a sala do Campeão Alder!"
+		""
+		"• &eSérie na Trainer Association:&r &dUnova League Challenge&r."
+	]
+	"quest.110400000000000A.quest_subtitle": "&7Shauntal, Grimsley, Caitlin e Marshal • Nv. 245"
+	"quest.110400000000000A.title": "&5Elite Four de Unova"
+	"quest.110400000000000B.quest_desc": [
+		"O viajante sábio e formidável Campeão de Unova aguarda no topo da Liga!"
+		""
+		"&aVencê-lo libera a continuação histórica: &dUnova (B2W2) Challenge&a na &bTrainer Association&a!"
+	]
+	"quest.110400000000000B.quest_subtitle": "&eO Grande Mentor de Unova • Equipe Nv. 250"
+	"quest.110400000000000B.title": "&6Campeão Errante: Alder"
+	"quest.110400000000000C.quest_desc": [
+		"Dois anos depois, novos líderes e os chefes do metrô &8Ingo e Emmet&r guardam o caminho até o novo trono de Unova!"
+		""
+		"• &eSérie na Trainer Association:&r &dUnova (B2W2) Challenge&r."
+		"• Siga a sequência do &bTrainer Card&r: Cheren -> Hugh -> Roxie -> Ingo -> Marlon -> Emmet!"
+	]
+	"quest.110400000000000C.quest_subtitle": "&7Cheren, Roxie e Marlon • Equipes Nv. 245 a 250"
+	"quest.110400000000000C.title": "&dDesafio B2W2: Novos Líderes e Battle Subway"
+	"quest.110400000000000D.quest_desc": [
+		"Após superar Subway Boss Emmet, &5Iris&r aguarda no trono máximo de Unova!"
+		""
+		"&6&lMarco Regional:&r Derrotar Iris desbloqueia a série &dKalos Gym Challenge&r na &bTrainer Association&r!"
+	]
+	"quest.110400000000000D.quest_subtitle": "&eTrono Estelar de B2W2 • Equipe Nv. 250"
+	"quest.110400000000000D.title": "&5&lCampeã Soberana dos Dragões: Iris"
+	"quest.1105000000000001.quest_desc": [
+		"Kalos é o berço das Pedras Chave e dos laços supremos entre treinadores e Pokémon!"
+		""
+		"• &eSérie inicial na Trainer Association:&r &dKalos Gym Challenge&r."
+	]
+	"quest.1105000000000001.quest_subtitle": "&7Rumo ao Nível 293"
+	"quest.1105000000000001.title": "&dA Terra da Mega Evolução"
+	"quest.1105000000000002.quest_desc": [
+		"A fotógrafa de Santalune City registra batalhas em alta velocidade."
+	]
+	"quest.1105000000000002.quest_subtitle": "&7Insígnia do Inseto • Equipe Nv. 255"
+	"quest.1105000000000002.title": "&a1º Ginásio: Líder Viola"
+	"quest.1105000000000003.quest_desc": [
+		"O atleta e escalador de penhascos de Cyllage City."
+	]
+	"quest.1105000000000003.quest_subtitle": "&7Insígnia do Penhasco • Equipe Nv. 271"
+	"quest.1105000000000003.title": "&62º Ginásio: Líder Grant"
+	"quest.1105000000000004.quest_desc": [
+		"A herdeira da Torre da Maestria em Shalour City luta com poder Mega Evoluído."
+	]
+	"quest.1105000000000004.quest_subtitle": "&7Insígnia da Luta • Equipe Nv. 274"
+	"quest.1105000000000004.title": "&c3º Ginásio: Sucessora Korrina"
+	"quest.1105000000000005.quest_desc": [
+		"O sábio jardineiro veterano das colinas de Coumarine City."
+	]
+	"quest.1105000000000005.quest_subtitle": "&7Insígnia da Planta • Equipe Nv. 278"
+	"quest.1105000000000005.title": "&a4º Ginásio: Líder Ramos"
+	"quest.1105000000000006.quest_desc": [
+		"O jovem gênio científico da Torre Prisma no coração de Lumiose City."
+	]
+	"quest.1105000000000006.quest_subtitle": "&7Insígnia da Voltagem • Equipe Nv. 282"
+	"quest.1105000000000006.title": "&e5º Ginásio: Inventor Clemont"
+	"quest.1105000000000007.quest_desc": [
+		"A criadora da alta-costura encantada de Laverre City."
+	]
+	"quest.1105000000000007.quest_subtitle": "&7Insígnia da Fada • Equipe Nv. 286"
+	"quest.1105000000000007.title": "&d6º Ginásio: Estilista Valerie"
+	"quest.1105000000000008.quest_desc": [
+		"A guardiã cósmica do relógio solar estelar de Anistar City."
+	]
+	"quest.1105000000000008.quest_subtitle": "&7Insígnia Psíquica • Equipe Nv. 286"
+	"quest.1105000000000008.title": "&57º Ginásio: Vidente Olympia"
+	"quest.1105000000000009.quest_desc": [
+		"O veterano acolhedor das neves eternas de Snowbelle City."
+		""
+		"&aAo vencê-lo, inicie a série &dKalos League Challenge&a na &bTrainer Association&a!"
+	]
+	"quest.1105000000000009.quest_subtitle": "&7Insígnia do Iceberg • Equipe Nv. 290"
+	"quest.1105000000000009.title": "&b8º Ginásio: Líder Wulfric"
+	"quest.110500000000000A.quest_desc": [
+		"Supere as quatro grandes câmaras da Liga de Kalos para desafiar a Campeã Diantha!"
+		""
+		"• &eSérie na Trainer Association:&r &dKalos League Challenge&r."
+	]
+	"quest.110500000000000A.quest_subtitle": "&7Malva, Siebold, Wikstrom e Drasna • Nv. 293"
+	"quest.110500000000000A.title": "&5Elite Four de Kalos"
+	"quest.110500000000000B.quest_desc": [
+		"Na Câmara Radiante da Liga de Kalos, a aclamada atriz &dDiantha&r aguarda!"
+		""
+		"&6&lMarco Regional:&r Derrotar Diantha desbloqueia a série &6Paldea Gym Challenge&r na &bTrainer Association&r!"
+	]
+	"quest.110500000000000B.quest_subtitle": "&eA Estrela Radiante de Kalos • Equipe Nv. 293"
+	"quest.110500000000000B.title": "&d&lGrã-Duquesa Campeã: Diantha"
+	"quest.1106000000000001.quest_desc": [
+		"As terras abertas de &6Paldea&r aguardam com 8 Ginásios, a Elite Four e a Operação Starfall!"
+		""
+		"• &eSérie inicial na Trainer Association:&r &6Paldea Gym Challenge&r."
+		"• &bNota:&r Em Paldea, os 8 Líderes e &eRival Arven&r (Nv. 328) podem ser enfrentados em qualquer ordem, seguidos pelo duelo final contra &aRival Nemona&r (Nv. 335)!"
+	]
+	"quest.1106000000000001.quest_subtitle": "&7Rumo ao Nível 345"
+	"quest.1106000000000001.title": "&6A Grande Caçada ao Tesouro"
+	"quest.1106000000000002.quest_desc": [
+		"A confeiteira especialista em Pokémon do tipo &aInseto&r."
+	]
+	"quest.1106000000000002.quest_subtitle": "&7Cortondo • Equipe Nv. 335"
+	"quest.1106000000000002.title": "&a1º Ginásio: Confeiteira Katy"
+	"quest.1106000000000003.quest_desc": [
+		"O artista apaixonado pela natureza e esculturas vivas de Artazon."
+	]
+	"quest.1106000000000003.quest_subtitle": "&7Artazon • Equipe Nv. 335"
+	"quest.1106000000000003.title": "&a2º Ginásio: Artista Brassius"
+	"quest.1106000000000004.quest_desc": [
+		"A maior influenciadora e streamer eletrizante de Paldea!"
+	]
+	"quest.1106000000000004.quest_subtitle": "&7Levincia • Equipe Nv. 335"
+	"quest.1106000000000004.title": "&e3º Ginásio: Streamer Iono"
+	"quest.1106000000000005.quest_desc": [
+		"O carismático chef culinário das correntes marinhas de Cascarrafa."
+	]
+	"quest.1106000000000005.quest_subtitle": "&7Cascarrafa • Equipe Nv. 335"
+	"quest.1106000000000005.title": "&94º Ginásio: Chef Kofu"
+	"quest.1106000000000006.quest_desc": [
+		"O veterano mais pragmático e surpreendentemente forte da Liga de Paldea."
+	]
+	"quest.1106000000000006.quest_subtitle": "&7Medali • Equipe Nv. 335"
+	"quest.1106000000000006.title": "&f5º Ginásio: Trabalhador Larry"
+	"quest.1106000000000007.quest_desc": [
+		"A lenda da música e das batalhas em dupla espectrais de Montenevera."
+	]
+	"quest.1106000000000007.quest_subtitle": "&7Montenevera • Equipe Nv. 335"
+	"quest.1106000000000007.title": "&56º Ginásio: Rapper Ryme"
+	"quest.1106000000000008.quest_desc": [
+		"A empresária e modelo de Alfornada com reflexos &dPsíquicos&r impecáveis."
+	]
+	"quest.1106000000000008.quest_subtitle": "&7Alfornada • Equipe Nv. 335"
+	"quest.1106000000000008.title": "&d7º Ginásio: Maquiadora Tulip"
+	"quest.1106000000000009.quest_desc": [
+		"O ex-snowboarder profissional do Monte Glaseado."
+		""
+		"&eImportante:&r Certifique-se de vencer também &6Rival Arven&r (Nv. 328) e &aRival Nemona&r (Nv. 335) no seu &bTrainer Card&r para concluir &6Paldea Gym Challenge&r e abrir &ePaldea Elite Four&r e &cStarfall Street&r na &bTrainer Association&r!"
+	]
+	"quest.1106000000000009.quest_subtitle": "&7Glaseado • Equipe Nv. 335"
+	"quest.1106000000000009.title": "&b8º Ginásio: Snowboarder Grusha"
+	"quest.110600000000000A.quest_desc": [
+		"Supere em ordem os quatro examinadores supremos da Liga de Paldea!"
+		""
+		"• &eSérie na Trainer Association:&r &6Paldea Elite Four&r."
+	]
+	"quest.110600000000000A.quest_subtitle": "&7Rika, Poppy, Larry e Hassel • Nv. 340"
+	"quest.110600000000000A.title": "&5Elite Four de Paldea"
+	"quest.110600000000000B.quest_desc": [
+		"No topo da Liga de Mesagoza, a elegante &6La Primera Geeta&r aguarda seu desafio!"
+		""
+		"&6&lMarco Mundial:&r Vencer Geeta conclui todas as Ligas Regionais e abre os &4Desafios Mundiais (Capítulo 7: Team Aqua)&r na &bTrainer Association&r!"
+	]
+	"quest.110600000000000B.quest_subtitle": "&eA Presidente da Liga de Paldea • Equipe Nv. 340"
+	"quest.110600000000000B.title": "&6&lPrimeira Campeã: Geeta"
+	"quest.110600000000000C.quest_desc": [
+		"Campanha paralela opcional de Paldea! Desmantele os cinco esquadrões rebeldes do &cTeam Star&r."
+		""
+		"• &eSérie na Trainer Association:&r &cStarfall Street&r."
+	]
+	"quest.110600000000000C.quest_subtitle": "&7Giacomo, Mela, Atticus, Ortega e Eri • Nv. 345"
+	"quest.110600000000000C.title": "&cOperação Starfall: Os 5 Chefes"
+	"quest.110600000000000D.quest_desc": [
+		"Com os cinco esquadrões superados, a verdadeira líder por trás do Team Star revela sua identidade!"
+	]
+	"quest.110600000000000D.quest_subtitle": "&7Confronto Secreto • Equipe Nv. 345"
+	"quest.110600000000000D.title": "&c&lMente Suprema do Team Star: Cassiopeia"
+	"quest.1107000000000001.quest_desc": [
+		"As organizações criminosas mais perigosas do mundo mobilizaram seus exércitos!"
+		""
+		"• &eOrdem das Séries na Trainer Association:&r"
+		"  1. &9Team Aqua&r -> 2. &cTeam Magma&r -> 3. &7Team Plasma&r -> 4. &5Team Plasma's Seven Sages&r -> 5. &8Neo Team Plasma&r."
+	]
+	"quest.1107000000000001.quest_subtitle": "&7Rumo ao Nível 400"
+	"quest.1107000000000001.title": "&4A Ameaça Global das Facções"
+	"quest.1107000000000002.quest_desc": [
+		"Derrote os recrutas do &9Team Aqua&r guiando-se pelo &bTrainer Card&r para expor seus comandantes!"
+		""
+		"• &eSérie na Trainer Association:&r &9Team Aqua&r."
+	]
+	"quest.1107000000000002.quest_subtitle": "&7Recrutas dos Mares • Equipes Nv. 358 a 364"
+	"quest.1107000000000002.title": "&9Team Aqua: Infiltração Marítima"
+	"quest.1107000000000003.quest_desc": [
+		"Supere os três administradores de elite de Archie (derrote também os recrutas Jellie e Angie pelo Trainer Card)!"
+	]
+	"quest.1107000000000003.quest_subtitle": "&7Tenentes do Abismo • Equipes Nv. 366 a 367"
+	"quest.1107000000000003.title": "&9Comandantes Aqua: Matt, Shelly e Amber"
+	"quest.1107000000000004.quest_desc": [
+		"Com Mega Sharpedo e a fúria dos maremotos, Archie luta pelo dilúvio primordial!"
+		""
+		"&aAo vencê-lo, inicie a série &cTeam Magma&a na &bTrainer Association&a!"
+	]
+	"quest.1107000000000004.quest_subtitle": "&eO Soberano dos Mares • Equipe Nv. 370"
+	"quest.1107000000000004.title": "&9&lLíder Supremo Archie: Oceano Infinito"
+	"quest.1107000000000005.quest_desc": [
+		"Com o Team Aqua contido, o &cTeam Magma&r avança sua operação tectônica!"
+		""
+		"• &eSérie na Trainer Association:&r &cTeam Magma&r."
+	]
+	"quest.1107000000000005.quest_subtitle": "&7Recrutas da Terra • Equipes Nv. 358 a 364"
+	"quest.1107000000000005.title": "&cTeam Magma: Operação Vulcânica"
+	"quest.1107000000000006.quest_desc": [
+		"Derrote os três comandantes de Maxie (vencendo também os recrutas Ember e Cole pelo Trainer Card)!"
+	]
+	"quest.1107000000000006.quest_subtitle": "&7Estrategistas de Lava • Equipes Nv. 366 a 367"
+	"quest.1107000000000006.title": "&cComandantes Magma: Blaise, Courtney e Tabitha"
+	"quest.1107000000000007.quest_desc": [
+		"Maxie coloca todo seu poder vulcânico em campo para expandir os continentes!"
+		""
+		"&aAo vencê-lo, inicie a série &7Team Plasma&a na &bTrainer Association&a!"
+	]
+	"quest.1107000000000007.quest_subtitle": "&eO Senhor dos Continentes • Equipe Nv. 370"
+	"quest.1107000000000007.title": "&c&lLíder Supremo Maxie: Chamas da Terra"
+	"quest.1107000000000008.quest_desc": [
+		"Supere todos os pelotões do Team Plasma até o confronto decisivo contra o Rei &aN&r (Nv. 385)!"
+		""
+		"• &eSérie na Trainer Association:&r &7Team Plasma&r."
+	]
+	"quest.1107000000000008.quest_subtitle": "&7Cruzada de N • Equipes Nv. 370 a 385"
+	"quest.1107000000000008.title": "&7Team Plasma: O Cerco dos Ideais"
+	"quest.1107000000000009.quest_desc": [
+		"Cace Bronius, Giallo, Gorm, Rood, Ryoku e Zinzolin para revelar o manipulador nas sombras: &5Ghetsis&r!"
+		""
+		"• &eSérie na Trainer Association:&r &5Team Plasma's Seven Sages&r."
+	]
+	"quest.1107000000000009.quest_subtitle": "&7Os 6 Sábios e Ghetsis • Equipes Nv. 385 a 395"
+	"quest.1107000000000009.title": "&5O Julgamento dos Sete Sábios"
+	"quest.110700000000000A.quest_desc": [
+		"Enfrente os recrutas de elite, a &8Shadow Triad&r, o cientista &bColress&r (Nv. 398) e o retorno final de &4Ghetsis&r (Nv. 400)!"
+		""
+		"• &eSérie na Trainer Association:&r &8Neo Team Plasma&r."
+		"&6&lMarco Mundial:&r Esta vitória encerra o domínio dos vilões e libera o capítulo final: &6Pokemon Adventures (Capítulo 8)&r!"
+	]
+	"quest.110700000000000A.quest_subtitle": "&4O Ápice do Terror Tecnológico • Equipe Nv. 400"
+	"quest.110700000000000A.title": "&8&lNeo Team Plasma: Colress e Ghetsis"
+	"quest.1108000000000001.quest_desc": [
+		"Os protagonistas lendários do mangá &6Pokémon Adventures (PokéSpe)&r cruzaram os horizontes para o teste supremo do servidor!"
+		""
+		"• &eSérie na Trainer Association:&r &6Pokemon Adventures&r."
+		"• Derrote &eYellow&r para despertar os trios de Johto, Hoenn e Sinnoh, além do quarteto de Unova, rumo aos mestres originais de Kanto!"
+	]
+	"quest.1108000000000001.quest_subtitle": "&7Os 17 Protagonistas de Pokémon Adventures"
+	"quest.1108000000000001.title": "&6O Panteão dos Mestres do Mangá"
+	"quest.1108000000000002.quest_desc": [
+		"Dotada do poder místico da Floresta de Viridian, &eYellow&r abre o desafio dos portadores da Pokédex!"
+		"Superá-la desbloqueia simultaneamente as jornadas de &6Johto&r, &9Hoenn&r e &bSinnoh&r."
+	]
+	"quest.1108000000000002.quest_subtitle": "&7O Despertar da Lenda • Equipe Nv. 405"
+	"quest.1108000000000002.title": "&eA Guardiã de Viridian: Yellow"
+	"quest.1108000000000003.quest_desc": [
+		"Enfrente em sequência a especialista em captura &bCrystal&r (Nv. 415), o audacioso &6Gold&r (Nv. 425) e o estrategista &7Silver&r (Nv. 434)!"
+	]
+	"quest.1108000000000003.quest_subtitle": "&7Os Herdeiros de Johto • Equipes Nv. 415 a 434"
+	"quest.1108000000000003.title": "&6Trio de Johto: Crystal, Gold e Silver"
+	"quest.1108000000000004.quest_desc": [
+		"Supere em ordem &cRuby&r (Nv. 415), &9Sapphire&r (Nv. 425) e o prodígio da Battle Frontier &aEmerald&r (Nv. 434)!"
+	]
+	"quest.1108000000000004.quest_subtitle": "&7Os Guardiões da Fronteira • Equipes Nv. 415 a 434"
+	"quest.1108000000000004.title": "&9Trio de Hoenn: Ruby, Sapphire e Emerald"
+	"quest.1108000000000005.quest_desc": [
+		"Vença em ordem &7Diamond&r (Nv. 415), &ePearl&r (Nv. 425) e &bLady Platinum Berlitz&r (Nv. 434)!"
+	]
+	"quest.1108000000000005.quest_subtitle": "&7Guardiões do Tempo e Espaço • Equipes Nv. 415 a 434"
+	"quest.1108000000000005.title": "&bTrio de Sinnoh: Diamond, Pearl e Platinum"
+	"quest.1108000000000006.quest_desc": [
+		"Desafie os quatro heróis de Unova do mangá: &aWhitley&r (Nv. 415), &fWhite&r (Nv. 425), &9Blake&r (Nv. 434) e &8Black&r (Nv. 444)!"
+	]
+	"quest.1108000000000006.quest_subtitle": "&7Sonhadores da Verdade e Ideais • Equipes Nv. 415 a 444"
+	"quest.1108000000000006.title": "&8Quarteto de Unova: Whitley, White, Blake e Black"
+	"quest.1108000000000007.quest_desc": [
+		"Após provar seu valor diante dos trios de Johto, Hoenn e Sinnoh, &aGreen&r (Nv. 444) e &bBlue&r (Nv. 450) aceitam seu desafio!"
+	]
+	"quest.1108000000000007.quest_subtitle": "&7A Estrategista Astuta e o Mestre Tático • Nv. 444 e Nv. 450"
+	"quest.1108000000000007.title": "&aVeteranos de Pallet: Green e Blue"
+	"quest.1108000000000008.quest_desc": [
+		"Com Green e Blue superados, o lendário &cRed&r entra em campo com sua equipe icônica para o duelo derradeiro de Kanto!"
+	]
+	"quest.1108000000000008.quest_subtitle": "&eO Campeão Original do Mangá • Equipe Nv. 449"
+	"quest.1108000000000008.title": "&c&lO Lutador Supremo: Red (PokéSpe)"
+	"quest.1108000000000009.quest_desc": [
+		"Você alcançou o que poucos treinadores ousaram sonhar!"
+		"Todas as regiões, todas as organizações criminosas e todos os 17 protagonistas lendários de Pokémon Adventures foram superados."
+		""
+		"&6&lVocê é agora uma Lenda Imortal do universo de Limbo Cobblemon!&r"
+	]
+	"quest.1108000000000009.quest_subtitle": "&eConquistador Absoluto de Todas as Séries e Lendas!"
+	"quest.1108000000000009.title": "&6&lO Mestre Supremo de Limbo Cobblemon"
+	"reward.1101200000000009.title": "&a$ 250 CobbleDollars"
+	"reward.110120000000000C.title": "&a$ 200 CobbleDollars"
+	"reward.110120000000000F.title": "&a$ 150 CobbleDollars"
+	"reward.1101200000000014.title": "&a$ 500 CobbleDollars"
+	"reward.1101200000000018.title": "&a$ 300 CobbleDollars"
+	"reward.110120000000001C.title": "&a$ 400 CobbleDollars"
+	"reward.1101200000000021.title": "&a$ 700 CobbleDollars"
+	"reward.1101200000000024.title": "&a$ 400 CobbleDollars"
+	"reward.1101200000000029.title": "&a$ 800 CobbleDollars"
+	"reward.110120000000002E.title": "&a$ 1.000 CobbleDollars"
+	"reward.1101200000000032.title": "&a$ 1.200 CobbleDollars"
+	"reward.1101200000000035.title": "&a$ 800 CobbleDollars"
+	"reward.1101200000000038.title": "&a$ 1.000 CobbleDollars"
+	"reward.110120000000003C.title": "&a$ 1.500 CobbleDollars"
+	"reward.1101200000000041.title": "&a$ 1.500 CobbleDollars"
+	"reward.1101200000000044.title": "&a$ 800 CobbleDollars"
+	"reward.1101200000000049.title": "&a$ 1.800 CobbleDollars"
+	"reward.110120000000004C.title": "&a$ 1.000 CobbleDollars"
+	"reward.1101200000000051.title": "&a$ 2.000 CobbleDollars"
+	"reward.1101200000000055.title": "&a$ 1.800 CobbleDollars"
+	"reward.1101200000000059.title": "&a$ 2.500 CobbleDollars"
+	"reward.110120000000005E.title": "&a$ 3.000 CobbleDollars"
+	"reward.1101200000000061.title": "&a$ 2.000 CobbleDollars"
+	"reward.1101200000000065.title": "&a$ 2.500 CobbleDollars"
+	"reward.1101200000000067.title": "&a$ 5.000 CobbleDollars"
+	"reward.1101200000000069.title": "&a$ 5.000 CobbleDollars"
+	"reward.110120000000006B.title": "&a$ 5.000 CobbleDollars"
+	"reward.110120000000006D.title": "&a$ 5.000 CobbleDollars"
+	"reward.1101200000000071.title": "&a$ 25.000 CobbleDollars"
+	"reward.1101200000000078.title": "&a$ 50.000 CobbleDollars"
+	"reward.110220000000007C.title": "&a$ 1.000 CobbleDollars"
+	"reward.1102200000000081.title": "&a$ 1.500 CobbleDollars"
+	"reward.1102200000000086.title": "&a$ 1.800 CobbleDollars"
+	"reward.110220000000008B.title": "&a$ 2.200 CobbleDollars"
+	"reward.1102200000000090.title": "&a$ 2.500 CobbleDollars"
+	"reward.1102200000000095.title": "&a$ 3.000 CobbleDollars"
+	"reward.110220000000009A.title": "&a$ 3.500 CobbleDollars"
+	"reward.110220000000009F.title": "&a$ 4.000 CobbleDollars"
+	"reward.11022000000000A4.title": "&a$ 5.000 CobbleDollars"
+	"reward.11022000000000A7.title": "&a$ 6.000 CobbleDollars"
+	"reward.11022000000000AA.title": "&a$ 6.500 CobbleDollars"
+	"reward.11022000000000AD.title": "&a$ 7.000 CobbleDollars"
+	"reward.11022000000000B0.title": "&a$ 8.000 CobbleDollars"
+	"reward.11022000000000B5.title": "&a$ 15.000 CobbleDollars"
+	"reward.11032000000000B8.title": "&a$ 2.000 CobbleDollars"
+	"reward.11032000000000BD.title": "&a$ 3.000 CobbleDollars"
+	"reward.11032000000000C2.title": "&a$ 3.500 CobbleDollars"
+	"reward.11032000000000C7.title": "&a$ 4.000 CobbleDollars"
+	"reward.11032000000000CC.title": "&a$ 4.500 CobbleDollars"
+	"reward.11032000000000D1.title": "&a$ 5.000 CobbleDollars"
+	"reward.11032000000000D6.title": "&a$ 5.500 CobbleDollars"
+	"reward.11032000000000DB.title": "&a$ 6.500 CobbleDollars"
+	"reward.11032000000000E2.title": "&a$ 20.000 CobbleDollars"
+	"reward.11042000000000E5.title": "&a$ 3.000 CobbleDollars"
+	"reward.11042000000000EA.title": "&a$ 4.000 CobbleDollars"
+	"reward.11042000000000EF.title": "&a$ 4.500 CobbleDollars"
+	"reward.11042000000000F4.title": "&a$ 5.000 CobbleDollars"
+	"reward.11042000000000F9.title": "&a$ 5.500 CobbleDollars"
+	"reward.11042000000000FE.title": "&a$ 6.000 CobbleDollars"
+	"reward.1104200000000103.title": "&a$ 6.500 CobbleDollars"
+	"reward.1104200000000108.title": "&a$ 7.000 CobbleDollars"
+	"reward.110420000000010D.title": "&a$ 8.000 CobbleDollars"
+	"reward.1104200000000110.title": "&a$ 12.000 CobbleDollars"
+	"reward.1104200000000114.title": "&a$ 20.000 CobbleDollars"
+	"reward.1104200000000118.title": "&a$ 12.000 CobbleDollars"
+	"reward.110420000000011D.title": "&a$ 25.000 CobbleDollars"
+	"reward.1105200000000120.title": "&a$ 4.000 CobbleDollars"
+	"reward.1105200000000125.title": "&a$ 5.000 CobbleDollars"
+	"reward.110520000000012A.title": "&a$ 5.500 CobbleDollars"
+	"reward.110520000000012F.title": "&a$ 6.000 CobbleDollars"
+	"reward.1105200000000134.title": "&a$ 6.500 CobbleDollars"
+	"reward.1105200000000139.title": "&a$ 7.000 CobbleDollars"
+	"reward.110520000000013D.title": "&a$ 7.500 CobbleDollars"
+	"reward.1105200000000141.title": "&a$ 8.000 CobbleDollars"
+	"reward.1105200000000146.title": "&a$ 9.000 CobbleDollars"
+	"reward.1105200000000149.title": "&a$ 14.000 CobbleDollars"
+	"reward.110520000000014E.title": "&a$ 30.000 CobbleDollars"
+	"reward.1106200000000151.title": "&a$ 5.000 CobbleDollars"
+	"reward.1106200000000156.title": "&a$ 6.000 CobbleDollars"
+	"reward.110620000000015B.title": "&a$ 6.500 CobbleDollars"
+	"reward.1106200000000160.title": "&a$ 7.000 CobbleDollars"
+	"reward.1106200000000165.title": "&a$ 7.500 CobbleDollars"
+	"reward.110620000000016A.title": "&a$ 8.000 CobbleDollars"
+	"reward.110620000000016F.title": "&a$ 8.500 CobbleDollars"
+	"reward.1106200000000174.title": "&a$ 9.000 CobbleDollars"
+	"reward.1106200000000179.title": "&a$ 10.000 CobbleDollars"
+	"reward.110620000000017C.title": "&a$ 15.000 CobbleDollars"
+	"reward.1106200000000181.title": "&a$ 35.000 CobbleDollars"
+	"reward.1106200000000184.title": "&a$ 18.000 CobbleDollars"
+	"reward.1106200000000188.title": "&a$ 35.000 CobbleDollars"
+	"reward.110720000000018B.title": "&a$ 8.000 CobbleDollars"
+	"reward.110720000000018E.title": "&a$ 10.000 CobbleDollars"
+	"reward.1107200000000192.title": "&a$ 15.000 CobbleDollars"
+	"reward.1107200000000196.title": "&a$ 30.000 CobbleDollars"
+	"reward.1107200000000199.title": "&a$ 10.000 CobbleDollars"
+	"reward.110720000000019D.title": "&a$ 15.000 CobbleDollars"
+	"reward.11072000000001A1.title": "&a$ 30.000 CobbleDollars"
+	"reward.11072000000001A5.title": "&a$ 20.000 CobbleDollars"
+	"reward.11072000000001A9.title": "&a$ 35.000 CobbleDollars"
+	"reward.11072000000001AF.title": "&a$ 50.000 CobbleDollars"
+	"reward.11082000000001B2.title": "&a$ 20.000 CobbleDollars"
+	"reward.11082000000001B6.title": "&a$ 25.000 CobbleDollars"
+	"reward.11082000000001BA.title": "&a$ 40.000 CobbleDollars"
+	"reward.11082000000001BE.title": "&a$ 40.000 CobbleDollars"
+	"reward.11082000000001C2.title": "&a$ 45.000 CobbleDollars"
+	"reward.11082000000001C6.title": "&a$ 50.000 CobbleDollars"
+	"reward.11082000000001CA.title": "&a$ 50.000 CobbleDollars"
+	"reward.11082000000001CF.title": "&a$ 75.000 CobbleDollars"
+	"reward.11082000000001D6.title": "&a$ 250.000 CobbleDollars"
+	"task.1101100000000001.title": "Iniciar Jornada Pokémon"
+	"task.1101100000000002.title": "Obter uma Healing Machine"
+	"task.1101100000000003.title": "Obter um PC Pokémon"
+	"task.1101100000000004.title": "Obter um Trainer Card"
+	"task.1101100000000005.title": "Derrotar qualquer Treinador"
+	"task.1101100000000006.title": "Derrotar Líder Brock"
+	"task.1101100000000007.title": "Derrotar Rocket Admin Archer (1ª vez)"
+	"task.1101100000000008.title": "Derrotar Rival Terry (Cerulean)"
+	"task.1101100000000009.title": "Derrotar Líder Misty"
+	"task.110110000000000A.title": "Derrotar Treinador Brendan (1ª vez)"
+	"task.110110000000000B.title": "Derrotar Líder Lt. Surge"
+	"task.110110000000000C.title": "Derrotar Líder Erika"
+	"task.110110000000000D.title": "Derrotar Boss Giovanni (Celadon)"
+	"task.110110000000000E.title": "Derrotar Rival Terry (Silph Co.)"
+	"task.110110000000000F.title": "Derrotar Archer e Ariana"
+	"task.1101100000000010.title": "Derrotar Boss Giovanni (Silph Co.)"
+	"task.1101100000000011.title": "Derrotar Líder Sabrina"
+	"task.1101100000000012.title": "Derrotar Treinador Brendan (2ª vez)"
+	"task.1101100000000013.title": "Derrotar Líder Koga"
+	"task.1101100000000014.title": "Derrotar Treinadora May"
+	"task.1101100000000015.title": "Derrotar Líder Blaine"
+	"task.1101100000000016.title": "1º: Derrotar Admin Archer III"
+	"task.1101100000000017.title": "2º: Derrotar Admin Ariana II"
+	"task.1101100000000018.title": "Derrotar Boss Giovanni (Confronto Final)"
+	"task.1101100000000019.title": "Derrotar Líder Clair"
+	"task.110110000000001A.title": "Derrotar Rival Terry (Rota 22)"
+	"task.110110000000001B.title": "Derrotar Treinador Brendan (Victory Road)"
+	"task.110110000000001C.title": "Derrotar Elite Four Lorelei"
+	"task.110110000000001D.title": "Derrotar Elite Four Bruno"
+	"task.110110000000001E.title": "Derrotar Elite Four Agatha"
+	"task.110110000000001F.title": "Derrotar Elite Four Lance"
+	"task.1101100000000020.title": "Derrotar Campeão Terry (Hall da Fama)"
+	"task.1101100000000021.title": "Derrotar a Lenda: Pokémon Trainer Red (Nv. 100)"
+	"task.1102100000000022.title": "Aceitar o Desafio de Hoenn"
+	"task.1102100000000023.title": "Derrotar Líder Roxanne"
+	"task.1102100000000024.title": "Derrotar Líder Brawly"
+	"task.1102100000000025.title": "Derrotar Líder Wattson"
+	"task.1102100000000026.title": "Derrotar Líder Flannery"
+	"task.1102100000000027.title": "Derrotar Líder Norman"
+	"task.1102100000000028.title": "Derrotar Líder Winona"
+	"task.1102100000000029.title": "Derrotar Líderes Liza e Tate"
+	"task.110210000000002A.title": "Derrotar Líder Wallace"
+	"task.110210000000002B.title": "Derrotar Elite Four Sidney"
+	"task.110210000000002C.title": "Derrotar Elite Four Phoebe"
+	"task.110210000000002D.title": "Derrotar Elite Four Glacia"
+	"task.110210000000002E.title": "Derrotar Elite Four Drake"
+	"task.110210000000002F.title": "Derrotar Campeão Steven"
+	"task.1103100000000030.title": "Iniciar Desafio de Sinnoh"
+	"task.1103100000000031.title": "Derrotar Líder Roark"
+	"task.1103100000000032.title": "Derrotar Líder Gardenia"
+	"task.1103100000000033.title": "Derrotar Líder Maylene"
+	"task.1103100000000034.title": "Derrotar Líder Crasher Wake"
+	"task.1103100000000035.title": "Derrotar Líder Fantina"
+	"task.1103100000000036.title": "Derrotar Líder Byron"
+	"task.1103100000000037.title": "Derrotar Líder Candice"
+	"task.1103100000000038.title": "Derrotar Líder Volkner"
+	"task.1104100000000039.title": "Aceitar o Desafio de Unova"
+	"task.110410000000003A.title": "Derrotar Líder Cilan"
+	"task.110410000000003B.title": "Derrotar Líder Lenora"
+	"task.110410000000003C.title": "Derrotar Líder Burgh"
+	"task.110410000000003D.title": "Derrotar Líder Elesa"
+	"task.110410000000003E.title": "Derrotar Líder Clay"
+	"task.110410000000003F.title": "Derrotar Líder Skyla"
+	"task.1104100000000040.title": "Derrotar Líder Brycen"
+	"task.1104100000000041.title": "Derrotar Líder Drayden"
+	"task.1104100000000042.title": "Derrotar Elite Four Shauntal"
+	"task.1104100000000043.title": "Derrotar Elite Four Grimsley"
+	"task.1104100000000044.title": "Derrotar Elite Four Caitlin"
+	"task.1104100000000045.title": "Derrotar Elite Four Marshal"
+	"task.1104100000000046.title": "Derrotar Campeão Alder"
+	"task.1104100000000047.title": "1º: Derrotar Líder Cheren (B2W2)"
+	"task.1104100000000048.title": "2º: Derrotar Líder Roxie"
+	"task.1104100000000049.title": "3º: Derrotar Líder Marlon"
+	"task.110410000000004A.title": "Derrotar Campeã Iris"
+	"task.110510000000004B.title": "Despertar o Laço de Kalos"
+	"task.110510000000004C.title": "Derrotar Líder Viola"
+	"task.110510000000004D.title": "Derrotar Líder Grant"
+	"task.110510000000004E.title": "Derrotar Líder Korrina"
+	"task.110510000000004F.title": "Derrotar Líder Ramos"
+	"task.1105100000000050.title": "Derrotar Líder Clemont"
+	"task.1105100000000051.title": "Derrotar Líder Valerie"
+	"task.1105100000000052.title": "Derrotar Líder Olympia"
+	"task.1105100000000053.title": "Derrotar Líder Wulfric"
+	"task.1105100000000054.title": "Derrotar Elite Four Malva"
+	"task.1105100000000055.title": "Derrotar Elite Four Siebold"
+	"task.1105100000000056.title": "Derrotar Elite Four Wikstrom"
+	"task.1105100000000057.title": "Derrotar Elite Four Drasna"
+	"task.1105100000000058.title": "Derrotar Campeã Diantha"
+	"task.1106100000000059.title": "Iniciar a Caçada em Paldea"
+	"task.110610000000005A.title": "Derrotar Líder Katy"
+	"task.110610000000005B.title": "Derrotar Líder Brassius"
+	"task.110610000000005C.title": "Derrotar Líder Iono"
+	"task.110610000000005D.title": "Derrotar Líder Kofu"
+	"task.110610000000005E.title": "Derrotar Líder Larry"
+	"task.110610000000005F.title": "Derrotar Líder Ryme"
+	"task.1106100000000060.title": "Derrotar Líder Tulip"
+	"task.1106100000000061.title": "Derrotar Líder Grusha"
+	"task.1106100000000062.title": "1º: Derrotar Elite Four Rika"
+	"task.1106100000000063.title": "2º: Derrotar Elite Four Poppy"
+	"task.1106100000000064.title": "3º: Derrotar Elite Four Larry"
+	"task.1106100000000065.title": "4º: Derrotar Elite Four Hassel"
+	"task.1106100000000066.title": "Derrotar Campeã Geeta"
+	"task.1106100000000067.title": "Derrotar Giacomo (Segin)"
+	"task.1106100000000068.title": "Derrotar Mela (Schedar)"
+	"task.1106100000000069.title": "Derrotar Atticus (Navi)"
+	"task.110610000000006A.title": "Derrotar Ortega (Ruchbah)"
+	"task.110610000000006B.title": "Derrotar Eri (Caph)"
+	"task.110610000000006C.title": "Derrotar Cassiopeia"
+	"task.110710000000006D.title": "Combater as Forças Sombrias"
+	"task.110710000000006E.title": "Derrotar Recruta Aqua Manta"
+	"task.110710000000006F.title": "Derrotar Recruta Aqua Inky"
+	"task.1107100000000070.title": "Derrotar Admin Matt"
+	"task.1107100000000071.title": "Derrotar Admin Shelly"
+	"task.1107100000000072.title": "Derrotar Admin Amber"
+	"task.1107100000000073.title": "Derrotar Líder Archie"
+	"task.1107100000000074.title": "Derrotar Recruta Magma Sandy"
+	"task.1107100000000075.title": "Derrotar Recruta Magma Micah"
+	"task.1107100000000076.title": "Derrotar Admin Blaise"
+	"task.1107100000000077.title": "Derrotar Admin Courtney"
+	"task.1107100000000078.title": "Derrotar Admin Tabitha"
+	"task.1107100000000079.title": "Derrotar Líder Maxie"
+	"task.110710000000007A.title": "Pacificar todo o Team Plasma"
+	"task.110710000000007B.title": "Derrotar os Sete Sábios"
+	"task.110710000000007C.title": "Eliminar a Neo Team Plasma"
+	"task.110810000000007D.title": "Entrar no Panteão PokéSpe"
+	"task.110810000000007E.title": "Superar Yellow (PokéSpe)"
+	"task.110810000000007F.title": "1º: Superar Crystal (Nv. 415)"
+	"task.1108100000000080.title": "2º: Superar Gold (Nv. 425)"
+	"task.1108100000000081.title": "3º: Superar Silver (Nv. 434)"
+	"task.1108100000000082.title": "1º: Superar Ruby (Nv. 415)"
+	"task.1108100000000083.title": "2º: Superar Sapphire (Nv. 425)"
+	"task.1108100000000084.title": "3º: Superar Emerald (Nv. 434)"
+	"task.1108100000000085.title": "1º: Superar Diamond (Nv. 415)"
+	"task.1108100000000086.title": "2º: Superar Pearl (Nv. 425)"
+	"task.1108100000000087.title": "3º: Superar Platinum (Nv. 434)"
+	"task.1108100000000088.title": "Superar Whitley (Nv. 415)"
+	"task.1108100000000089.title": "Superar White (Nv. 425)"
+	"task.110810000000008A.title": "Superar Blake (Nv. 434)"
+	"task.110810000000008B.title": "Superar Black (Nv. 444)"
+	"task.110810000000008C.title": "Superar Green (Nv. 444)"
+	"task.110810000000008D.title": "Superar Blue (Nv. 450)"
+	"task.110810000000008E.title": "Superar Red (PokéSpe)"
+	"task.110810000000008F.title": "Derrotar Todos os 17 Mestres do Mangá"
+}
