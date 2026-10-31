@@ -703,6 +703,20 @@ class LimboLauncherApp(ctk.CTk):
         )
         self.btn_nav_skins.pack(fill="x", padx=18, pady=1)
 
+        self.btn_nav_stream = ctk.CTkButton(
+            self.sidebar,
+            text="📺   Transmissões (Disc 2.0)",
+            anchor="w",
+            height=29,
+            corner_radius=10,
+            font=ctk.CTkFont(family="Segoe UI", size=12, weight="bold"),
+            fg_color="transparent",
+            text_color=COLOR_TEXT,
+            hover_color=COLOR_CARD_HOVER,
+            command=self.open_disc2_stream,
+        )
+        self.btn_nav_stream.pack(fill="x", padx=18, pady=1)
+
         self.btn_nav_folder = ctk.CTkButton(
             self.sidebar,
             text="📂   Abrir Pasta do Modpack",
@@ -1633,6 +1647,9 @@ class LimboLauncherApp(ctk.CTk):
 
     def open_skins_gallery(self):
         webbrowser.open(SKINS_GALLERY_URL)
+
+    def open_disc2_stream(self):
+        webbrowser.open("https://disc2-0.onrender.com")
 
     def open_game_folder(self):
         os.makedirs(self.modpack_dir, exist_ok=True)

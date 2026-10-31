@@ -1,8 +1,8 @@
 {
   "modpack_name": "Limbo Cobblemon",
   "launcher_version": "1.4.0",
-  "launcher_sha1": "35ae8b4eeb9435fec401fffdaf6e4080f46ad23b",
-  "launcher_script_sha1": "623f0c83eb96a29bbeb1fae31ad6913b988da588",
+  "launcher_sha1": "31635effaeabf45462d9a4713ce3b41b45b8c9da",
+  "launcher_script_sha1": "c739ba53a6041e6594dc179b331b5556a722b3a1",
   "launcher_script_url": "https://raw.githubusercontent.com/RanzimzimDev/limbo-modpack/main/launcher_core.py",
   "launcher_url": "https://github.com/RanzimzimDev/limbo-modpack/releases/latest/download/LimboLauncher.exe",
   "minecraft_version": "1.21.1",
